@@ -1,4 +1,29 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_analog_clock/flutter_analog_clock.dart';
+import 'package:flutter_jigsaw_puzzle/flutter_jigsaw_puzzle.dart';
+import 'package:just_audio/just_audio.dart';
+import 'package:neuro_care/homepage/bottomnavigation.dart';
+import 'package:neuro_care/homepage/homepage.dart';
+import 'package:neuro_care/screens/daily_tip/spinthewheel.dart';
+import 'package:neuro_care/screens/games/jigsaw_puzzle.dart';
+import 'package:neuro_care/widgets/analogclock.dart';
+import 'package:neuro_care/widgets/audioplayer/audiocaller.dart';
+import 'package:neuro_care/widgets/audioplayer/audioplayer.dart';
+import 'package:neuro_care/widgets/audioplayer/choosemeditation.dart';
+import 'package:neuro_care/widgets/choosedrawing.dart';
+import 'package:neuro_care/widgets/familytree/familytree.dart';
+import 'package:neuro_care/widgets/familytree/flow.dart';
+import 'package:neuro_care/widgets/hometest.dart';
+import 'package:neuro_care/widgets/howto.dart';
+import 'package:neuro_care/widgets/identification.dart';
+import 'package:neuro_care/widgets/languagequestion.dart';
+import 'package:neuro_care/widgets/learn_something_new.dart';
+import 'package:neuro_care/widgets/oneclock.dart';
+import 'package:neuro_care/widgets/question_format_one.dart';
+import 'package:neuro_care/widgets/question_format_two.dart';
+import 'package:neuro_care/widgets/speechrecognition.dart';
+import 'package:neuro_care/widgets/sucesspage.dart';
+import 'package:neuro_care/widgets/videoplayer/videocaller.dart';
 
 void main() {
   runApp(const MyApp());
@@ -31,7 +56,16 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+        home://ChooseMeditation()
+
+        //AudioCaller()
+
+        //MeditationPlayer()
+      BottomNavigationExample()
+
+
+      //JigSawPuzzlePage()
+        //home: ExampleSpecifyTime()
     );
   }
 }
