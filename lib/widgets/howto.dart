@@ -1,5 +1,8 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:neuro_care/widgets/howtopageformat.dart';
 
 import '../radiolisttexts.dart';
 import '../values/app_icons.dart';
@@ -36,10 +39,34 @@ class _HowToState extends State<HowTo> {
       body: Column(
 
           children: [
-            MyContainer(label: 'WEAR YOUR CLOTHES', color: 0XFFFC9EBED,appIcon: AppIcons.CLOTHES),
-            MyContainer(label: 'TAKE A BATH', color: 0XFFFD0D1FF,appIcon: AppIcons.BATH),
-            MyContainer(label: 'COUNT MONEY', color: 0XFFFC9EBED,appIcon: AppIcons.COUNTMONEY),
-            MyContainer(label: 'GO SHOPPING', color: 0XFFFD0D1FF,appIcon: AppIcons.SHOPPING),
+            GestureDetector
+              (onTap: (){
+    Navigator.push(
+    context,
+    MaterialPageRoute(builder: (context) => HowToPages(label: "HOW TO WEAR CLOTHES")));
+            },
+                child: MyContainer(label: 'WEAR YOUR CLOTHES', color: 0XFFFC9EBED,appIcon: AppIcons.CLOTHES)),
+            GestureDetector(
+                onTap: (){
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => HowToPages(label: "HOW TO TAKE A BATH")));
+                },
+                child: MyContainer(label: 'TAKE A BATH', color: 0XFFFD0D1FF,appIcon: AppIcons.BATH)),
+            GestureDetector(
+                onTap: (){
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => HowToPages(label: "HOW TO COUNT MONEY")));
+                },
+                child: MyContainer(label: 'COUNT MONEY', color: 0XFFFC9EBED,appIcon: AppIcons.COUNTMONEY)),
+            GestureDetector(
+                onTap: (){
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => HowToPages(label: "HOW TO GO SHOPPING")));
+                },
+                child: MyContainer(label: 'GO SHOPPING', color: 0XFFFD0D1FF,appIcon: AppIcons.SHOPPING)),
 
 
 

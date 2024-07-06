@@ -1,7 +1,13 @@
+// import 'dart:html';
+
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_analog_clock/flutter_analog_clock.dart';
 import 'package:flutter_jigsaw_puzzle/flutter_jigsaw_puzzle.dart';
+import 'package:google_sign_in_dartio/google_sign_in_dartio.dart';
 import 'package:just_audio/just_audio.dart';
+import 'package:neuro_care/auth/signinpage.dart';
 import 'package:neuro_care/homepage/bottomnavigation.dart';
 import 'package:neuro_care/homepage/homepage.dart';
 import 'package:neuro_care/screens/daily_tip/spinthewheel.dart';
@@ -15,6 +21,7 @@ import 'package:neuro_care/widgets/familytree/familytree.dart';
 import 'package:neuro_care/widgets/familytree/flow.dart';
 import 'package:neuro_care/widgets/hometest.dart';
 import 'package:neuro_care/widgets/howto.dart';
+import 'package:neuro_care/widgets/howtopageformat.dart';
 import 'package:neuro_care/widgets/identification.dart';
 import 'package:neuro_care/widgets/languagequestion.dart';
 import 'package:neuro_care/widgets/learn_something_new.dart';
@@ -24,10 +31,30 @@ import 'package:neuro_care/widgets/question_format_two.dart';
 import 'package:neuro_care/widgets/speechrecognition.dart';
 import 'package:neuro_care/widgets/sucesspage.dart';
 import 'package:neuro_care/widgets/videoplayer/videocaller.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
 
-void main() {
+late final FirebaseApp app;
+late final FirebaseAuth auth;
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  app = await Firebase.initializeApp(
+      options: DefaultFirebaseOptions.currentPlatform,
+  );
+  auth = FirebaseAuth.instanceFor(app: app);
+
+
+
+
+    await GoogleSignInDart.register(
+      clientId:
+      '618522361907-a5cqvh8nu499bei15mkv1v3onj5c2tgm.apps.googleusercontent.com',
+    );
+
   runApp(const MyApp());
 }
+
+
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -56,12 +83,15 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-        home://ChooseMeditation()
+        home:SignInPage()
+      //HowTo()
+
+        //Languages()//ChooseMeditation()
 
         //AudioCaller()
 
         //MeditationPlayer()
-      BottomNavigationExample()
+     //BottomNavigationExample()
 
 
       //JigSawPuzzlePage()

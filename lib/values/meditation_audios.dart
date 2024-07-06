@@ -18,3 +18,33 @@ class Meditation_Audios{
 
 
 }
+class Meditation_Images{
+  static const String PATH= "assets/meditationimages/";
+  static const String AUTUMNSKY= PATH+"autumnsky.jpeg";
+  static const String BOAT= PATH+"boat.jpeg";
+  static const String NATURE= PATH+"nature.jpeg";
+  static const String NATUREPIANO= PATH+"naturepiano.jpeg";
+  static const String PIANO= PATH+"piano.jpeg";
+  static const String RAIN= PATH+"rain.jpeg";
+  static const String WOODS= PATH+"woods.jpeg";
+  static const String STARLIGHT= PATH+"starlight.jpeg";
+  static const String NIGHTSKY= PATH+"nightsky.jpeg";
+  static const String VALLEYSUNSET= PATH+"valleysunset.jpeg";
+  static const String WHISPERINGWINDS= PATH+"whisperingwinds.jpeg";
+  static const String HARP= PATH+"harp.jpeg";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

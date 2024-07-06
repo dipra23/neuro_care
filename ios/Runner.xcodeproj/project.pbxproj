@@ -12,10 +12,12 @@
 		331C808B294A63AB00263BE5 /* RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C807B294A618700263BE5 /* RunnerTests.swift */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
 		53B57BDFF3665F641AC6EC3E /* Pods_RunnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D41B843FDC6D8D2433BF0679 /* Pods_RunnerTests.framework */; };
+		5446BA09A62FDD2D3AE232C2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF92487FB1660E009CB762F1 /* GoogleService-Info.plist */; };
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
+		F788CBDF2C39132A00A5CF36 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F788CBDE2C39132A00A5CF36 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +65,9 @@
 		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8B85288F3547CB9C350F709 /* Pods-RunnerTests.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.profile.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile.xcconfig"; sourceTree = "<group>"; };
 		D41B843FDC6D8D2433BF0679 /* Pods_RunnerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RunnerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF92487FB1660E009CB762F1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Runner/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E6D98C8BE630012BBB015EE2 /* Pods-RunnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.release.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.release.xcconfig"; sourceTree = "<group>"; };
+		F788CBDE2C39132A00A5CF36 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FB131A3D2867B7D1EA7E6401 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,7 +101,6 @@
 				E6D98C8BE630012BBB015EE2 /* Pods-RunnerTests.release.xcconfig */,
 				B8B85288F3547CB9C350F709 /* Pods-RunnerTests.profile.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -129,6 +132,7 @@
 				331C8082294A63A400263BE5 /* RunnerTests */,
 				15CDFF108AC6FD5D6790A45C /* Pods */,
 				F3B8E213731B010FC7C030BF /* Frameworks */,
+				DF92487FB1660E009CB762F1 /* GoogleService-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,6 +148,7 @@
 		97C146F01CF9000F007C117D /* Runner */ = {
 			isa = PBXGroup;
 			children = (
+				F788CBDE2C39132A00A5CF36 /* GoogleService-Info.plist */,
 				97C146FA1CF9000F007C117D /* Main.storyboard */,
 				97C146FD1CF9000F007C117D /* Assets.xcassets */,
 				97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */,
@@ -199,6 +204,7 @@
 				9705A1C41CF9048500538489 /* Embed Frameworks */,
 				3B06AD1E1E4923F5004D2608 /* Thin Binary */,
 				F7D4563B889D8BA19C02C46B /* [CP] Embed Pods Frameworks */,
+				AA02B8A783027EF930FF22A1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,6 +270,8 @@
 				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
 				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
 				97C146FC1CF9000F007C117D /* Main.storyboard in Resources */,
+				5446BA09A62FDD2D3AE232C2 /* GoogleService-Info.plist in Resources */,
+				F788CBDF2C39132A00A5CF36 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +351,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA02B8A783027EF930FF22A1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F7D4563B889D8BA19C02C46B /* [CP] Embed Pods Frameworks */ = {
@@ -474,11 +499,12 @@
 				DEVELOPMENT_TEAM = SNZ6SN275Q;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = baid.dipra;
+				PRODUCT_BUNDLE_IDENTIFIER = baid.dipra.neurocare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -657,11 +683,12 @@
 				DEVELOPMENT_TEAM = SNZ6SN275Q;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = baid.dipra;
+				PRODUCT_BUNDLE_IDENTIFIER = baid.dipra.neurocare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -680,11 +707,12 @@
 				DEVELOPMENT_TEAM = SNZ6SN275Q;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = baid.dipra;
+				PRODUCT_BUNDLE_IDENTIFIER = baid.dipra.neurocare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;

@@ -139,6 +139,7 @@ class _LanguagesState extends State<Languages> {
 
   @override
   Widget build(BuildContext context) {
+    final size = MediaQuery.of(context).size;
     return Scaffold(
       appBar: AppBar(
           backgroundColor: Color(0XFFF5DEDE),
@@ -159,22 +160,37 @@ class _LanguagesState extends State<Languages> {
       body: Center(
         child: Column(
           children: [
-            Expanded(
-              child: Container(
+            Container(
+              height: size.height*0.1,
+              child: Text("Say the following words:"
+              ),),
+            Container(
+              height: size.height*0.1,
+              child: Text("The cat ate the mouse"
+              ),),
+
+
+
+              Container(
+                height: size.height*0.2,
+
                 padding: EdgeInsets.all(15),
                 child: Text(lastWords,
                 style: TextStyle(
                   fontSize: 20
                 ),),
               ),
+
+            lastWords== "The cat ate the mouse - true"? Container( child: Text("Success")): Container(
+                child: Text("Please retry!")
             ),
-            if(_speechToText.isNotListening && _confidenceLevel> 0)
-              Text("Confidence : ${(_confidenceLevel*100).toStringAsFixed(1)}%",
-              style: TextStyle(
-                fontSize: 20
-              ),)
-            else Text("Confidence : ${(_confidenceLevel*100).toStringAsFixed(1)}%")
-          ],
+          //   if(_speechToText.isNotListening && _confidenceLevel> 0)
+          //     Text("Confidence : ${(_confidenceLevel*100).toStringAsFixed(1)}%",
+          //     style: TextStyle(
+          //       fontSize: 20
+          //     ),)
+          //   else Text("Confidence : ${(_confidenceLevel*100).toStringAsFixed(1)}%")
+           ],
 
         ),
       ),

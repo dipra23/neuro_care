@@ -25,6 +25,12 @@ class _ChooseMeditationState extends State<ChooseMeditation>{
     Meditation_Audios.NATURE, Meditation_Audios.NATURE_AND_PIANO, Meditation_Audios.PIANO,
     Meditation_Audios.SCOTTISH_RAIN, Meditation_Audios.SPIRIT_IN_THE_WOODS, Meditation_Audios.STARING_AT_THE_NIGHT_SKY,
     Meditation_Audios.STARLIGHT, Meditation_Audios.VALLEY_SUNSET, Meditation_Audios.WHISPERING_WINDS];
+  List MeditationImages = [Meditation_Images.AUTUMNSKY, Meditation_Images.BOAT, Meditation_Images.HARP,
+    Meditation_Images.NATURE,  Meditation_Images.NATUREPIANO,  Meditation_Images.PIANO,
+    Meditation_Images.RAIN,  Meditation_Images.WOODS,  Meditation_Images.NIGHTSKY,
+    Meditation_Images.STARLIGHT,  Meditation_Images.VALLEYSUNSET,  Meditation_Images.WHISPERINGWINDS];
+
+
   @override
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
@@ -45,15 +51,15 @@ List<Widget> Tiles= [];
                     alignment: Alignment.center,
                     padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
-                      color: Colors.pink,
+                      //color: Colors.pink,
 
                     ),
                     margin: const EdgeInsets.all(5.0),
                     child: Column(
                         children: [
                           Image.asset(
-                            height: size.height*0.05,
-                              PuzzleImages.MOUNTAIN,
+                              MeditationImages[i],
+                              height: size.height*0.05,
                              ),
                           Spacer(),
                           Text(MeditationNames[i],

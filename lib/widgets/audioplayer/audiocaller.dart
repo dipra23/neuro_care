@@ -26,6 +26,11 @@ class _AudioCallerState extends State<AudioCaller>{
     Meditation_Audios.NATURE, Meditation_Audios.NATURE_AND_PIANO, Meditation_Audios.PIANO,
     Meditation_Audios.SCOTTISH_RAIN, Meditation_Audios.SPIRIT_IN_THE_WOODS, Meditation_Audios.STARING_AT_THE_NIGHT_SKY,
     Meditation_Audios.STARLIGHT, Meditation_Audios.VALLEY_SUNSET, Meditation_Audios.WHISPERING_WINDS];
+List MeditationImages = [Meditation_Images.AUTUMNSKY, Meditation_Images.BOAT, Meditation_Images.HARP,
+  Meditation_Images.NATURE,  Meditation_Images.NATUREPIANO,  Meditation_Images.PIANO,
+  Meditation_Images.RAIN,  Meditation_Images.WOODS,  Meditation_Images.NIGHTSKY,
+  Meditation_Images.STARLIGHT,  Meditation_Images.VALLEYSUNSET,  Meditation_Images.WHISPERINGWINDS];
+
 
   @override
   Widget build(BuildContext context) {
@@ -70,7 +75,8 @@ class _AudioCallerState extends State<AudioCaller>{
 
           ),
           Container(
-            child: Image.asset(PuzzleImages.MOUNTAIN),
+            child: Image.asset(MeditationImages[widget.index],
+            height: size.height*0.4, width: size.width),
             height: size.height*0.4,
             width: size.width,
           ),

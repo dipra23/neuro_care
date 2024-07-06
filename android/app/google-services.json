@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "618522361907",
+    "project_id": "neurocare-15723",
+    "storage_bucket": "neurocare-15723.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618522361907:android:1153f4b06079435c196346",
+        "android_client_info": {
+          "package_name": "baid.dipra.neurocare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618522361907-57f683iamu8vp78librc49150rftgftr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT_pwczKoivwIO4G5lgEzMnofqI1fw48U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618522361907-57f683iamu8vp78librc49150rftgftr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "618522361907-a5cqvh8nu499bei15mkv1v3onj5c2tgm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "baid.dipra.neurocare"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
