@@ -4,7 +4,7 @@ import 'package:neuro_care/values/PuzzleImages.dart';
 
 import '../radiolisttexts.dart';
 import '../values/app_icons.dart';
-import 'identification.dart';
+import '../screens/identification/identification.dart';
 
 class HowToPages extends StatefulWidget{
    HowToPages({Key? key, required this.label}) : super(key: key);

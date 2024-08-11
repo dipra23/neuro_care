@@ -6,7 +6,7 @@ import 'package:neuro_care/widgets/howtopageformat.dart';
 
 import '../radiolisttexts.dart';
 import '../values/app_icons.dart';
-import 'identification.dart';
+import '../screens/identification/identification.dart';
 
 class HowTo extends StatefulWidget{
   @override
@@ -45,28 +45,28 @@ class _HowToState extends State<HowTo> {
     context,
     MaterialPageRoute(builder: (context) => HowToPages(label: "HOW TO WEAR CLOTHES")));
             },
-                child: MyContainer(label: 'WEAR YOUR CLOTHES', color: 0XFFFC9EBED,appIcon: AppIcons.CLOTHES)),
+                child: MyContainerTwo(label: 'WEAR YOUR CLOTHES', color: 0XFFFC9EBED,appIcon: AppIcons.CLOTHES)),
             GestureDetector(
                 onTap: (){
                   Navigator.push(
                       context,
                       MaterialPageRoute(builder: (context) => HowToPages(label: "HOW TO TAKE A BATH")));
                 },
-                child: MyContainer(label: 'TAKE A BATH', color: 0XFFFD0D1FF,appIcon: AppIcons.BATH)),
+                child: MyContainerTwo(label: 'TAKE A BATH', color: 0XFFFD0D1FF,appIcon: AppIcons.BATH)),
             GestureDetector(
                 onTap: (){
                   Navigator.push(
                       context,
                       MaterialPageRoute(builder: (context) => HowToPages(label: "HOW TO COUNT MONEY")));
                 },
-                child: MyContainer(label: 'COUNT MONEY', color: 0XFFFC9EBED,appIcon: AppIcons.COUNTMONEY)),
+                child: MyContainerTwo(label: 'COUNT MONEY', color: 0XFFFC9EBED,appIcon: AppIcons.COUNTMONEY)),
             GestureDetector(
                 onTap: (){
                   Navigator.push(
                       context,
                       MaterialPageRoute(builder: (context) => HowToPages(label: "HOW TO GO SHOPPING")));
                 },
-                child: MyContainer(label: 'GO SHOPPING', color: 0XFFFD0D1FF,appIcon: AppIcons.SHOPPING)),
+                child: MyContainerTwo(label: 'GO SHOPPING', color: 0XFFFD0D1FF,appIcon: AppIcons.SHOPPING)),
 
 
 

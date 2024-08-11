@@ -17,35 +17,42 @@ class _ChooseDrawingState extends State<ChooseDrawing>{
 appBar: AppBar(
   title: Column( children: [Text("CHOOSE SOMETHING TO COLOR  ", softWrap: true,),])
 ),
-        body:
+        body:Row (
+          children: [
 
-        Center(
-          child:
-              GridView.count(
-              crossAxisCount: 2,
-              padding: EdgeInsets.all(10),
-              crossAxisSpacing: 10,
-              mainAxisSpacing: 10,
-              children: [
+              Column(
+
+                children: [
                 DrawingContainer(width: 187, height: 240, label: "Flowers", color: 0XFFFF5DEDE),
                 DrawingContainer(width: 161, height: 188, label: "Traffic Light", color: 0XFFFD0D1FF),
                 DrawingContainer(width: 187, height: 190, label: "Sun", color: 0XFFFF0F1F9),
                 DrawingContainer(width: 182, height: 193, label: "Tree", color: 0XFFFC9EBED),
                 DrawingContainer(width: 187, height: 148, label: "Clouds", color: 0XFFF99D7DB),
                 DrawingContainer(width: 187, height: 243, label: "Mountains", color: 0XFFFEEC1C1),
+                ]
 
+              ),
 
+            Column(
+                  children: [
+                    DrawingContainer(width: 187, height: 240, label: "Flowers", color: 0XFFFF5DEDE),
+                    DrawingContainer(width: 161, height: 188, label: "Traffic Light", color: 0XFFFD0D1FF),
+                    DrawingContainer(width: 187, height: 190, label: "Sun", color: 0XFFFF0F1F9),
+                    DrawingContainer(width: 182, height: 193, label: "Tree", color: 0XFFFC9EBED),
+                    DrawingContainer(width: 187, height: 148, label: "Clouds", color: 0XFFF99D7DB),
+                    DrawingContainer(width: 187, height: 243, label: "Mountains", color: 0XFFFEEC1C1),
+                  ]
+              ),
 
-
-
-              ],
-
-
-            )
-
-
+          ]
         )
-    );
+
+
+
+
+
+        );
+
 
   }
 
@@ -63,15 +70,15 @@ class DrawingContainer extends StatelessWidget {
     final size = MediaQuery.of(context).size;
     return Center(
         child: Container(
-            width: width,
-            height: height,
+            width: width*0.5,
+            height: height*0.5,
             alignment: Alignment.center,
             padding: const EdgeInsets.all(10.0),
             decoration: BoxDecoration(
                 color: Color(color),
 
             ),
-            margin: const EdgeInsets.all(20.0),
+
 
             child: Column(
                 children: [

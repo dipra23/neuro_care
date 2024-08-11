@@ -7,7 +7,13 @@ import 'package:speech_to_text/speech_to_text.dart';
 
 import '../values/app_icons.dart';
 
-class Languages extends StatefulWidget{
+class Language_Format_Zero extends StatefulWidget{
+  const Language_Format_Zero(
+      {Key? key,
+        required this.text,})
+
+      : super(key: key);
+  final String text;
   @override
   State<StatefulWidget> createState() {
    return _LanguagesState();
@@ -15,7 +21,7 @@ class Languages extends StatefulWidget{
 
 }
 
-class _LanguagesState extends State<Languages> {
+class _LanguagesState extends State<Language_Format_Zero> {
   final SpeechToText _speechToText= SpeechToText();
  bool _speechEnabled= false;
   bool _hasSpeech = false;
@@ -38,8 +44,18 @@ class _LanguagesState extends State<Languages> {
     initSpeechState();
   }
 
+  @override
+  void dispose(){
+
+    speech.stop();
+    speech.cancel();
+    super.dispose();
+
+  }
+
   Future<void> initSpeechState() async {
     _logEvent('Initialize');
+
     try {
       var hasSpeech = await speech.initialize(
         onError: errorListener,
@@ -54,6 +70,7 @@ class _LanguagesState extends State<Languages> {
         var systemLocale = await speech.systemLocale();
         _currentLocaleId = systemLocale?.localeId ?? '';
       }
+      print("Initialized");
       if (!mounted) return;
 
       setState(() {
@@ -62,6 +79,7 @@ class _LanguagesState extends State<Languages> {
     } catch (e) {
       setState(() {
         lastError = 'Speech recognition failed: ${e.toString()}';
+        print(lastError);
         _hasSpeech = false;
       });
     }
@@ -166,7 +184,7 @@ class _LanguagesState extends State<Languages> {
               ),),
             Container(
               height: size.height*0.1,
-              child: Text("The cat ate the mouse"
+              child: Text(widget.text
               ),),
 
 
@@ -181,7 +199,7 @@ class _LanguagesState extends State<Languages> {
                 ),),
               ),
 
-            lastWords== "The cat ate the mouse - true"? Container( child: Text("Success")): Container(
+            lastWords== "${widget.text} - true"? Container( child: Text("Success")): Container(
                 child: Text("Please retry!")
             ),
           //   if(_speechToText.isNotListening && _confidenceLevel> 0)

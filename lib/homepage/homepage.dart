@@ -4,13 +4,16 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:graphite/graphite.dart';
+import 'package:neuro_care/fetching_colouringbook.dart';
 import 'package:neuro_care/screens/daily_tip/spinthewheel.dart';
-import 'package:neuro_care/widgets/audioplayer/choosemeditation.dart';
-import 'package:neuro_care/widgets/choosepuzzle.dart';
+import 'package:neuro_care/screens/games/drawing_book/drawing_book.dart';
+import 'package:neuro_care/widgets/fetching_questions.dart';
 import 'package:neuro_care/widgets/howto.dart';
-import 'package:neuro_care/widgets/identification.dart';
+import 'package:neuro_care/screens/identification/identification.dart';
 import 'package:neuro_care/widgets/videoplayer/videocaller.dart';
 
+import '../screens/games/puzzle/puzzle_firestore.dart';
+import '../screens/meditation/meditation_firestore.dart';
 import '../values/app_icons.dart';
 
 class Homepage extends StatefulWidget{
@@ -57,6 +60,11 @@ class _HomePageState extends State<Homepage> {
                       Container(
                     
                           decoration: BoxDecoration(
+
+
+                                borderRadius: BorderRadius.all(Radius.circular(23)),
+
+
                             color: Color(0XFFFEEC1C1),
 
 
@@ -67,7 +75,7 @@ class _HomePageState extends State<Homepage> {
                           padding: const EdgeInsets.all(10.0),
                           margin: const EdgeInsets.all(15.0),
                     
-                          child: Column(
+                          child:Column(
                           children: [
                             Text("Daily Tool Tip", style: TextStyle(fontSize: 18),),
                             Spacer(),
@@ -109,6 +117,7 @@ class _HomePageState extends State<Homepage> {
                             padding: const EdgeInsets.all(10.0),
                             decoration: BoxDecoration(
                               color: Color(0XFFFC9EBED),
+                              borderRadius: BorderRadius.all(Radius.circular(23)),
                             ),
                             child: Column(
                               children: [
@@ -143,6 +152,8 @@ class _HomePageState extends State<Homepage> {
                               padding: const EdgeInsets.all(10.0),
                               decoration: BoxDecoration(
                                 color: Color(0XFFFC9EBED),
+                                borderRadius: BorderRadius.all(Radius.circular(23)),
+
                               ),
                               child: Column(
                                   children: [
@@ -177,6 +188,7 @@ class _HomePageState extends State<Homepage> {
                               margin: const EdgeInsets.fromLTRB(10, 0, 10, 10),
                               decoration: BoxDecoration(
                                 color: Color(0XFFFC9EBED),
+                                borderRadius: BorderRadius.all(Radius.circular(23)),
                               ),
                               child: Column(
                                   children: [
@@ -259,7 +271,8 @@ class _HomePageState extends State<Homepage> {
                             height: size.height*0.15,
                             width: size.width*0.4,
                             decoration: BoxDecoration(
-                                color: Color(0XFFFEEC1C1),
+                              borderRadius: BorderRadius.all(Radius.circular(23)),
+                              color: Color(0XFFFEEC1C1),
 
                             ),
                             child: Column(
@@ -280,6 +293,7 @@ class _HomePageState extends State<Homepage> {
                           width: size.width*0.4,
                           decoration: BoxDecoration(
                             color: Color(0XFFFEEC1C1),
+                            borderRadius: BorderRadius.all(Radius.circular(23)),
                           ),
                           child: Column(
                             children: [
@@ -291,20 +305,32 @@ class _HomePageState extends State<Homepage> {
                     ),
                     Row(
                       children: [
-                        Container(
-                          alignment: Alignment.center,
-                          padding: const EdgeInsets.all(10.0),
-                          margin: const EdgeInsets.all(15.0),
-                          height: size.height*0.15,
-                          width: size.width*0.4,
-                          decoration: BoxDecoration(
-                            color: Color(0XFFFEEC1C1),
-
+                        GestureDetector(
+                          onTap: ()
+                          {
+                            {Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => question_answers(collection_name: "languages_easy", category: "easy")),
+                            );
+                            }
+                          },
+                          child: Container(
+                            alignment: Alignment.center,
+                            padding: const EdgeInsets.all(10.0),
+                            margin: const EdgeInsets.all(15.0),
+                            height: size.height*0.15,
+                            width: size.width*0.4,
+                            decoration: BoxDecoration(
+                              color: Color(0XFFFEEC1C1),
+                              borderRadius: BorderRadius.all(Radius.circular(23)),
+                          
+                          
+                            ),
+                            child: Column(
+                              children: [SvgPicture.asset(AppIcons.LANGUAGES),Spacer(),Text("LANGUAGES"),
+                           ] )
+                          
                           ),
-                          child: Column(
-                            children: [SvgPicture.asset(AppIcons.LANGUAGES),Spacer(),Text("LANGUAGES"),
-                         ] )
-
                         ),
 Spacer(),
                         GestureDetector(
@@ -317,13 +343,15 @@ Spacer(),
                         }
                         },
                           child: Container(
-                            alignment: Alignment.center,
+                              alignment: Alignment.center,
                             padding: const EdgeInsets.all(10.0),
                             margin: const EdgeInsets.all(15.0),
                             height: size.height*.15,
                             width: size.width*0.4,
                             decoration: BoxDecoration(
                               color: Color(0XFFFEEC1C1),
+                              borderRadius: BorderRadius.all(Radius.circular(23)),
+
 
                             ),
                             child: Column(
@@ -349,7 +377,7 @@ Spacer(),
                   GestureDetector(
                     onTap: (){Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => ChoosePuzzle()),
+                      MaterialPageRoute(builder: (context) => Puzzle_Selection()),
                     );},
                     child: Container(
                         width: size.width*0.85,
@@ -359,6 +387,8 @@ Spacer(),
                         padding: const EdgeInsets.all(10.0),
                         decoration: BoxDecoration(
                           color: Color(0XFFFC9EBED),
+                          borderRadius: BorderRadius.all(Radius.circular(23)),
+
                         ),
                       child: Row(
                         children: [
@@ -368,26 +398,35 @@ Spacer(),
                       ),
                                     ),
                   ),
-                Container(
-                    width: size.width*0.85,
-                    height: size.height*0.15,
-                    margin: const EdgeInsets.fromLTRB(10, 0, 10, 20),
-                    alignment: Alignment.center,
-                    padding: const EdgeInsets.all(10.0),
-                    decoration: BoxDecoration(
-                      color: Color(0XFFFC9EBED),
+                GestureDetector(
+                  onTap: (){Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => ColouringBookEasy()
+                       // Drawing_Book()
+                    ));},
+                  child: Container(
+                      width: size.width*0.85,
+                      height: size.height*0.15,
+                      margin: const EdgeInsets.fromLTRB(10, 0, 10, 20),
+                      alignment: Alignment.center,
+                      padding: const EdgeInsets.all(10.0),
+                      decoration: BoxDecoration(
+                        color: Color(0XFFFC9EBED),
+                        borderRadius: BorderRadius.all(Radius.circular(23)),
+                      ),
+                    child: Row(
+                      children: [
+                        SvgPicture.asset(AppIcons.COLOURINGBOOK),
+                        Text("DRAWING BOOK"),
+                      ],
                     ),
-                  child: Row(
-                    children: [
-                      SvgPicture.asset(AppIcons.COLOURINGBOOK),
-                      Text("COLOURING BOOK"),
-                    ],
                   ),
                 ),
                 Container(
 
                     decoration: BoxDecoration(
                       color: Color(0XFFFEEC1C1),
+                      borderRadius: BorderRadius.all(Radius.circular(23)),
 
 
                     ),
@@ -415,7 +454,7 @@ Spacer(),
                                 onTap: (){
                                   Navigator.push(
                                     context,
-                                    MaterialPageRoute(builder: (context) => ChooseMeditation()),
+                                    MaterialPageRoute(builder: (context) => Meditation_Selection()),
                                   );
                                 },
 

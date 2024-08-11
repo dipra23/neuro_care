@@ -11,27 +11,28 @@ import 'package:neuro_care/auth/signinpage.dart';
 import 'package:neuro_care/homepage/bottomnavigation.dart';
 import 'package:neuro_care/homepage/homepage.dart';
 import 'package:neuro_care/screens/daily_tip/spinthewheel.dart';
-import 'package:neuro_care/screens/games/jigsaw_puzzle.dart';
+import 'package:neuro_care/screens/games/drawing_book/drawing_book.dart';
+import 'package:neuro_care/screens/games/puzzle/jigsaw_puzzle.dart';
+import 'package:neuro_care/user_onboarding/details.dart';
+import 'package:neuro_care/values/meditation_audios.dart';
 import 'package:neuro_care/widgets/analogclock.dart';
-import 'package:neuro_care/widgets/audioplayer/audiocaller.dart';
-import 'package:neuro_care/widgets/audioplayer/audioplayer.dart';
-import 'package:neuro_care/widgets/audioplayer/choosemeditation.dart';
+import 'package:neuro_care/screens/meditation/meditation_caller.dart';
 import 'package:neuro_care/widgets/choosedrawing.dart';
-import 'package:neuro_care/widgets/familytree/familytree.dart';
-import 'package:neuro_care/widgets/familytree/flow.dart';
-import 'package:neuro_care/widgets/hometest.dart';
+import 'package:neuro_care/widgets/fetching_questions.dart';
 import 'package:neuro_care/widgets/howto.dart';
 import 'package:neuro_care/widgets/howtopageformat.dart';
-import 'package:neuro_care/widgets/identification.dart';
+import 'package:neuro_care/screens/identification/identification.dart';
 import 'package:neuro_care/widgets/languagequestion.dart';
-import 'package:neuro_care/widgets/learn_something_new.dart';
-import 'package:neuro_care/widgets/oneclock.dart';
+import 'package:neuro_care/widgets/question_format_four.dart';
 import 'package:neuro_care/widgets/question_format_one.dart';
+import 'package:neuro_care/widgets/question_format_three.dart';
 import 'package:neuro_care/widgets/question_format_two.dart';
+import 'package:neuro_care/widgets/question_format_zero.dart';
 import 'package:neuro_care/widgets/speechrecognition.dart';
 import 'package:neuro_care/widgets/sucesspage.dart';
 import 'package:neuro_care/widgets/videoplayer/videocaller.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'fetching_colouringbook.dart';
 import 'firebase_options.dart';
 
 late final FirebaseApp app;
@@ -83,18 +84,28 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-        home:SignInPage()
+        home://ChooseDrawing()
+      //Language_Format_Zero()
+
+        //QuestionFormatThree()
+        //ExampleSpecifyTime()
+
+        //DrawingBook()
+
+        //Details()
+        //SignInPage()
       //HowTo()
 
-        //Languages()//ChooseMeditation()
+        //Languages()
+      //ChooseMeditation()
 
         //AudioCaller()
-
+//question_answers()
         //MeditationPlayer()
-     //BottomNavigationExample()
-
-
-      //JigSawPuzzlePage()
+        //ColouringBookEasy()
+     BottomNavigationExample()
+        //Drawing_Book()
+         //JigSawPuzzlePage()
         //home: ExampleSpecifyTime()
     );
   }

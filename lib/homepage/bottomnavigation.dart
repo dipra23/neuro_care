@@ -24,9 +24,7 @@ class _BottomNavigationExampleState extends State {
       child: Text("Products"),
     ),
 
-    Center(
-      child: Text("Settings"),
-    ),
+
   ];
 
   _changeTab(int index) {
@@ -50,8 +48,7 @@ class _BottomNavigationExampleState extends State {
           BottomNavigationBarItem(icon: Icon(Icons.star), label: "Progress"),
           BottomNavigationBarItem(
               icon: Icon(Icons.person), label: "Profile"),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.settings), label: "Settings"),
+
         ],
       ),
     );

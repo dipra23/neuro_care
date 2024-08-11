@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_fortune_wheel/flutter_fortune_wheel.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:neuro_care/homepage/homepage.dart';
-import 'package:neuro_care/screens/games/jigsaw_puzzle.dart';
+import 'package:neuro_care/screens/games/puzzle/jigsaw_puzzle.dart';
 
 import '../../homepage/bottomnavigation.dart';
 import '../../values/app_icons.dart';
@@ -28,7 +28,7 @@ class _WheelState extends State<Wheel>{
   , "smile at someone today", "Draw something and show it to a loved one", "Go for a walk "
   , "Water plants", "Sit on a bench or a swing", "Listen to your favourite music",
   "Look at photo albums", "Read a book", "Play a card game",
-  "Lost three things you are grateful for", "Thank 3 people", "Write a thank you note for someone",
+  "List three things you are grateful for", "Thank 3 people", "Write a thank you note for someone",
   "Have dinner with a family member", "Sing a song from your childhood",
   "Clean something", "Call a friend"];
 

@@ -1,107 +1,128 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:neuro_care/widgets/sucesspage.dart';
 
 import '../values/app_icons.dart';
-enum Options{option1, option2, option3, option4}
+import 'failpage.dart';
+
+
+
 class RadioListText extends StatefulWidget {
+  const RadioListText(
+      {Key? key,
+      required this.option0,
+      required this.option1,
+      required this.option2,
+      required this.option3,
+      required this.answer})
+      : super(key: key);
+  final String option0;
+  final String option1;
+  final String option2;
+  final String option3;
+  final int answer;
   @override
   State<StatefulWidget> createState() {
     return _RadioListTextState();
-
-
   }
 }
-class _RadioListTextState extends State<RadioListText>{
-  Options _options= Options.option1;
+
+class _RadioListTextState extends State<RadioListText> {
+  static String final_selected = "";
+  int _options = -1;
   @override
   Widget build(BuildContext context) {
-    final size= MediaQuery.of(context).size;
+
+    final size = MediaQuery.of(context).size;
     return Container(
-      margin: const EdgeInsets.all(50.0),
-      height: size.height*0.3,
+      margin: const EdgeInsets.all(5.0),
+      //height: size.height*0.3,
       width: size.width,
       child: Column(
         children: [
           ListTile(
-            title: Text("Option A"),
-            leading: Radio<Options>(
-              value: Options.values[0],
+            title: Text(widget.option0),
+            leading: Radio(
+              value: 0,
               groupValue: _options,
-              onChanged:
-                  (Options? value) {
+              onChanged: ( value) {
+
                 setState(() {
-                  _options= value!;
+                  _options = value!;
+
                 });
-
-
               },
-
             ),
-
           ),
           ListTile(
-            title: Text("Option B"),
-            leading: Radio<Options>(
-              value: Options.values[1],
+            title: Text(widget.option1),
+            leading: Radio(
+              value: 1,
               groupValue: _options,
-              onChanged:
-                  (Options? value) {
+              onChanged: ( value) {
                 setState(() {
-                  _options= value!;
+                  _options = value!;
+
                 });
-
-
               },
-
             ),
-
           ),
           ListTile(
-            title: Text("Option C"),
-            leading: Radio<Options>(
-              value: Options.values[2],
+            title: Text(widget.option2),
+            leading: Radio(
+              value: 2,
               groupValue: _options,
-              onChanged:
-                  (Options? value) {
+              onChanged: (value) {
                 setState(() {
-                  _options= value!;
+                  _options = value!;
+
                 });
-
-
               },
-
             ),
-
           ),
           ListTile(
-            title: Text("Option D"),            leading: Radio<Options>(
-              value: Options.values[3],
+            title: Text(widget.option3),
+            leading: Radio(
+              value: 3,
               groupValue: _options,
-              onChanged:
-                  (Options? value) {
+              onChanged: ( value) {
+
+
                 setState(() {
-                  _options= value!;
+                  _options = value!;
+
                 });
-
-
               },
-
             ),
+          ),
+          GestureDetector(
+            onTap: () {
+              if (widget.answer == _options) {
 
-          )
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => Congratulations()));
+              } else {
+
+                {
+                  Navigator.push(
+                      context, MaterialPageRoute(builder: (context) => Fail()));
+                }
+              }
+            },
+            child: Container(
+              height: size.height * 0.05,
+              alignment: Alignment.center,
+              width: size.width * 0.4,
+              margin: const EdgeInsets.all(2.0),
+              decoration: BoxDecoration(
+                  color: Colors.black,
+                  borderRadius: BorderRadius.all(Radius.circular(23))),
+              child: Text("SUBMIT",
+                  style: TextStyle(fontSize: 15, color: Colors.white)),
+            ),
+          ),
         ],
-
-
       ),
     );
-
-
   }
-
 }
-
-
-
-
-
-
