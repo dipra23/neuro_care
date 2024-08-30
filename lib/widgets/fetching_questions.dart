@@ -1,6 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:neuro_care/values/global_variables.dart';
 import 'package:neuro_care/widgets/languagequestion.dart';
 import 'package:neuro_care/widgets/question_format_four.dart';
 import 'package:neuro_care/widgets/question_format_one.dart';
@@ -18,8 +19,9 @@ final FirebaseFirestore firestore= FirebaseFirestore.instance;
 
 
 class question_answers extends StatefulWidget{
-  const question_answers({Key? key, required this.collection_name, required this.category}) : super(key: key);
+  const question_answers({Key? key, required this.collection_name, required this.category, required this.level}) : super(key: key);
  final String collection_name;
+ final String level;
  final String category;
   @override
   State<StatefulWidget> createState() {
@@ -31,6 +33,7 @@ class question_answers extends StatefulWidget{
 class _Question_AnswersState extends State<question_answers> {
  late List data;
     late Map current_document;
+    late int index;
 
   Future<Map> GetData () async {
     final collection = firestore.collection(widget.collection_name);
@@ -64,7 +67,7 @@ class _Question_AnswersState extends State<question_answers> {
       print("0");
       return QuestionFormatZero(question: current_document['que'], option2: current_document['options']['2'],
           option3:current_document['options']['3'],  option0: current_document['options']['0'],
-        option1: current_document['options']['1'], answer: current_document['ans'], category: widget.category,
+        option1: current_document['options']['1'], answer: current_document['ans'], category: widget.category, level: widget.level,
       );
 
     }
@@ -72,7 +75,7 @@ class _Question_AnswersState extends State<question_answers> {
       print("1");
       return QuestionFormatOne(question: current_document['que'], option2: current_document['options']['2'],
         option3:current_document['options']['3'],  option0: current_document['options']['0'],
-        option1: current_document['options']['1'], answer: current_document['ans'],category: widget.category);
+        option1: current_document['options']['1'], answer: current_document['ans'],category: widget.category, level: widget.level,);
 
     }
     else if (current_document['q_format'] == 2){
@@ -80,7 +83,7 @@ class _Question_AnswersState extends State<question_answers> {
 
       return QuestionFormatTwo(question: current_document['que'], option2: current_document['options']['2'],
         option3:current_document['options']['3'],  option0: current_document['options']['0'],
-        option1: current_document['options']['1'], answer: current_document['ans'], url: current_document['img_url'],category: widget.category);
+        option1: current_document['options']['1'], answer: current_document['ans'], url: current_document['img_url'],category: widget.category, level: widget.level,);
 
     }
     else if(current_document['q_format'] == 3){
@@ -88,14 +91,14 @@ class _Question_AnswersState extends State<question_answers> {
 
       return QuestionFormatThree(question: current_document['que'], option2: current_document['options']['2'],
         option3:current_document['options']['3'],  option0: current_document['options']['0'],
-        option1: current_document['options']['1'], answer: current_document['ans'], url: current_document['img_url'],category: widget.category);
+        option1: current_document['options']['1'], answer: current_document['ans'], url: current_document['img_url'],category: widget.category, level: widget.level,);
 
     }
     else if(current_document['q_format'] == 4){
       print("4");
 
       return QuestionFormatFour(question: current_document["que"], option2:  current_document['options']['2'], option3:  current_document['options']['3'], option0:  current_document['options']['0'], 
-        option1:  current_document['options']['1'], answer:  current_document['ans'], category:  "Common Sounds", url:  current_document['audio_url']
+        option1:  current_document['options']['1'], answer:  current_document['ans'], category:  "Common Sounds", url:  current_document['audio_url'], level: widget.level,
       );
 
     }
@@ -103,19 +106,19 @@ class _Question_AnswersState extends State<question_answers> {
       print("5");
 
       return QuestionFormatFive(question: current_document["que"], option2:  current_document['options']['2'], option3:  current_document['options']['3'], option0:  current_document['options']['0'],
-        option1:  current_document['options']['1'], answer:  current_document['ans'], category: 'Common Sounds', url: current_document['audio_url'],);
+        option1:  current_document['options']['1'], answer:  current_document['ans'], category: 'Common Sounds', url: current_document['audio_url'], level: widget.level,);
 
     }
     else if(current_document['q_format'] == 6){
       print("6");
 
-      return Language_Format_Zero(text: current_document['text']);
+      return Language_Format_Zero(text: current_document['text'], level: widget.category,);
 
     }
     else if(current_document['q_format'] == 7){
       print("7");
 
-      return Language_Format_Zero(text: current_document['text']);
+      return Language_Format_Zero(text: current_document['text'], level: widget.category,);
 
     }
 

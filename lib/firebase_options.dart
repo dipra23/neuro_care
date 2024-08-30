@@ -59,11 +59,13 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyC-Yz1S3ECHJmc0ugwBKdrh-aT374xqO-g',
-    appId: '1:618522361907:ios:a9be6c841c8fb1b4196346',
+    appId: '1:618522361907:ios:67814606ff6af95c196346',
     messagingSenderId: '618522361907',
     projectId: 'neurocare-15723',
     storageBucket: 'neurocare-15723.appspot.com',
+    androidClientId: '618522361907-d367gc57qba55mcql2rcv35n87orbb7r.apps.googleusercontent.com',
     iosClientId: '618522361907-a5cqvh8nu499bei15mkv1v3onj5c2tgm.apps.googleusercontent.com',
     iosBundleId: 'baid.dipra.neurocare',
   );
+
 }

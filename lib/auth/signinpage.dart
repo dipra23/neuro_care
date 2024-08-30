@@ -1,9 +1,13 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:neuro_care/auth/profilepage.dart';
+import 'package:neuro_care/homepage/bottomnavigation.dart';
+import 'package:neuro_care/user_onboarding/details.dart';
 import 'signin.dart';
 import 'package:neuro_care/main.dart';
+final FirebaseFirestore firestore= FirebaseFirestore.instance;
 
 class SignInPage extends StatefulWidget{
   @override
@@ -14,6 +18,27 @@ class SignInPage extends StatefulWidget{
 }
 
 class _SignInPage extends State<SignInPage> {
+
+  Future<Widget> CheckData(String uid) async {
+   // final FirebaseAuth auth= FirebaseAuth.instance;
+   // final uid= auth.currentUser?.uid;
+
+   final collection= firestore.collection("Users");
+   DocumentSnapshot<Map<String, dynamic>> doc = await collection.doc(uid).get();
+   if(doc.exists){
+     if(doc["FullName"] != null){
+       return BottomNavigationExample();
+     }
+     else{
+       return Details(uid: uid,);
+     }
+   }
+   else{
+     return Details(uid: uid,);
+   }
+
+   }
+
 
   @override
   Widget build(BuildContext context) {
@@ -56,9 +81,14 @@ class _SignInPage extends State<SignInPage> {
                       stream: auth.authStateChanges(),
                       builder: (context, snapshot) {
                         if (snapshot.hasData) {
-                          return const ProfilePage();
+
+                          return FutureBuilder(future: future, builder: CheckData(uid))CheckData(snapshot.data!.uid);
+
+
                         }
-                        return const AuthGate();
+
+                          return const AuthGate();
+
                       },
                     ),
                   ),

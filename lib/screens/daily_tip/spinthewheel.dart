@@ -9,6 +9,7 @@ import 'package:neuro_care/screens/games/puzzle/jigsaw_puzzle.dart';
 
 import '../../homepage/bottomnavigation.dart';
 import '../../values/app_icons.dart';
+import '../../values/global_variables.dart';
 
 
 class Wheel extends StatefulWidget{
@@ -74,6 +75,7 @@ return FortuneItems;
             TextButton(
               child: const Text('Exit to home'),
               onPressed: () {
+
                 setState(() {
                   Navigator.push(
                       context,

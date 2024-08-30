@@ -3,6 +3,8 @@
 import 'package:flutter/material.dart';
 import 'package:neuro_care/homepage/homepage.dart';
 
+import '../profile/profile.dart';
+
 class BottomNavigationExample extends StatefulWidget {
   const BottomNavigationExample({Key? key}) : super(key: key);
 
@@ -19,7 +21,7 @@ class _BottomNavigationExampleState extends State {
     Center(
       child: Text("Home"),
     ),
-
+Profile(),
     Center(
       child: Text("Products"),
     ),

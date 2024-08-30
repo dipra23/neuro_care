@@ -7,9 +7,10 @@ import '../values/app_icons.dart';
 
 class QuestionFormatOne extends StatefulWidget{
   const QuestionFormatOne({Key? key, required this.question,required this.option2,required this.option3,
-    required this.option0, required this.option1, required this.answer, required this.category}) : super(key: key);
+    required this.option0, required this.level, required this.option1, required this.answer, required this.category}) : super(key: key);
   final String question;
   final String option0;
+  final String level;
   final String option1;
   final String option2;
   final String option3;
@@ -58,7 +59,7 @@ class _QuestionFormatOneState extends State<QuestionFormatOne>{
             Container(
               height: size.height*0.5,
               child: RadioList(option2: widget.option2, option3: widget.option3,
-                  option0: widget.option0, option1: widget.option1, answer: widget.answer
+                  option0: widget.option0, option1: widget.option1, answer: widget.answer, category: widget.category,
 
               ),
             ),

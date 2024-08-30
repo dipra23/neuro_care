@@ -306,14 +306,60 @@ class _HomePageState extends State<Homepage> {
                     Row(
                       children: [
                         GestureDetector(
-                          onTap: ()
-                          {
-                            {Navigator.push(
-                              context,
-                              MaterialPageRoute(builder: (context) => question_answers(collection_name: "languages_easy", category: "easy")),
+                          onTap: (){
+                            showDialog(context: context,
+                                builder: (ctx) =>
+                                    AlertDialog(
+                                        title: const Text("Difficulty Level"),
+                                        content: const Text("please select a difficulty level"),
+                                        actions: <Widget> [
+                                          TextButton(
+                                              onPressed: () {
+                                                Navigator.push(context,MaterialPageRoute(builder: (context) => question_answers(collection_name: "languages_easy", category: "languages", level: 'easy',)));
+
+                                              }, child: Container(
+                                            color: Colors.green,
+                                            padding: const EdgeInsets.all(14),
+                                            child: const Text("Easy"),
+
+                                          )
+                                          ),
+                                          TextButton(
+                                              onPressed: () {
+                                                Navigator.push(context,MaterialPageRoute(builder: (context) => question_answers(collection_name: "languages_intermediate", category: "languages", level: 'intermediate',)));
+
+                                              }, child: Container(
+                                            color: Colors.green,
+                                            padding: const EdgeInsets.all(14),
+                                            child: const Text("Intermediate"),
+
+                                          )
+                                          ),
+                                          TextButton(
+                                              onPressed: () {
+                                                Navigator.push(context,MaterialPageRoute(builder: (context) => question_answers(collection_name: "languages_hard", category: "lamguages", level: 'hard',)));
+
+                                              }, child: Container(
+                                            color: Colors.green,
+                                            padding: const EdgeInsets.all(14),
+                                            child: const Text("Hard"),
+
+                                          )
+                                          ),
+
+                                        ]
+                                    )
                             );
-                            }
+
                           },
+                          // onTap: ()
+                          // {
+                          //   {Navigator.push(
+                          //     context,
+                          //     MaterialPageRoute(builder: (context) => question_answers(collection_name: "languages_easy", category: "easy", level: 'easy',)),
+                          //   );
+                          //   }
+                          // },
                           child: Container(
                             alignment: Alignment.center,
                             padding: const EdgeInsets.all(10.0),

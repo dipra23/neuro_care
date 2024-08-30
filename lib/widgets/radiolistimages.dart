@@ -7,11 +7,12 @@ import '../failpage.dart';
 import '../values/app_icons.dart';
 class RadioList extends StatefulWidget {
   const RadioList({Key? key,required this.option0,required this.option1,
-    required this.option2, required this.option3, required this.answer}) : super(key: key);
+    required this.option2, required this.option3, required this.category, required this.answer}) : super(key: key);
   final String option0;
   final String option1;
   final String option2;
   final String option3;
+  final String category;
   final int answer;
   @override
   State<StatefulWidget> createState() {
@@ -21,9 +22,11 @@ class RadioList extends StatefulWidget {
   }
 }
 class _RadioListState extends State<RadioList>{
+
   int _options = -1;
   @override
   Widget build(BuildContext context) {
+    String answer_text= "option"+widget.answer.toString();
     final size= MediaQuery.of(context).size;
     return Container(
       // height: size.height*0.7,
@@ -140,12 +143,12 @@ class _RadioListState extends State<RadioList>{
                 if (widget.answer == _options) {
         
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => Congratulations()));
+                      MaterialPageRoute(builder: (context) => Congratulations(category: widget.category,)));
                 } else {
         
                   {
                     Navigator.push(
-                        context, MaterialPageRoute(builder: (context) => Fail()));
+                        context, MaterialPageRoute(builder: (context) => Fail(answer: answer_text,)));
                   }
                 }
               },

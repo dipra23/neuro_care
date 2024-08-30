@@ -7,6 +7,7 @@ import 'dart:io';
 // import 'package:barcode_widget/barcode_widget.dart';
 import 'package:collection/collection.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import '../user_onboarding/details.dart';
 import 'signinpage.dart';
 // import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/foundation.dart';
@@ -295,9 +296,10 @@ class _AuthGateState extends State<AuthGate> {
                                     recognizer: TapGestureRecognizer()
                                       ..onTap = () {
                                         setState(() {
-                                          mode = mode == AuthMode.login
-                                              ? AuthMode.register
-                                              : AuthMode.login;
+
+                                           mode = mode == AuthMode.login
+                                            ? AuthMode.register
+                                           : AuthMode.login;
                                         });
                                       },
                                   ),
@@ -530,23 +532,27 @@ class _AuthGateState extends State<AuthGate> {
     }
   }
 
-  Future<void> _signInWithGoogle() async {
+  Future<dynamic> _signInWithGoogle() async {
     // Trigger the authentication flow
-    final googleUser = await GoogleSignIn().signIn();
+    try {
+      final googleUser = await GoogleSignIn().signIn();
 
-    // Obtain the auth details from the request
-    final googleAuth = await googleUser?.authentication;
+      // Obtain the auth details from the request
+      final googleAuth = await googleUser?.authentication;
 
-    if (googleAuth != null) {
+      // if (googleAuth != null) {
       // Create a new credential
       final credential = GoogleAuthProvider.credential(
-        accessToken: googleAuth.accessToken,
-        idToken: googleAuth.idToken,
+        accessToken: googleAuth?.accessToken,
+        idToken: googleAuth?.idToken,
       );
 
       // Once signed in, return the UserCredential
-      await auth.signInWithCredential(credential);
+      return await auth.signInWithCredential(credential);
+    } on Exception catch(e){
+      print("Google sign in error: $e");
     }
+    // }
   }
 
 

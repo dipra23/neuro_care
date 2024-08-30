@@ -1,6 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:neuro_care/widgets/sucesspage.dart';
 import 'package:speech_to_text/speech_recognition_error.dart';
 import 'package:speech_to_text/speech_recognition_result.dart';
 import 'package:speech_to_text/speech_to_text.dart';
@@ -10,10 +11,12 @@ import '../values/app_icons.dart';
 class Language_Format_Zero extends StatefulWidget{
   const Language_Format_Zero(
       {Key? key,
-        required this.text,})
+        required this.text,
+      required this.level,})
 
       : super(key: key);
   final String text;
+  final String level;
   @override
   State<StatefulWidget> createState() {
    return _LanguagesState();
@@ -199,7 +202,8 @@ class _LanguagesState extends State<Language_Format_Zero> {
                 ),),
               ),
 
-            lastWords== "${widget.text} - true"? Container( child: Text("Success")): Container(
+            lastWords== "${widget.text} - true"?
+            Container( child: Text("Success")): Container(
                 child: Text("Please retry!")
             ),
           //   if(_speechToText.isNotListening && _confidenceLevel> 0)

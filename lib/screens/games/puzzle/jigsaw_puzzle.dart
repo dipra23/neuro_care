@@ -3,6 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_jigsaw_puzzle/flutter_jigsaw_puzzle.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:neuro_care/screens/games/puzzle/puzzlesuccesspage.dart';
 import 'package:neuro_care/widgets/sucesspage.dart';
 
 import '../../../values/PuzzleImages.dart';
@@ -20,7 +21,6 @@ class JigSawPuzzlePage extends StatefulWidget{
 
 class _JigSawPuzzlePageState extends State<JigSawPuzzlePage> {
   final puzzleKey = GlobalKey<JigsawWidgetState>();
-  List Images = [PuzzleImages.MOUNTAIN, PuzzleImages.MOUNTAIN, PuzzleImages.MOUNTAIN, PuzzleImages.MOUNTAIN, PuzzleImages.MOUNTAIN, PuzzleImages.MOUNTAIN,PuzzleImages.MOUNTAIN,PuzzleImages.MOUNTAIN,PuzzleImages.MOUNTAIN,PuzzleImages.MOUNTAIN,PuzzleImages.MOUNTAIN,PuzzleImages.MOUNTAIN];
   @override
   void initState() {
     super.initState();
@@ -85,7 +85,7 @@ class _JigSawPuzzlePageState extends State<JigSawPuzzlePage> {
 
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => Congratulations()),
+                    MaterialPageRoute(builder: (context) => PuzzleCongrats(gridsize: widget.gridsize)),
                   );
                 },
                 // ignore: avoid_redundant_argument_values

@@ -10,9 +10,10 @@ import 'audioplayer/question_audio_caller.dart';
 
 class QuestionFormatFour extends StatefulWidget{
   const QuestionFormatFour({Key? key, required this.question,required this.option2,required this.option3,
-    required this.option0, required this.option1, required this.answer, required this.category, required this.url}) : super(key: key);
+    required this.option0, required this.level, required this.option1, required this.answer, required this.category, required this.url}) : super(key: key);
   final String question;
   final String option0;
+  final String level;
   final String option1;
   final String option2;
   final String option3;
@@ -64,7 +65,7 @@ class _QuestionFormatFourState extends State<QuestionFormatFour>{
             child: QuestionPlayer( url: widget.url,)
           ),
           RadioListText(option2: widget.option2, option3: widget.option3,
-              option0: widget.option0, option1: widget.option1, answer: widget.answer),
+              option0: widget.option0, option1: widget.option1, answer: widget.answer, level: widget.level,),
 
         ],
 

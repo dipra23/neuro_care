@@ -15,10 +15,12 @@ class RadioListAudios extends StatefulWidget {
         required this.option1,
         required this.option2,
         required this.option3,
+        required this.level,
         required this.answer})
       : super(key: key);
   final String option0;
   final String option1;
+  final String level;
   final String option2;
   final String option3;
   final int answer;
@@ -41,7 +43,7 @@ class _RadioListAudiosState extends State<RadioListAudios> {
   }
   @override
   Widget build(BuildContext context) {
-
+    String answer_text= "option"+widget.answer.toString();
     final size = MediaQuery.of(context).size;
     return Container(
       margin: const EdgeInsets.all(5.0),
@@ -130,12 +132,12 @@ class _RadioListAudiosState extends State<RadioListAudios> {
               if (widget.answer == _options) {
 
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Congratulations()));
+                    MaterialPageRoute(builder: (context) => Congratulations(category: widget.level,)));
               } else {
 
                 {
                   Navigator.push(
-                      context, MaterialPageRoute(builder: (context) => Fail()));
+                      context, MaterialPageRoute(builder: (context) => Fail(answer: answer_text,)));
                 }
               }
             },

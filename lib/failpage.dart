@@ -2,6 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class Fail extends StatefulWidget{
+  const Fail({Key? key, required this.answer}) : super(key: key);
+final String answer;
   @override
   State<StatefulWidget> createState() {
     return _FailState();
@@ -28,23 +30,14 @@ class _FailState extends State<Fail>{
 
                   child:Column(
                     children: [
-                      Text("Sorry the answer was:! ", textScaler: TextScaler.linear(1.5),),
+                      Text("Sorry the answer was: ${widget.answer}", textScaler: TextScaler.linear(1.5),),
                       Text("Try another one!",textScaler: TextScaler.linear(1.5)),
 
                     ],
                   ),
 
                 ),
-                Container(
-                  child:Text("+ 5 POINTS"),
-                  height: 40,
-                  width: 200,
-                  padding: const EdgeInsets.all(10.0),
-                  margin: const EdgeInsets.all(20.0),
-                  decoration: BoxDecoration(
-                      color: Color(0XFFFF5DEDE),
-                      borderRadius: BorderRadius.all(Radius.circular(23))
-                  ),),
+
                 Container(
                   height: 40,
                   width: 200,

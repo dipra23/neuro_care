@@ -47,10 +47,10 @@ Future<void> main() async {
 
 
 
-    await GoogleSignInDart.register(
-      clientId:
-      '618522361907-a5cqvh8nu499bei15mkv1v3onj5c2tgm.apps.googleusercontent.com',
-    );
+    // await GoogleSignInDart.register(
+    //   clientId:
+    //   '618522361907-a5cqvh8nu499bei15mkv1v3onj5c2tgm.apps.googleusercontent.com',
+    // );
 
   runApp(const MyApp());
 }
@@ -84,7 +84,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-        home://ChooseDrawing()
+        home://SignInPage()
+        //ChooseDrawing()
       //Language_Format_Zero()
 
         //QuestionFormatThree()
@@ -93,7 +94,7 @@ class MyApp extends StatelessWidget {
         //DrawingBook()
 
         //Details()
-        //SignInPage()
+       SignInPage()
       //HowTo()
 
         //Languages()
@@ -103,7 +104,8 @@ class MyApp extends StatelessWidget {
 //question_answers()
         //MeditationPlayer()
         //ColouringBookEasy()
-     BottomNavigationExample()
+      //Details()
+     //BottomNavigationExample()
         //Drawing_Book()
          //JigSawPuzzlePage()
         //home: ExampleSpecifyTime()

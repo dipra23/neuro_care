@@ -55,15 +55,15 @@ class _IdentificationState extends State<Identification> {
         child: Column(
 
           children: [
-            MyContainer(appIcon: AppIcons.LOCATION,label: 'LOCATIONS', color: 0XFFFC9EBED, collection_name: 'locations_easy',),
+            MyContainer(appIcon: AppIcons.LOCATION,label: 'LOCATIONS', color: 0XFFFC9EBED, collection_name: 'locations',),
             MyContainer(appIcon: AppIcons.FAMILYMEMBERS,label: 'FAMILY MEMBERS', color: 0XFFFD0D1FF, collection_name: '',),
-            MyContainer(label: 'DAILY OBJECTS', color: 0XFFFC9EBED,appIcon: AppIcons.DAILYOBJECTS, collection_name: 'daily_object_easy',),
-            MyContainer(label: 'SOUNDS', color: 0XFFFD0D1FF,appIcon: AppIcons.SOUNDS, collection_name: 'common_sounds_easy',),
-            MyContainer(label: 'FRUITS & VEGGIES', color: 0XFFFC9EBED,appIcon: AppIcons.FRUITSVEGGIES, collection_name: 'fruits_and_veggies_easy',),
-             MyContainer(label: 'DATE & TIME', color: 0XFFFD0D1FF,appIcon: AppIcons.DATETIME, collection_name: 'daily_object_hard'),
-            MyContainer(label: 'FESTIVALS', color:0XFFFC9EBED ,appIcon: AppIcons.FESTIVALS, collection_name: 'festivals_easy'),
-            MyContainer(label: 'SHAPES AND COLORS', color: 0XFFFD0D1FF,appIcon: AppIcons.COLOURINGBOOK, collection_name: 'shapes_and_colors_easy',),
-            MyContainer(label: 'SYMBOLS', color: 0XFFFC9EBED,appIcon: AppIcons.SYMBOLS, collection_name: 'signs_and_symbols_easy',),
+            MyContainer(label: 'DAILY OBJECTS', color: 0XFFFC9EBED,appIcon: AppIcons.DAILYOBJECTS, collection_name: 'daily_object',),
+            MyContainer(label: 'SOUNDS', color: 0XFFFD0D1FF,appIcon: AppIcons.SOUNDS, collection_name: 'common_sounds',),
+            MyContainer(label: 'FRUITS & VEGGIES', color: 0XFFFC9EBED,appIcon: AppIcons.FRUITSVEGGIES, collection_name: 'fruits_and_veggies',),
+             MyContainer(label: 'DATE & TIME', color: 0XFFFD0D1FF,appIcon: AppIcons.DATETIME, collection_name: 'daily_object'),
+            MyContainer(label: 'FESTIVALS', color:0XFFFC9EBED ,appIcon: AppIcons.FESTIVALS, collection_name: 'festivals'),
+            MyContainer(label: 'SHAPES AND COLORS', color: 0XFFFD0D1FF,appIcon: AppIcons.COLOURINGBOOK, collection_name: 'shapes_and_colors',),
+            MyContainer(label: 'SYMBOLS', color: 0XFFFC9EBED,appIcon: AppIcons.SYMBOLS, collection_name: 'signs_and_symbols',),
         
         
         
@@ -89,10 +89,50 @@ class MyContainer extends StatelessWidget {
     final size = MediaQuery.of(context).size;
     return GestureDetector(
       onTap: (){
-        Navigator.push(
-          context,
-          MaterialPageRoute(builder: (context) => question_answers(collection_name: collection_name, category: label,)),
+        showDialog(context: context,
+            builder: (ctx) =>
+        AlertDialog(
+          title: const Text("Difficulty Level"),
+          content: const Text("please select a difficulty level"),
+          actions: <Widget> [
+            TextButton(
+            onPressed: () {
+          Navigator.push(context,MaterialPageRoute(builder: (context) => question_answers(collection_name: "${collection_name}_easy", category: label, level: 'easy',)));
+
+            }, child: Container(
+            color: Colors.green,
+              padding: const EdgeInsets.all(14),
+              child: const Text("Easy"),
+
+          )
+        ),
+            TextButton(
+                onPressed: () {
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => question_answers(collection_name: "${collection_name}_intermediate", category: label, level: 'intermediate',)));
+
+                }, child: Container(
+              color: Colors.green,
+              padding: const EdgeInsets.all(14),
+              child: const Text("Intermediate"),
+
+            )
+            ),
+            TextButton(
+                onPressed: () {
+                  Navigator.push(context,MaterialPageRoute(builder: (context) => question_answers(collection_name: "${collection_name}_hard", category: label, level: 'hard',)));
+
+                }, child: Container(
+              color: Colors.green,
+              padding: const EdgeInsets.all(14),
+              child: const Text("Hard"),
+
+            )
+            ),
+
+        ]
+        )
         );
+
       },
       child: Center(
           child: Container(
