@@ -1,0 +1,2405 @@
+{
+  "login": {
+    "title": "लॉगिन",
+    "email": {
+      "label": " ईमेल ",
+      "empty_tf": "कृपया ईमेल दर्ज करें",
+      "validator_msg": "कृपया वैध ईमेल दर्ज करें"
+    },
+    "password": {
+      "label": " पासवर्ड ",
+      "empty_pw": "पासवर्ड खाली है",
+      "pMinError": "कम से कम 6 अक्षर होने चाहिए",
+      "pMaxError": "पासवर्ड बहुत लंबा है",
+      "pUCError": "कम से कम एक बड़ा (कैपिटल) अक्षर होना चाहिए",
+      "pDCError": "कम से कम एक अंक होना चाहिए",
+      "pLCError": "कम से कम एक छोटा अक्षर होना चाहिए",
+      "pSpecialCharacters": "कम से कम एक विशेष वर्ण होना चाहिए",
+      "showPw": "पासवर्ड दिखाएं"
+    },
+    "or" : "या",
+    "error": {
+      "msg": "या तो उपयोगकर्ता नाम या पासवर्ड गलत है!",
+      "label": "खारिज करें"
+    },
+    "google": "गूगल के साथ लॉगिन करें",
+    "create_ac": "खाता बनाएं"
+  },
+
+  "register": {
+    "title": "रजिस्टर",
+    "email": {
+      "label": " ईमेल ",
+      "empty_tf": "कृपया ईमेल दर्ज करें",
+      "validator_msg": "कृपया वैध ईमेल दर्ज करें"
+    },
+    "password": {
+      "label": " पासवर्ड ",
+      "empty_pw": "पासवर्ड खाली है",
+      "pMinError": "कम से कम 6 अक्षर होने चाहिए",
+      "pMaxError": "पासवर्ड बहुत लंबा है",
+      "pUCError": "कम से कम एक बड़ा (कैपिटल) अक्षर होना चाहिए",
+      "pDCError": "कम से कम एक अंक होना चाहिए",
+      "pLCError": "कम से कम एक छोटा अक्षर होना चाहिए",
+      "pSpecialCharacters": "कम से कम एक विशेष वर्ण होना चाहिए",
+      "showPw": "पासवर्ड दिखाएं"
+    },
+    "confirm_pw": {
+      "label": " पासवर्ड की पुष्टि करें ",
+      "empty_tf": "खाली नहीं हो सकता",
+      "validator_msg": "पासवर्ड मेल नहीं खाता"
+    },
+    "or": "या",
+    "error": {
+      "msg": "या तो उपयोगकर्ता नाम या पासवर्ड गलत है!",
+      "label": "खारिज करें"
+    },
+    "google": "गूगल के साथ रजिस्टर करें",
+    "login": "पहले से एक खाता है..."
+  },
+
+  "onboarding": {
+    "title": "आपकी जानकारी",
+    "image": "फोटो जोड़ें",
+    "name": "अपना पूरा नाम लिखें",
+    "age": "उम्र?",
+    "gender": "लिंग?",
+    "nationality": "देश?",
+    "btn": "आगे बढ़ें"
+  },
+
+  "bottom_nav": {
+    "home": "होम",
+    "achievements": "सफलताएं",
+    "profile": "प्रोफ़ाइल"
+  },
+
+  "home": {
+    "title": "न्यूरोकेयर",
+    "daily_tool_tip": {
+      "title": "डेली टूल टिप",
+      "paragraph": "अपने दिन को बेहतर बनाने के लिए एक आसान गतिविधि खोजें।",
+      "btn": "आज का सुझाव"
+    },
+    "identification": {
+      "title": "पहचान",
+      "1": "स्थान",
+      "2": "आवाज़ें",
+      "3": "दैनिक वस्तुएं",
+      "play_btn": "खेलें!",
+      "btn": "सभी देखने के लिए क्लिक करें",
+      "dialog": {
+        "title": "कठिनाई का स्तर",
+        "subtitle": "कृपया एक स्तर चुनें",
+        "easy": "आसान",
+        "hard": "कठिन",
+        "intermediate": "मध्यम"
+      }
+    },
+    "learn": {
+      "title": "कुछ नया सीखें",
+      "1": "कैसे करें...?दैनिक कार्य",
+      "2": "आपका परिवार वृक्ष",
+      "3": "भाषाएँ",
+      "4": "MMSE",
+      "dialog": {
+        "title": "कठिनाई का स्तर",
+        "subtitle": "कृपया एक स्तर चुनें",
+        "easy": "आसान",
+        "hard": "कठिन",
+        "intermediate": "मध्यम"
+      }
+    },
+    "games": {
+      "title" : "खेल",
+      "1": "पहेलियाँ",
+      "2": "भूलभुलैया",
+      "3": "स्मृति खेल",
+      "4": "चित्रकला पुस्तक",
+      "view_all" : "सभी देखें"
+    },
+    "meditation": {
+      "paragraph": "माइंडफुलनेस के साथ अपनी शांति खोजें।",
+      "btn": "चलो ध्यान करें"
+    }
+  },
+
+  "daily_tool_tip": {
+    "title": "दैनिक टिप",
+    "btn": "आगे बढ़ें",
+    "result": {
+      "outcome": {
+        "1": "किसी परिवार के सदस्य को हैलो कहें",
+        "2": "आज किसी से मुस्कुराकर बात करें",
+        "3": "कुछ बनाएं और किसी प्रिय को दिखाएं",
+        "4": "पौधों को पानी दें",
+        "5": "एक किताब पढ़ें",
+        "6": "दोस्त को कॉल करें",
+        "7": "एक पजल को हल करें",
+        "8": "अपना पसंदीदा संगीत सुनें",
+        "9": "फोटो एलबम देखें",
+        "10": "बग़ीचे में जाएं"
+      },
+      "msg": "अपनी गतिविधि का आनंद लें! कल मिलते हैं!",
+      "dismiss": "होम पर जाएं"
+    }
+  },
+
+  "how_to": {
+    "title" : "कैसे करें...?दैनिक कार्य",
+    "call": "किसी को कॉल कैसे करें",
+    "washroom": "वॉशरूम का उपयोग कैसे करें",
+    "medicine": "दवा कैसे लें",
+    "shopping": "खरीदारी कैसे करें",
+    "meditate": "ध्यान कैसे करें",
+    "hands": "हाथ कैसे धोएं",
+    "shoes": "जूते कैसे पहनें",
+    "step" : "स्टेप",
+    "instruction" : "आसान स्टेप में...",
+    "how to wear shoes": {
+      "title" : "जूते कैसे पहनें",
+      "step0": "जूते रखने की जगह ढूंढें",
+      "step1": "जूते का एक जोड़ा उठाएं",
+      "step2": "जूते सामने रखें और बैठ जाएं",
+      "step3": "ध्यान दें कि जूते का मुंह आपसे दूर हो",
+      "step4": "फीते खोलें और जूते पहनें",
+      "step5": "फीते बांध लें"
+    },
+    "how to call someone": {
+      "title" : "किसी को कॉल कैसे करे",
+      "step0": "अपना फोन ढूंढें",
+      "step1": "फोन का ऐप खोलें",
+      "step2": "अगर नंबर सेव नहीं है, तो नंबर टाइप करें",
+      "step3": "अगर नंबर सेव है, तो नाम पर क्लिक करें",
+      "step4": "बात करें",
+      "step5": "काम खत्म होने पर लाल बटन दबाकर फोन काटें"
+    },
+    "how to go shopping": {
+      "title" : "खरीदारी कैसे करें",
+      "step0": "खरीदारी की लिस्ट बनाएं",
+      "step1": "पर्स और बैग साथ ले जाना न भूलें",
+      "step2": "दुकान में जाएं",
+      "step3": "लिस्ट देखकर सामान ढूंढें",
+      "step4": "सारी चीजें चेक करें",
+      "step5": "काउंटर पर जाएं",
+      "step6": "भुगतान करें",
+      "step7": "रसीद की जांच करें"
+    },
+    "how to take medicine": {
+      "title" : "दवा कैसे लें",
+      "step0": "दवा चेक करें",
+      "step1": "पानी और दवा तैयार करें",
+      "step2": "दवा लें और पानी के साथ निगलें",
+      "step3": "ध्यान रखें कि गला न रुके",
+      "step4": "दवा वापस अपनी जगह पर रखें"
+    },
+    "how to use the washroom": {
+      "title" : "वॉशरूम का उपयोग कैसे करे",
+      "step0": "बाथरूम में जाएं और दरवाजा बंद करें",
+      "step1": "लाइट चालू करें",
+      "step2": "अगर सीट नीचे है, तो उसे उठाएं",
+      "step3": "पैंट नीचे करें",
+      "step4": "टॉयलेट का इस्तेमाल करें",
+      "step5": "पैंट ऊपर करें",
+      "step6": "टॉयलेट फ्लश करें",
+      "step7": "हाथ धोएं",
+      "step8": "हाथ सुखाएं"
+    },
+    "how to wash your hands": {
+      "title" : "हाथ कैसे धोएं",
+      "step0": "गहने उतारें",
+      "step1": "हाथ गीला करें",
+      "step2": "साबुन लगाएं",
+      "step3": "हाथ अच्छी तरह धोएं",
+      "step4": "कम से कम 20 सेकंड तक धोएं",
+      "step5": "हाथ पोंछ लें",
+      "step6": "अब आपके हाथ साफ हैं"
+    },
+    "how to meditate": {
+      "title" : "ध्यान कैसे करें",
+      "step0": "एक शांत जगह ढूंढें",
+      "step1": "आराम से बैठें और चाहें तो आंखें बंद करें",
+      "step2": "गहरी सांस लें और छोड़ें",
+      "step3": "जो विचार आएं, उन्हें आने-जाने दें",
+      "step4": "सांसों पर ध्यान दें",
+      "step5": "समय पूरा होने पर आराम करें",
+      "step6": "नियमित अभ्यास से समय बढ़ाने की कोशिश करें"
+    }
+  },
+
+  "mmse":
+  {
+    "instruction": "कृपया फोन किसी देखभाल करने वाले या डॉक्टर को दें ताकि वो MMSE टेस्ट कर सकें।",
+    "btn": "आगे बढ़ें",
+    "next_btn": "आगे बढ़ें",
+    "score_instruction": "स्कोर देने का तरीका:",
+    "question_instruction": "मरीज़ से पूछने वाले सवाल:",
+    "title": "MMSE सवाल",
+    "1": {
+      "question": "साल, मौसम, तारीख, महीना और दिन क्या है?",
+      "score": "हर सही जवाब के लिए 1 नंबर, कुल 5 नंबर।"
+    },
+    "2": {
+      "question": "हम अभी कहां हैं? देश, राज्य, शहर/गांव, बिल्डिंग/अस्पताल और फ्लोर?",
+      "score": "हर सही जवाब के लिए 1 नंबर, कुल 5 नंबर।"
+    },
+    "3": {
+      "question": "तीन अलग-अलग चीजों के नाम धीरे-धीरे बताएं और मरीज़ से उन्हें दोहराने को कहें। ध्यान दें कि मरीज़ इन्हें याद कर सके।",
+      "score": "पहली बार सही जवाब देने पर हर चीज़ के लिए 1 नंबर।"
+    },
+    "4": {
+      "question": "शब्द 'WORLD' को उल्टा बोलें।",
+      "score": "हर सही अक्षर के लिए 1 नंबर, कुल 5 नंबर।"
+    },
+    "5": {
+      "question": "पहले पूछी गई तीन चीजों को मरीज़ से दोहराने को कहें।",
+      "score": "हर सही चीज़ के लिए 1 नंबर, कुल 3 नंबर।"
+    },
+    "6": {
+      "question": "दो आसान चीजें दिखाएं, जैसे पेंसिल या घड़ी, और मरीज़ से उनके नाम पूछें।",
+      "score": "हर सही जवाब के लिए 1 नंबर, कुल 2 नंबर।"
+    },
+    "7": {
+      "question": "मरीज़ से यह वाक्य दोहराने को कहें: \"No ifs, ands, or buts\"",
+      "score": "सही वाक्य के लिए 1 नंबर।"
+    },
+    "8": {
+      "question": "मरीज़ को कहें: \"कागज को अपने दाएं हाथ में लें, उसे आधा मोड़ें और ज़मीन पर रखें।\"",
+      "score": "हर सही स्टेप के लिए 1 नंबर, कुल 3 नंबर।"
+    },
+    "9": {
+      "question": "मरीज़ को एक कागज़ दें, जिस पर लिखा हो \"आंखें बंद करें\"। उनसे कहें कि कागज़ पर लिखी बात को करें।",
+      "score": "सही तरीके से करने पर 1 नंबर।"
+    },
+    "10": {
+      "question": "मरीज़ से कोई भी एक वाक्य बनाने को कहें।",
+      "score": "अगर वाक्य में एक संज्ञा और क्रिया हो, तो 1 नंबर।"
+    },
+    "11": {
+      "question": "कोई भी चित्र बनाएं और मरीज़ से उसे कॉपी करने को कहें।",
+      "score": "सही कॉपी करने पर 1 नंबर।"
+    },
+    "score_title": "MMSE टेस्ट स्कोर",
+    "score_subtitle": "अपने नंबर जोड़ें। \nपरिणाम समझने के लिए नीचे दी गई तालिका देखें।",
+    "score_label": "अपना स्कोर लिखें",
+    "score_btn": "सबमिट करें"
+  },
+
+  "locations_easy": {
+    "title" : "स्थान",
+    "0": {
+      "What is the capital of India?": {
+        "question": "भारत की राजधानी क्या है?",
+        "option0": "मुंबई",
+        "option1": "कोलकाता",
+        "option2": "नई दिल्ली",
+        "option3": "चेन्नई"
+      },
+      "Where is Taj Mahal located?": {
+        "question": "ताजमहल कहाँ स्थित है?",
+        "option0": "नई दिल्ली",
+        "option1": "आगरा",
+        "option2": "जयपुर",
+        "option3": "लखनऊ"
+      },
+      "What is the function of a supermarket?": {
+        "question": "सुपरमार्केट का उपयोग किसके लिए किया जाता है?",
+        "option0": "फिल्म देखना",
+        "option1": "पैसे जमा करना",
+        "option2": "चिकित्सा उपचार",
+        "option3": "किराने का सामान लेना"
+      },
+      "Where would you go for a health check-up?": {
+        "question": "स्वास्थ्य जांच के लिए आप कहाँ जाएंगे?",
+        "option0": "स्कूल",
+        "option1": "ऑफिस",
+        "option2": "अस्पताल",
+        "option3": "मॉल"
+      },
+      "What is the purpose of school?": {
+        "question": "स्कूल का उद्देश्य क्या है?",
+        "option0": "खेलकूद",
+        "option1": "कपड़े खरीदना",
+        "option2": "कुछ सीखना",
+        "option3": "दोस्ती करना"
+      }
+    },
+    "1": {
+      "which monument is known as the symbol of love?": "कौन सा स्मारक प्रेम का प्रतीक माना जाता है?",
+      "Where do children go to receive education?": "बच्चे शिक्षा प्राप्त करने के लिए कहाँ जाते हैं?",
+      "Where is the India Gate located?": "इंडिया गेट कहाँ स्थित है?",
+      "Where can you buy fresh fruits and vegetables?": "आप ताजा फल और सब्जियाँ कहाँ से खरीद सकते हैं?",
+      "Where is the Eiffel Tower located?": "एफिल टॉवर कहाँ स्थित है?"
+    },
+    "2": {
+      "bookstore": {
+        "question": "यह क्या है?",
+        "option0": "पुस्तक की दुकान",
+        "option1": "लाइब्रेरी",
+        "option2": "गैलरी",
+        "option3": "संग्रहालय"
+      },
+      "theatre": {
+        "question": "हम यहाँ क्या करते हैं?",
+        "option0": "फिल्म देखते हैं",
+        "option1": "पुस्तक पढ़ते हैं",
+        "option2": "रात का खाना खाते हैं",
+        "option3": "दोस्तों से बात करते हैं"
+      },
+      "restaurant": {
+        "question": "हम यहाँ क्या करते हैं?",
+        "option0": "पढ़ाई",
+        "option1": "सोना",
+        "option2": "खाना खाना",
+        "option3": "खेलकूद"
+      },
+      "classroom": {
+        "question": "यह क्या है?",
+        "option0": "ऑफिस",
+        "option1": "कक्षा",
+        "option2": "अस्पताल",
+        "option3": "सम्मेलन कक्ष"
+      },
+      "library": {
+        "question": "हम यहाँ क्या करते हैं?",
+        "option0": "पुस्तकें बेचते हैं",
+        "option1": "पुस्तकें खरीदते हैं",
+        "option2": "पुस्तकें साफ करते हैं",
+        "option3": "पुस्तकें उधार लेते हैं"
+      }
+    }
+  },
+
+  "locations_hard": {
+    "title": "स्थान",
+    "0": {
+      "Why would you go to a library?": {
+        "question": "आप पुस्तकालय क्यों जाएंगे?",
+        "option0": "एक किताब उधार लेने के लिए",
+        "option1": "ज़ोर से पढ़ने के लिए",
+        "option2": "एक फिल्म देखने के लिए",
+        "option3": "बोर्ड गेम खेलने के लिए"
+      },
+      "Which city is the 'pink city'?": {
+        "question": "‘पिंक सिटी’ कौन सा शहर है?",
+        "option0": "मुंबई",
+        "option1": "जयपुर",
+        "option2": "उदयपुर",
+        "option3": "श्रीनगर"
+      },
+      "Which indian city is famous for beaches?": {
+        "question": "कौन सा भारतीय शहर समुद्र तटों के लिए प्रसिद्ध है?",
+        "option0": "गोवा",
+        "option1": "श्रीनगर",
+        "option2": "नई दिल्ली",
+        "option3": "जयपुर"
+      },
+      "What is the purpose of a gym?": {
+        "question": "जिम का उद्देश्य क्या है?",
+        "option0": "खेल खेलने के लिए",
+        "option1": "सोने के लिए",
+        "option2": "किताबें पढ़ने के लिए",
+        "option3": "व्यायाम और फिट रहने के लिए"
+      },
+      "What is the purpose of a mall?": {
+        "question": "मॉल का उद्देश्य क्या है?",
+        "option0": "खेल खेलने के लिए",
+        "option1": "चिकित्सा सहायता प्राप्त करने के लिए",
+        "option2": "शॉपिंग और भोजन करने के लिए",
+        "option3": "नए लोगों से मिलने के लिए"
+      }
+    },
+    "1": {
+      "Where would you go to purchase fresh produce directly from farmers?": "ताजा उत्पाद सीधे किसानों से खरीदने के लिए आप कहां जाएंगे?",
+      "Where would you go to catch a movie?": "आप फिल्म देखने के लिए कहां जाएंगे?",
+      "Where would you go to admire renowned works of art?": "आप प्रसिद्ध कला कृतियों की सराहना करने के लिए कहां जाएंगे?",
+      "Where do you go to maintain your personal hygiene?": "आप व्यक्तिगत स्वच्छता बनाए रखने के लिए कहां जाते हैं?",
+      "Where do you go to send letters or packages?": "आप पत्र या पैकेज भेजने के लिए कहां जाते हैं?"
+    },
+    "2": {
+      "farmersmarket": {
+        "question": "यह क्या है?",
+        "option0": "सुपरमार्केट",
+        "option1": "डिपार्टमेंट स्टोर",
+        "option2": "बाजार",
+        "option3": "मॉल"
+      },
+      "concerthall": {
+        "question": "हम यहां क्या कर सकते हैं?",
+        "option0": "फिल्म देख सकते हैं",
+        "option1": "नाटक देख सकते हैं",
+        "option2": "टेनिस देख सकते हैं",
+        "option3": "खाना खा सकते हैं"
+      },
+      "artgallery": {
+        "question": "यह क्या है?",
+        "option0": "संग्रहालय",
+        "option1": "कला गैलरी",
+        "option2": "पुस्तकालय",
+        "option3": "बुकस्टोर"
+      },
+      "court": {
+        "question": "हम यहां क्या करते हैं?",
+        "option0": "पुलिस शिकायतें दर्ज करते हैं",
+        "option1": "कानूनी विवाद हल करते हैं",
+        "option2": "नाटक देखते हैं",
+        "option3": "औपचारिक setting में खाते हैं"
+      },
+      "stadium": {
+        "question": "हम यहां क्या करते हैं?",
+        "option0": "व्यायाम करते हैं",
+        "option1": "खेल खेलते हैं",
+        "option2": "खेल देखते हैं",
+        "option3": "दौड़ते हैं और नाचते हैं"
+      }
+    }
+  },
+
+  "locations_intermediate": {
+    "title": "स्थान",
+    "0": {
+      "What is the capital of Rajisthan?": {
+        "question": "राजस्थान की राजधानी क्या है?",
+        "option0": "आगरा",
+        "option1": "जोधपुर",
+        "option2": "उदयपुर",
+        "option3": "जयपुर"
+      },
+      "What is the purpose of a post office?": {
+        "question": "डाकघर का उद्देश्य क्या है?",
+        "option0": "बाल कटवाने के लिए",
+        "option1": "कपड़े खरीदने के लिए",
+        "option2": "वैक्सिंग कराने के लिए",
+        "option3": "पार्सल भेजने और प्राप्त करने के लिए"
+      },
+      "What is a place of worship?": {
+        "question": "पूजा स्थल क्या है?",
+        "option0": "प्रधानाचार्य का कार्यालय",
+        "option1": "मंदिर",
+        "option2": "विद्यालय",
+        "option3": "कार्यालय"
+      },
+      "What is the purpose of a bank?": {
+        "question": "बैंक का उद्देश्य क्या है?",
+        "option0": "पैसे जमा और निकालने के लिए",
+        "option1": "हीरे बनाने के लिए",
+        "option2": "पैसे छापने के लिए",
+        "option3": "कपड़े खरीदने के लिए"
+      },
+      "Which of the following is a wonder of the world?": {
+        "question": "निम्नलिखित में से कौन सा विश्व का एक अजूबा है?",
+        "option0": "कमल मंदिर",
+        "option1": "आगरा किला",
+        "option2": "ताज महल",
+        "option3": "स्वर्ण मंदिर"
+      }
+    },
+    "1": {
+      "Which of these is a library?": "इनमें से कौन सा पुस्तकालय है?",
+      "Where is the Red Fort located?": "लाल किला कहां स्थित है?",
+      "Which place is commonly visited for medical treatment?": "चिकित्सा उपचार के लिए कौन सा स्थान सामान्यतः जाता है?",
+      "Which of the following is in the US?": "निम्नलिखित में से कौन सा अमेरिका में है?",
+      "Which of the following is in France?": "निम्नलिखित में से कौन सा फ्रांस में है?"
+    },
+    "2": {
+      "hospital": {
+        "question": "यह क्या है?",
+        "option0": "मॉल",
+        "option1": "स्पोर्ट्स सेंटर",
+        "option2": "अस्पताल",
+        "option3": "पुलिस स्टेशन"
+      },
+      "gym": {
+        "question": "हम यहां क्या करते हैं?",
+        "option0": "व्यायाम करते हैं",
+        "option1": "सोते हैं",
+        "option2": "नाचते हैं",
+        "option3": "खेल खेलते हैं"
+      },
+      "playground": {
+        "question": "हम यहां क्या करते हैं?",
+        "option0": "बगिया",
+        "option1": "खेल क्षेत्र",
+        "option2": "स्विमिंग पूल",
+        "option3": "मनोरंजन पार्क"
+      },
+      "supermarket": {
+        "question": "यह क्या है?",
+        "option0": "सीडी और फिल्में खरीदते हैं",
+        "option1": "किताबें किराए पर लेते हैं",
+        "option2": "खाना खाते हैं",
+        "option3": "खाद्य पदार्थ खरीदते हैं"
+      },
+      "trainstation": {
+        "question": "हम यहां क्या करते हैं?",
+        "option0": "एयरपोर्ट",
+        "option1": "मेट्रो",
+        "option2": "रेलवे स्टेशन",
+        "option3": "फिल्म सेट"
+      }
+    }
+  },
+
+  "daily_object_easy": {
+    "title": "दैनिक वस्तुएं",
+    "0": {
+      "What is the name of the appliance used to keep food cold?": {
+        "question": "खाने को ठंडा रखने के लिए किस उपकरण का उपयोग किया जाता है?",
+        "option0": "ओवन",
+        "option1": "रेफ्रिजरेटर",
+        "option2": "टोस्टर",
+        "option3": "ओवन"
+      },
+      "What is the name of the item you use to brush your teeth?": {
+        "question": "दांत साफ करने के लिए आप किस वस्तु का उपयोग करते हैं?",
+        "option0": "हेयरब्रश",
+        "option1": "टूथब्रश",
+        "option2": "कंघी",
+        "option3": "रेज़र"
+      },
+      "What do you use to change the channel on the TV?": {
+        "question": "टीवी पर चैनल बदलने के लिए आप क्या उपयोग करते हैं?",
+        "option0": "रिमोट कंट्रोल",
+        "option1": "लाइट स्विच",
+        "option2": "गेम कंट्रोलर",
+        "option3": "टेलीफोन"
+      },
+      "What piece of furniture do you sit on to relax?": {
+        "question": "आराम करने के लिए आप किस प्रकार की फर्नीचर पर बैठते हैं?",
+        "option0": "टेबल",
+        "option1": "बेड",
+        "option2": "सोफा",
+        "option3": "कुर्सी"
+      },
+      "what do you use to cover yourself when you sleep?": {
+        "question": "सोते समय आप खुद को किससे ढकते हैं?",
+        "option0": "तौलिया",
+        "option1": "तकिया",
+        "option2": "कंबल",
+        "option3": "चटाई"
+      }
+    },
+    "1": {
+      "which of these do you write with?": "इनमें से आप किससे लिखते हैं?",
+      "which of these do you eat with?": "इनमें से आप किससे खाते हैं?",
+      "what do you wear on your feet?": "आप अपने पैरों में क्या पहनते हैं?",
+      "what do you sit on?": "आप किस पर बैठते हैं?",
+      "what do you use to tell time?": "समय जानने के लिए आप क्या उपयोग करते हैं?"
+    },
+    "2": {
+      "PENS": {
+        "question": "यह क्या है?",
+        "option0": "पेंसिल",
+        "option1": "पेन",
+        "option2": "इरेज़र",
+        "option3": "रूलर"
+      },
+      "SOAP": {
+        "question": "यह क्या है?",
+        "option0": "शैम्पू",
+        "option1": "टूथपेस्ट",
+        "option2": "साबुन",
+        "option3": "क्रीम"
+      },
+      "BOOKS": {
+        "question": "यह क्या है?",
+        "option0": "फ्लैशकार्ड",
+        "option1": "किताबें",
+        "option2": "उपकरण",
+        "option3": "स्टांप्स"
+      },
+      "SHOE": {
+        "question": "यह क्या है?",
+        "option0": "जूता",
+        "option1": "मोज़ा",
+        "option2": "सूप",
+        "option3": "मोज़ा"
+      },
+      "WALLET": {
+        "question": "यह क्या है?",
+        "option0": "पैसे",
+        "option1": "क्रेडिट कार्ड",
+        "option2": "बटुआ",
+        "option3": "पाउच"
+      }
+    },
+    "3": {
+      "TOOTHBRUSH": "यह वस्तु कहाँ जाती है?",
+      "PILLOW": "यह वस्तु कहाँ जाती है?",
+      "SPOON": "यह वस्तु कहाँ जाती है?",
+      "BOOKS": "यह वस्तु कहाँ जाती है?",
+      "TOWELS": "यह वस्तु कहाँ जाती है?"
+    }
+  },
+
+  "daily_object_intermediate": {
+    "title": "दैनिक वस्तुएं",
+    "0": {
+      "What do you use to eat soup?": {
+        "question": "सूप खाने के लिए आप क्या उपयोग करते हैं?",
+        "option0": "कांटा",
+        "option1": "चाकू",
+        "option2": "स्ट्रॉ",
+        "option3": "चम्मच"
+      },
+      "What do you use to heat water for tea or coffee?": {
+        "question": "चाय या कॉफी के लिए पानी गरम करने के लिए आप क्या उपयोग करते हैं?",
+        "option0": "टोस्टर",
+        "option1": "रेफ्रिजरेटर",
+        "option2": "केटल",
+        "option3": "ब्लेंडर"
+      },
+      "What do you wear on your hands when you go outside?": {
+        "question": "बाहर जाने पर आप अपने हाथों में क्या पहनते हैं?",
+        "option0": "दस्ताने",
+        "option1": "टोपी",
+        "option2": "स्कार्फ",
+        "option3": "मोज़े"
+      },
+      "What do you use to bake a cake?": {
+        "question": "केक बनाने के लिए आप क्या उपयोग करते हैं?",
+        "option0": "चूल्हा",
+        "option1": "ओवन",
+        "option2": "माइक्रोवेव",
+        "option3": "फ्रिज"
+      },
+      "What do you use to listen to music privately?": {
+        "question": "संगीत सुनने के लिए आप क्या उपयोग करते हैं?",
+        "option0": "स्पीकर",
+        "option1": "माइक्रोफोन",
+        "option2": "रेडियो",
+        "option3": "हेडफ़ोन"
+      }
+    },
+    "1": {
+      "what do you use to cut food?": "खाना काटने के लिए आप क्या उपयोग करते हैं?",
+      "what do you use to drink liquids out of?": "तरल पदार्थ पीने के लिए आप क्या उपयोग करते हैं?",
+      "What do you use to clean your teeth?": "अपने दांतों को साफ करने के लिए आप क्या उपयोग करते हैं?",
+      "What do you use to listen to music?": "संगीत सुनने के लिए आप क्या उपयोग करते हैं?",
+      "What do you use to cook food on?": "खाना पकाने के लिए आप क्या उपयोग करते हैं?"
+    },
+    "2": {
+      "PLATES": {
+        "question": "यह क्या है?",
+        "option0": "कटोरे",
+        "option1": "प्लीट्स",
+        "option2": "प्लेट्स",
+        "option3": "ब्लेड्स"
+      },
+      "KEYS": {
+        "question": "यह क्या है?",
+        "option0": "घुटने",
+        "option1": "चाबियाँ",
+        "option2": "केस",
+        "option3": "ताले"
+      },
+      "BED": {
+        "question": "यह क्या है?",
+        "option0": "बीड",
+        "option1": "बेड",
+        "option2": "बेडशीट",
+        "option3": "सोफा"
+      },
+      "TOWELS": {
+        "question": "यह क्या है?",
+        "option0": "उपकरण",
+        "option1": "गीले वाइप्स",
+        "option2": "कपड़े",
+        "option3": "तौलिया"
+      },
+      "LAMP": {
+        "question": "इस वस्तु को पहचानें जो कमरे को रोशन करती है?",
+        "option0": "मोमबत्ती",
+        "option1": "लैंप",
+        "option2": "टॉर्च",
+        "option3": "लाइट बल्ब"
+      }
+    },
+    "3": {
+      "KITCHEN": "यह वस्तु कहाँ जाती है?",
+      "SHAMPOO": "यह कहाँ जाता है?",
+      "BATHROOM": "यह वस्तु कहाँ जाती है?",
+      "COFFEEMUG": "यह कहाँ जाता है?",
+      "BEDROOM": "यह कहाँ जाता है?"
+    }
+  },
+
+  "daily_object_hard": {
+    "title": "दैनिक वस्तुएँ",
+    "0": {
+      "What do you use to measure body temperature?": {
+        "question": "शरीर का तापमान मापने के लिए आप क्या उपयोग करते हैं?",
+        "option0": "बैरोमीटर",
+        "option1": "थर्मामीटर",
+        "option2": "हाइड्रोमीटर",
+        "option3": "एल्टीमीटर"
+      },
+      "What do you use to charge your phone?": {
+        "question": "फोन चार्ज करने के लिए आप क्या उपयोग करते हैं?",
+        "option0": "एडॉप्टर",
+        "option1": "चार्जर",
+        "option2": "इनवर्टर",
+        "option3": "कन्वर्टर"
+      },
+      "What do you use to dry your hair?": {
+        "question": "आप अपने बाल सुखाने के लिए क्या उपयोग करते हैं?",
+        "option0": "हीटर",
+        "option1": "पंखा",
+        "option2": "हेयर ड्रायर",
+        "option3": "तौलिया"
+      },
+      "what do you use to keep your keys organised?": {
+        "question": "आप अपनी चाबियों को व्यवस्थित रखने के लिए क्या उपयोग करते हैं?",
+        "option0": "चाबी का गुच्छा",
+        "option1": "हुक",
+        "option2": "रिंग",
+        "option3": "डायरी"
+      },
+      "what do you use to tie your shoes?": {
+        "question": "जूते बांधने के लिए आप क्या उपयोग करते हैं?",
+        "option0": "वेल्क्रो",
+        "option1": "फीते",
+        "option2": "बकल्स",
+        "option3": "बटन"
+      }
+    },
+    "1": {
+      "What do you use to carry groceries home from the store?": "दुकान से घर तक किराने का सामान ले जाने के लिए आप क्या उपयोग करते हैं?",
+      "hat do you use to open a locked door?": "आप बंद दरवाजा खोलने के लिए क्या उपयोग करते हैं?",
+      "What bedding item keeps you warm while you sleep": "कौन सी बिस्तर की वस्तु आपको सोते समय गर्म रखती है?",
+      "What electronic device allows you to capture and store images only?": "कौन सा इलेक्ट्रॉनिक उपकरण केवल छवियों को कैप्चर और स्टोर करता है?",
+      "Which handheld tool is to remove wrinkles from your clothes?": "आप किस हाथ से पकड़े जाने वाले उपकरण का उपयोग कपड़ों की सिलवटें दूर करने के लिए करते हैं?"
+    },
+    "2": {
+      "THERMOMETER": {
+        "question": "इस वस्तु का क्या उपयोग है?",
+        "option0": "नेविगेशन के लिए उपयोग किया जाता है",
+        "option1": "एक लौ बनाता है",
+        "option2": "तापमान मापता है",
+        "option3": "जांचता है कि कुछ सपाट है या नहीं"
+      },
+      "MICROWAVE": {
+        "question": "इस वस्तु का क्या उपयोग है?",
+        "option0": "भोजन को जल्दी गर्म करता है",
+        "option1": "ब्रेड टोस्ट करता है",
+        "option2": "कॉफी बनाता है",
+        "option3": "केक बेक करता है"
+      },
+      "STAPLER": {
+        "question": "इस वस्तु का क्या उपयोग है?",
+        "option0": "कागज काटता है",
+        "option1": "कागजों को एक साथ जोड़ता है",
+        "option2": "कागज पर लिखता है",
+        "option3": "कागज चिपकाता है"
+      },
+      "ROLLINGPIN": {
+        "question": "इस वस्तु का क्या उपयोग है?",
+        "option0": "आटा काटता है",
+        "option1": "आटा मापता है",
+        "option2": "बैटर को मिलाता है",
+        "option3": "आटे को चपटा करता है"
+      },
+      "CALCULATOR": {
+        "question": "इस वस्तु का क्या उपयोग है?",
+        "option0": "नोट्स लिखता है",
+        "option1": "पुस्तकें पढ़ता है",
+        "option2": "गणित करता है",
+        "option3": "फोन कॉल करता है"
+      }
+    },
+    "3": {
+      "PLANT": "यह कहाँ रखा जाता है?",
+      "DIYA": "यह कहाँ जाता है?",
+      "LIVINGROOM": "यहाँ क्या रखा जाता है?",
+      "PRESSURECOOKER": "यह कहाँ जाता है?",
+      "CLOTHES": "यह कहाँ जाते हैं?"
+    }
+  },
+
+  "fruits_and_veggies_easy" : {
+    "title" : "फल और सब्ज़ियां",
+    "0" : {
+      "What fruit is red, round, and sweet?" : {
+        "question" : "कौन सा फाल लाल, गोल और मीठा होता है?",
+        "option0" : "सेब",
+        "option1" : "केला",
+        "option2" : "संतरा",
+        "option3" : "अनानास"
+      },
+      "What vegetable is orange and grows underground?" : {
+        "question" : "कौन सी सब्ज़ी नारंगी रंग की होती है और ज़मीन के नीचे उगती है?",
+        "option0" : "गाजर",
+        "option1" : "आलू",
+        "option2" : "टमाटर",
+        "option3" : "प्याज"
+      },
+      "What fruit has yellow skin and a white, fluffy center?" : {
+        "question" : "कौन सा फाल पीली त्वचा और सफेद, मुलायम केंद्र वाला होता है?",
+        "option0" : "आम",
+        "option1" : "नाशपाती",
+        "option2" : "आड़ू",
+        "option3" : "केला"
+      },
+      "What green vegetable has leaves you can eat?" : {
+        "question" : "कौन सी हरी सब्ज़ी है जिसकी पत्तियां आप खा सकते हैं?",
+        "option0" : "ब्रोकली",
+        "option1" : "पालक",
+        "option2" : "मटर",
+        "option3" : "सलाद पत्ता"
+      },
+      "I'm a bright red fruit that grows on a vine; I'm juicy and sweet! What am I?" : {
+        "question" : "मैं एक चमकीला लाल फाल हूं जो बेल पर उगता है। मैं रसदार और मीठा हूं! मैं क्या हूं?",
+        "option0" : "सेब",
+        "option1" : "स्ट्रॉबेरी",
+        "option2" : "आलू",
+        "option3" : "ब्रोकली"
+      }
+    },
+    "1" : {
+      "Which is a strawberry?" : "स्ट्रॉबेरी कौन सी है?",
+      "which is a carrot?" : "गाजर कौन सी है?",
+      "which of these is not a tropical fruit ?" : "इनमें से कौन सा उष्णकटिबंधीय फाल नहीं है?",
+      "which is a raspberry?" : "रास्पबेरी कौन सी है?",
+      "which is a mango?" : "आम कौन सा है?"
+    },
+    "2" : {
+      "banana" : {
+        "question" : "यह कौन सा फाल है?",
+        "option0" : "सेब",
+        "option1" : "संतरा",
+        "option2" : "अंगूर",
+        "option3" : "केला"
+      },
+      "carrot" : {
+        "question" : "यह कौन सी सब्ज़ी है?",
+        "option0" : "टमाटर",
+        "option1" : "आलू",
+        "option2" : "प्याज",
+        "option3" : "गाजर"
+      },
+      "strawberry" : {
+        "question" : "यह कौन सा फाल है?",
+        "option0" : "स्ट्रॉबेरी",
+        "option1" : "रास्पबेरी",
+        "option2" : "चेरी",
+        "option3" : "ब्लैकबेरी"
+      },
+      "kiwi" : {
+        "question" : "यह कौन सा फाल है?",
+        "option0" : "ड्रैगनफ्रूट",
+        "option1" : "नारियल",
+        "option2" : "कीवी",
+        "option3" : "अनानास"
+      },
+      "cauliflower" : {
+        "question" : "यह कौन सी सब्ज़ी है?",
+        "option0" : "ब्रोकली",
+        "option1" : "पत्तागोभी",
+        "option2" : "फूलगोभी",
+        "option3" : "वॉटरचेस्टनट"
+      }
+    },
+    "3" : {
+      "PUMPKIN" : "यह फाल किस मौसम में आता है?",
+      "GRAPE" : "यह फाल किस मौसम में आता है?",
+      "COCONUT" : "यह कहां उगता है?",
+      "BELLPEPPER" : "यह किस और रंग में हो सकता है?",
+      "UNRIPEBANANA" : "यह फाल पके होने पर किस रंग का होता है?"
+    }
+  },
+
+  "fruits_and_veggies_intermediate": {
+    "title": "फल और सब्जियाँ",
+    "0": {
+      "What long, green vegetable is good for salads?": {
+        "question": "सलाद के लिए उपयुक्त यह लंबी, हरी सब्जी कौन सी है?",
+        "option0": "तोरी",
+        "option1": "एस्पेरेगस",
+        "option2": "खीरा",
+        "option3": "ब्रोकली"
+      },
+      "This orange vegetable grows underground; What am I?": {
+        "question": "यह नारंगी सब्जी ज़मीन के नीचे उगती है। मैं कौन हूँ?",
+        "option0": "संतरा",
+        "option1": "कीवी",
+        "option2": "गाजर",
+        "option3": "पालक"
+      },
+      "This orange citrus fruit is round and juicy;What am I?": {
+        "question": "यह गोल और रसीला नारंगी फल कौन सा है?",
+        "option0": "आम",
+        "option1": "चकोतरा",
+        "option2": "केला",
+        "option3": "संतरा"
+      },
+      "I'm a brown vegetable that grows underground; What am I?": {
+        "question": "मैं भूरे रंग की सब्जी हूँ जो ज़मीन के नीचे उगती है। मैं कौन हूँ?",
+        "option0": "आलू",
+        "option1": "प्याज",
+        "option2": "गाजर",
+        "option3": "चुकंदर"
+      },
+      " I'm a yellow tropical fruit with a tough outer skin and a sweet, tangy flesh inside; What am I?": {
+        "question": "मैं एक पीला उष्णकटिबंधीय फल हूँ, जिसकी बाहरी त्वचा कठोर है और अंदर मीठा, खट्टा गूदा होता है। मैं कौन हूँ?",
+        "option0": "केला",
+        "option1": "पपीता",
+        "option2": "अनानास",
+        "option3": "पालक"
+      }
+    },
+    "1": {
+      "I make people cry, Jains don't eat me; What am I? ": "मैं लोगों को रुला देता हूँ, और जैन मुझे नहीं खाते। मैं कौन हूँ?",
+      "I'm the national fruit of India; What am I?": "मैं भारत का राष्ट्रीय फल हूँ। मैं कौन हूँ?",
+      "I can be mashed, baked, or fried; What am I?": "मुझे मैश, बेक, या फ्राई किया जा सकता है। मैं कौन हूँ?",
+      "This is often mistaken for a vegetable in culinary contexts; What is it?": "इसे अक्सर खाना बनाने में सब्जी समझा जाता है। यह क्या है?",
+      " Which fruit is famously used to make wine?": "कौन सा फल वाइन बनाने में प्रसिद्ध है?"
+    },
+    "2": {
+      "ASPARAGUS": {
+        "question": "यह सब्जी कौन सी है?",
+        "option0": "अजमोदा",
+        "option1": "पालक",
+        "option2": "स्नो मटर",
+        "option3": "एस्पेरेगस"
+      },
+      "ZUCHINI": {
+        "question": "यह सब्जी कौन सी है?",
+        "option0": "अजमोदा",
+        "option1": "तोरी",
+        "option2": "एस्पेरेगस",
+        "option3": "स्नो मटर"
+      },
+      "FIG": {
+        "question": "यह फल कौन सा है?",
+        "option0": "अंजीर",
+        "option1": "खजूर",
+        "option2": "सूखा आलूबुखारा",
+        "option3": "खुबानी"
+      },
+      "LADYFINGER": {
+        "question": "यह क्या है?",
+        "option0": "भिंडी",
+        "option1": "लौकी",
+        "option2": "शिमला मिर्च",
+        "option3": "एस्पेरेगस"
+      },
+      "POMEGRANATE": {
+        "question": "यह फल कौन सा है?",
+        "option0": "पैशन फ्रूट",
+        "option1": "अनार",
+        "option2": "पोमाना",
+        "option3": "नाशपाती"
+      }
+    },
+    "3": {
+      "BANANA": "यह फल पकने से पहले किस रंग का होता है?",
+      "GRAPE": "यह फल और किस रंग में मिलता है?",
+      "WATERMELON": "यह फल अंदर से किस रंग का होता है?",
+      "BELLPEPPER": "यह किस समूह का है?",
+      "SWEETPOTATO": "यह किस समूह का है?"
+    }
+  },
+
+  "fruits_and_veggies_hard": {
+    "title": "फल और सब्जियाँ",
+    "0": {
+      "I'm a tropical fruit with a tough, brown outer shell; What am I?": {
+        "question": "मैं एक उष्णकटिबंधीय फल हूँ जिसकी बाहरी परत कठोर और भूरे रंग की होती है। मैं क्या हूँ?",
+        "option0": "एवोकाडो",
+        "option1": "पपीता",
+        "option2": "नारियल",
+        "option3": "अनानास"
+      },
+      "I'm a bright red, heart-shaped fruit with a sweet, tangy flavor; Am I": {
+        "question": "मैं एक चमकीला लाल, दिल के आकार का फल हूँ जिसका स्वाद मीठा और तीखा होता है। क्या मैं हूँ?",
+        "option0": "बेरी",
+        "option1": "सिट्रस फल",
+        "option2": "उष्णकटिबंधीय फल",
+        "option3": "स्टोन फल"
+      },
+      "I'm a small, red fruit that grows in clusters; You might find me on top of a cake! Am I:": {
+        "question": "मैं एक छोटा, लाल फल हूँ जो गुच्छों में उगता है। आप मुझे केक के ऊपर पा सकते हैं! क्या मैं हूँ?",
+        "option0": "स्ट्रॉबेरी",
+        "option1": "क्रैनबेरी",
+        "option2": "रास्पबेरी",
+        "option3": "चेरी"
+      },
+      "I'm a bright yellow citrus fruit with a bumpy skin and a sour, acidic juice;": {
+        "question": "मैं एक चमकीला पीला सिट्रस फल हूँ जिसकी खुरदरी त्वचा होती है और इसका रस खट्टा और अम्लीय होता है। मैं क्या हूँ?",
+        "option0": "नींबू",
+        "option1": "निंबू",
+        "option2": "रास्पबेरी",
+        "option3": "युज़ू"
+      },
+      "I come in many colors, like purple, orange, and white with a starchy flavor; Am I:": {
+        "question": "मैं कई रंगों में आता हूँ, जैसे बैंगनी, नारंगी, और सफेद, और मेरा स्वाद स्टार्ची होता है। क्या मैं हूँ?",
+        "option0": "चुकंदर",
+        "option1": "गाजर",
+        "option2": "आलू",
+        "option3": "शलगम"
+      }
+    },
+    "1": {
+      "which is not a berry?": "इनमें से कौन सी बेरी नहीं है?",
+      "which of these is not a veggie?": "इनमें से कौन सी सब्जी नहीं है?",
+      "This vegetable is known for its association with rabbits; What is it?": "यह सब्जी खरगोशों से जुड़ी हुई है। यह क्या है?",
+      "This fruit has a name that is also the name of a bird; What is it?": "इस फल का नाम ऐसा है जो एक पक्षी का नाम भी है। यह क्या है?",
+      "which is not a root vegetable?": "इनमें से कौन सी जड़ वाली सब्जी नहीं है?"
+    },
+    "2": {
+      "AVACADO": {
+        "question": "यह कौन सा फल है?",
+        "option0": "एवोकाडो",
+        "option1": "एवाकाडो",
+        "option2": "एवोकाटो",
+        "option3": "स्पैरेगस"
+      },
+      "PINEAPPLE": {
+        "question": "यह कौन सा फल है?",
+        "option0": "पाइनएप्पल",
+        "option1": "पपीता",
+        "option2": "अनानास",
+        "option3": "पपया"
+      },
+      "COCONUT": {
+        "question": "यह किस प्रकार का फल है?",
+        "option0": "सिट्रस",
+        "option1": "स्टोन",
+        "option2": "सब्जी",
+        "option3": "उष्णकटिबंधीय"
+      },
+      "STRAWBERRY": {
+        "question": "यह फल किस मौसम में आता है?",
+        "option0": "गर्मी",
+        "option1": "पतझड़",
+        "option2": "मानसून",
+        "option3": "सर्दी"
+      },
+      "MANGO": {
+        "question": "यह फल किस मौसम में आता है?",
+        "option0": "गर्मी",
+        "option1": "पतझड़",
+        "option2": "मानसून",
+        "option3": "सर्दी"
+      }
+    },
+    "3": {
+      "TOMATO": "यह किस समूह से संबंधित है?",
+      "AVACADO": "यह किस समूह से संबंधित है?",
+      "PUMPKIN": "यह किस समूह से संबंधित है?",
+      "RAJMA": "यह किस समूह से संबंधित है?",
+      "PEAS": "यह किस समूह से संबंधित है?"
+    }
+  },
+
+  "common_sounds_easy": {
+    "title": "साधारण आवाज़ें",
+    "4": {
+      "COW": {
+        "question": "यह आवाज़ किसकी है?",
+        "option0": "कुत्ते का भौंकना",
+        "option1": "मुर्गी की बांग",
+        "option2": "गाय का रंभाना",
+        "option3": "मोर की आवाज़"
+      },
+      "KEYBOARD": {
+        "question": "यह आवाज़ किसकी है?",
+        "option0": "किसी के टाइप करने की आवाज़",
+        "option1": "माइक्रोवेव",
+        "option2": "पानी की बोतल",
+        "option3": "बारिश"
+      },
+      "LEAVES": {
+        "question": "यह आवाज़ किसकी है?",
+        "option0": "पत्तियों की सरसराहट",
+        "option1": "हवा चलने की आवाज़",
+        "option2": "कागज पलटने की आवाज़",
+        "option3": "कागज मरोड़ने की आवाज़"
+      },
+      "SNORING": {
+        "question": "यह आवाज़ किसकी है?",
+        "option0": "किसी के छींकने की आवाज़",
+        "option1": "किसी के चिल्लाने की आवाज़",
+        "option2": "किसी के खांसने की आवाज़",
+        "option3": "किसी के खर्राटे लेने की आवाज़"
+      },
+      "LAUGH": {
+        "question": "यह आवाज़ किसकी है?",
+        "option0": "रोने की आवाज़",
+        "option1": "हँसने की आवाज़",
+        "option2": "छींकने की आवाज़",
+        "option3": "खांसने की आवाज़"
+      }
+    },
+    "5": {
+      "What everyday sound do you hear when someone arrives at your door?": "जब कोई आपके दरवाजे पर आता है तो आप कौन सी आवाज़ सुनते हैं?",
+      "Identify the sound of a phone ringing": "फोन की घंटी की आवाज़ पहचानें",
+      "Which sound represents a car horn?": "कौन सी आवाज़ कार के हॉर्न की है?",
+      "Which sound is rain?": "कौन सी आवाज़ बारिश की है?",
+      "Identify the sound of a dog barking": "कुत्ते के भौंकने की आवाज़ पहचानें"
+    }
+  },
+  "common_sounds_intermediate": {
+    "title": "साधारण आवाज़ें",
+    "4": {
+      "GIGGLING": {
+        "question": "यह आवाज़ किसकी है?",
+        "option0": "किसी के हँसने की आवाज़",
+        "option1": "डरावनी हँसी",
+        "option2": "गुदगुदाने की आवाज़",
+        "option3": "छींकने की आवाज़"
+      },
+      "PING_PONG": {
+        "question": "यह आवाज़ किसकी है?",
+        "option0": "बैडमिंटन",
+        "option1": "पिंग पोंग",
+        "option2": "स्केटिंग",
+        "option3": "क्रिकेट"
+      },
+      "HAMMER": {
+        "question": "यह आवाज़ किसकी है?",
+        "option0": "स्क्रू घुमाने की आवाज़",
+        "option1": "कागज पलटने की आवाज़",
+        "option2": "हथौड़े से कील ठोकने की आवाज़",
+        "option3": "कुत्ते के भौंकने की आवाज़"
+      },
+      "CAR_ENGINE": {
+        "question": "यह आवाज़ किसकी है?",
+        "option0": "कार का हॉर्न",
+        "option1": "साइरन",
+        "option2": "कार स्टार्ट करने की आवाज़",
+        "option3": "यातायात की आवाज़"
+      },
+      "CHEWING": {
+        "question": "यह आवाज़ किसकी है?",
+        "option0": "चबाने की आवाज़",
+        "option1": "थूकने की आवाज़",
+        "option2": "उल्टी की आवाज़",
+        "option3": "हँसी की आवाज़"
+      }
+    },
+    "5": {
+      "Which sound is clapping hands?": "कौन सी आवाज़ ताली बजाने की है?",
+      "Identify the sound of a door closing;": "दरवाजा बंद होने की आवाज़ पहचानें।",
+      "Which sound represents a cat meowing?": "कौन सी आवाज़ बिल्ली की म्याऊं की है?",
+      "Identify thunder": "बिजली कड़कने की आवाज़ पहचानें",
+      "Identify the sound of footsteps;": "कदमों की आवाज़ पहचानें।"
+    }
+  },
+  "common_sounds_hard": {
+    "title": "साधारण आवाज़ें",
+    "4": {
+      "CAMERA_SHUTTER": {
+        "question": "यह आवाज़ क्या दर्शाती है?",
+        "option0": "फोन बंद हो गया",
+        "option1": "दुकान बंद है",
+        "option2": "रात का समय है",
+        "option3": "एक तस्वीर खींची गई है"
+      },
+      "KNOCKING": {
+        "question": "यह आवाज़ क्या दर्शाती है?",
+        "option0": "कोई गुस्से में है",
+        "option1": "एक नई जगह खुली है",
+        "option2": "अच्छे भाग्य के लिए",
+        "option3": "कोई दरवाजे पर है"
+      },
+      "PHONE_OUTGOING": {
+        "question": "यह आवाज़ क्या दर्शाती है?",
+        "option0": "फोन की घंटी बज रही है",
+        "option1": "आप किसी को कॉल कर रहे हैं",
+        "option2": "फोन पहुंच से बाहर है",
+        "option3": "आप होल्ड पर हैं"
+      },
+      "TOILET_FLUSHING": {
+        "question": "यह आवाज़ क्या दर्शाती है?",
+        "option0": "समुद्र की लहरें बन रही हैं",
+        "option1": "बारिश हो रही है",
+        "option2": "शौचालय का फ्लश",
+        "option3": "सिंक चल रहा है"
+      },
+      "TWINKLE_TWINKLE": {
+        "question": "यह आवाज़ क्या दर्शाती है?",
+        "option0": "एक लोकप्रिय नर्सरी राइम",
+        "option1": "एक बॉलीवुड धुन",
+        "option2": "एक यादृच्छिक गाना",
+        "option3": "एबीसीडी गीत"
+      }
+    },
+    "5": {
+      "what does a baby crying sound like?": "एक बच्चे के रोने की आवाज़ कैसी होती है?",
+      "Identify the sound of a door creeking?": "दरवाजे के चरमराने की आवाज़ पहचानें?",
+      "Identify the song happy birthday": "हैप्पी बर्थडे गाने की पहचान करें",
+      "Which sond is the crumpling of paper?": "कौन सी आवाज़ कागज मरोड़ने की है?",
+      "which is a sneeze?": "कौन सी आवाज़ छींकने की है?"
+    }
+  },
+
+  "common_sounds" :
+  {
+    "sound_1" : "पहला ऑडियो चलाने के लिए क्लिक करें",
+    "sound_2" : "दूसरा ऑडियो चलाने के लिए क्लिक करें",
+    "sound_3" : "तीसरा ऑडियो चलाने के लिए क्लिक करें",
+    "sound_4" : "चौथा ऑडियो चलाने के लिए क्लिक करें"
+  },
+
+  "festivals_easy" :
+  {
+    "title" : "त्योहार",
+    "0" : {
+      "What is the festival of lights?": {
+        "question": "प्रकाश का त्योहार क्या है?",
+        "option0": "दीवाली",
+        "option1": "होली",
+        "option2": "गणेश चतुर्थी",
+        "option3": "थैंक्सगिविंग"
+      },
+      "What is the festival of color?": {
+        "question": "रंगों का त्योहार क्या है?",
+        "option0": "दीवाली",
+        "option1": "होली",
+        "option2": "गणेश चतुर्थी",
+        "option3": "थैंक्सगिविंग"
+      },
+      "When do we light diyas?": {
+        "question": "हम दीये कब जलाते हैं?",
+        "option0": "दीवाली",
+        "option1": "होली",
+        "option2": "गणेश चतुर्थी",
+        "option3": "थैंक्सगिविंग"
+      },
+      "When do we use maximum water?": {
+        "question": "हम सबसे ज्यादा पानी कब इस्तेमाल करते हैं?",
+        "option0": "दीवाली",
+        "option1": "होली",
+        "option2": "गणेश चतुर्थी",
+        "option3": "थैंक्सगिविंग"
+      },
+      "When do we decorate a tree?": {
+        "question": "हम पेड़ कब सजाते हैं?",
+        "option0": "दीवाली",
+        "option1": "होली",
+        "option2": "गणेश चतुर्थी",
+        "option3": "थैंक्सगिविंग"
+      }
+    },
+    "1" : {
+      "Which of the following is used in diwali celebration?": "निम्नलिखित में से कौन सा दीवाली उत्सव में उपयोग होता है?",
+      "Which of the following is used in navratri celebration?": "निम्नलिखित में से कौन सा नवरात्रि उत्सव में उपयोग होता है?",
+      "Which of the following is used in rakshabandhan celebration?": "निम्नलिखित में से कौन सा रक्षाबंधन उत्सव में उपयोग होता है?",
+      "Which of the following is used in makar sankranti celebration?": "निम्नलिखित में से कौन सा मकर संक्रांति उत्सव में उपयोग होता है?",
+      "Which of these is Holi?": "इनमें से कौन सा होली है?"
+    },
+    "2" : {
+      "HOLI": {
+        "question": "यह कौन सा त्योहार है?",
+        "option0": "होली",
+        "option1": "दीवाली",
+        "option2": "रक्षी",
+        "option3": "क्रिसमस"
+      },
+      "EASTER": {
+        "question": "यह कौन सा त्योहार है?",
+        "option0": "क्रिसमस",
+        "option1": "गुड फ्राइडे",
+        "option2": "ईस्टर",
+        "option3": "नया साल"
+      },
+      "EID": {
+        "question": "यह कौन सा त्योहार है?",
+        "option0": "दीवाली",
+        "option1": "क्रिसमस",
+        "option2": "नया साल",
+        "option3": "ईद"
+      },
+      "RAKHI": {
+        "question": "यह क्या है?",
+        "option0": "रक्षी",
+        "option1": "डांडिया",
+        "option2": "दोस्ती बैंड",
+        "option3": "हेयर बैंड"
+      },
+      "FRIENDSHIPBAND": {
+        "question": "यह क्या है?",
+        "option0": "ब्रेसलेट",
+        "option1": "रक्षी",
+        "option2": "दोस्ती बैंड",
+        "option3": "हेयर बैंड"
+      }
+    },
+    "3" : {
+      "EASTER": "इस त्योहार में क्या इस्तेमाल होता है?",
+      "HOLI": "इस त्योहार में क्या इस्तेमाल होता है?",
+      "NAVRATRI": "इस त्योहार में क्या इस्तेमाल होता है?",
+      "RAKSHABANDAN": "इस त्योहार में क्या इस्तेमाल होता है?",
+      "DIWALI": "इस त्योहार में क्या इस्तेमाल होता है?"
+    }
+  },
+
+  "festivals_intermediate" :
+  {
+    "title" : "त्योहार",
+    "0" : {
+      "When do we make rangolis?": {
+        "question": "हम रंगोली कब बनाते हैं?",
+        "option0": "दीवाली",
+        "option1": "क्रिसमस",
+        "option2": "होली",
+        "option3": "थैंक्सगिविंग"
+      },
+      "When do we burst fire crackers?": {
+        "question": "हम पटाखे कब फोड़ते हैं?",
+        "option0": "क्रिसमस",
+        "option1": "होली",
+        "option2": "दीवाली",
+        "option3": "थैंक्सगिविंग"
+      },
+      "During which festival do Christians celebrate the birth of Jesus Christ?": {
+        "question": "किस त्योहार के दौरान ईसाई लोग यीशु मसीह के जन्म का जश्न मनाते हैं?",
+        "option0": "होली",
+        "option1": "ईस्टर",
+        "option2": "थैंक्सगिविंग",
+        "option3": "क्रिसमस"
+      },
+      "In which festival do Hindus worship the goddess Durga?": {
+        "question": "किस त्योहार में हिंदू देवी दुर्गा की पूजा करते हैं?",
+        "option0": "दशहरा",
+        "option1": "नवरात्रि",
+        "option2": "दीवाली",
+        "option3": "होली"
+      },
+      "Which Hindu festival celebrates the birth anniversary of Lord Krishna?": {
+        "question": "कौन सा हिंदू त्योहार भगवान कृष्ण की जयंती मनाता है?",
+        "option0": "रक्षाबंधन",
+        "option1": "होली",
+        "option2": "जन्माष्टमी",
+        "option3": "दशहरा"
+      }
+    },
+    "1" : {
+      "Which of these is Diwali?": "इनमें से कौन सा दीवाली है?",
+      "which of these is christmas?": "इनमें से कौन सा क्रिसमस है?",
+      "Which of these is navratri?": "इनमें से कौन सा नवरात्रि है?",
+      "Which of these is rakshabandan?": "इनमें से कौन सा रक्षाबंधन है?",
+      "Which of these is easter?": "इनमें से कौन सा ईस्टर है?"
+    },
+    "2" : {
+      "CHRISTMAS": {
+        "question": "यह कौन सा त्योहार है?",
+        "option0": "गुड फ्राइडे",
+        "option1": "क्रिसमस",
+        "option2": "ईस्टर",
+        "option3": "रक्षी"
+      },
+      "GANESHCHACHURTI": {
+        "question": "यह कौन सा त्योहार है?",
+        "option0": "गणेश चतुर्थी",
+        "option1": "क्रिसमस",
+        "option2": "दीवाली",
+        "option3": "होली"
+      },
+      "EASTEREGGS": {
+        "question": "यह क्या है?",
+        "option0": "क्रिसमस मिठाई",
+        "option1": "थैंक्सगिविंग ट्रीट",
+        "option2": "ईस्टर अंडे",
+        "option3": "पथ्थर कला"
+      },
+      "WREATH": {
+        "question": "यह क्या है?",
+        "option0": "स्टॉकिंग्स",
+        "option1": "मिस्टलेटो",
+        "option2": "व्रिथ",
+        "option3": "दीया"
+      },
+      "KITE": {
+        "question": "यह क्या है?",
+        "option0": "रक्षी",
+        "option1": "पतंग",
+        "option2": "कीट",
+        "option3": "शीट"
+      }
+    },
+    "3" : {
+      "EASTEREGGS": "कौन से त्योहार में यह इस्तेमाल होता है?",
+      "COLOR": "कौन से त्योहार में यह इस्तेमाल होता है?",
+      "RAKHI": "कौन से त्योहार में यह इस्तेमाल होता है?",
+      "RANGOLI": "कौन से त्योहार में यह इस्तेमाल होता है?",
+      "CHRISTMASTREE": "कौन से त्योहार में यह इस्तेमाल होता है?"
+    }
+  },
+
+  "festivals_hard": {
+    "title": "त्योहार",
+    "0": {
+      "In which Christian festival do people find hidden eggs?": {
+        "question": "किस क्रिस्चियन त्योहार में लोग छिपे हुए अंडे ढूंढते हैं?",
+        "option0": "ईस्टर",
+        "option1": "थैंक्सगिविंग",
+        "option2": "क्रिसमस",
+        "option3": "गुड फ्राइडे"
+      },
+      "During which Muslim festival do pilgrims perform the annual pilgrimage to Mecca?": {
+        "question": "किस मुस्लिम त्योहार के दौरान तीर्थयात्री मक्का की वार्षिक तीर्थ यात्रा करते हैं?",
+        "option0": "रामदान",
+        "option1": "हज",
+        "option2": "मौलिद अल-नबी",
+        "option3": "ईद अल-फित्र"
+      },
+      "During which Hindu festival do sisters tie a protective thread around their brothers' wrists": {
+        "question": "किस हिंदू त्योहार के दौरान बहनें अपने भाइयों की कलाई पर सुरक्षा का धागा बांधती हैं?",
+        "option0": "जन्माष्टमी",
+        "option1": "होली",
+        "option2": "नवरात्रि",
+        "option3": "रक्षाबंधन"
+      },
+      "Which hindu festival is 9 consecutive days?": {
+        "question": "कौन सा हिंदू त्योहार 9 लगातार दिनों तक चलता है?",
+        "option0": "दीवाली",
+        "option1": "दशहरा",
+        "option2": "नवरात्रि",
+        "option3": "रक्षाबंधन"
+      },
+      "What is a jain festival ?": {
+        "question": "जैन त्योहार क्या है?",
+        "option0": "ईस्टर",
+        "option1": "गुड फ्राइडे",
+        "option2": "मौलिद अल-नबी",
+        "option3": "पाजुषण"
+      }
+    },
+    "1": {
+      "Which of these is lohri?": "इनमें से कौन सा लोहरी है?",
+      "Which of these is makar sanranti?": "इनमें से कौन सा मकर संक्रांति है?",
+      "which of these is not used during christmas?": "इनमें से कौन सा क्रिसमस के दौरान उपयोग नहीं होता?",
+      "which of these is not used during diwali?": "इनमें से कौन सा दीवाली के दौरान उपयोग नहीं होता?",
+      "which of these depicts a muslim festival?": "इनमें से कौन सा मुस्लिम त्योहार को दर्शाता है?"
+    },
+    "2": {
+      "DANDIYA": {
+        "question": "इसका उपयोग किस त्योहार में होता है?",
+        "option0": "नवरात्रि",
+        "option1": "रक्षाबंधन",
+        "option2": "क्रिसमस",
+        "option3": "ईद"
+      },
+      "EASTEREGGS": {
+        "question": "इसका उपयोग किस त्योहार में होता है?",
+        "option0": "थैंक्सगिविंग",
+        "option1": "क्रिसमस",
+        "option2": "ईस्टर",
+        "option3": "होली"
+      },
+      "DIYA": {
+        "question": "इसका उपयोग किस देवता के सम्मान में किया जाता है?",
+        "option0": "श्री राम",
+        "option1": "कृष्ण",
+        "option2": "दुर्गा",
+        "option3": "शिव"
+      },
+      "JANMASHTAMI.jpg": {
+        "question": "नीचे दिखाए गए त्योहार में किस देवता की पूजा होती है?",
+        "option0": "कृष्ण",
+        "option1": "राम",
+        "option2": "शिव",
+        "option3": "ब्रह्मा"
+      },
+      "CHRISTMAS": {
+        "question": "निम्नलिखित त्योहार कौन सी तारीख को मनाया जाता है?",
+        "option0": "26 दिसंबर",
+        "option1": "25 दिसंबर",
+        "option2": "24 जनवरी",
+        "option3": "25 जनवरी"
+      }
+    },
+    "3": {
+      "JANMASHTAMI": "इस त्योहार में किस देवता का सम्मान होता है?",
+      "DIWALI": "इस त्योहार में किस देवता का सम्मान होता है?",
+      "CHRISTIANITY": "यह किस धर्म का त्योहार है?",
+      "MUSLIM": "यह किस धर्म का त्योहार है?",
+      "JESUS": "कौन सा त्योहार यीशु के जन्म को याद करता है?"
+    }
+  },
+
+  "shapes_and_colors_easy" : {
+    "title" : "आकार और रंग",
+    "0" : {
+      "what shape is a clock?": {
+        "question": "घड़ी का आकार क्या है?",
+        "option0": "वृत्त",
+        "option1": "वर्ग",
+        "option2": "आयत",
+        "option3": "आठकोण"
+      },
+      "what color is grass?": {
+        "question": "घास का रंग क्या है?",
+        "option0": "नीला",
+        "option1": "बैंगनी",
+        "option2": "संतरी",
+        "option3": "हरा"
+      },
+      "how many sides does a triangle have?": {
+        "question": "त्रिभुज के कितने किनारे होते हैं?",
+        "option0": "छह",
+        "option1": "तीन",
+        "option2": "कोई नहीं",
+        "option3": "चार"
+      },
+      "what color is a clean typical sea?": {
+        "question": "स्वच्छ सामान्य समुद्र का रंग क्या है?",
+        "option0": "हरा",
+        "option1": "गुलाबी",
+        "option2": "नीला",
+        "option3": "स्मूदी"
+      },
+      "what color is snow?": {
+        "question": "बर्फ का रंग क्या है?",
+        "option0": "काला",
+        "option1": "ग्रे",
+        "option2": "भूरा",
+        "option3": "सफेद"
+      }
+    },
+    "1" : {
+      "which of these is a circle?": "इनमें से कौन सा वृत्त है?",
+      "which of these is a square?": "इनमें से कौन सा वर्ग है?",
+      "what color is grass?": "घास का रंग क्या है?",
+      "which of these is a triangle?": "इनमें से कौन सा त्रिभुज है?",
+      "what color is the sea?": "समुद्र का रंग क्या है?"
+    },
+    "2" : {
+      "PINKHEART": {
+        "question": "इस चित्र का वर्णन करें",
+        "option0": "बैंगनी दिल",
+        "option1": "लाल हीरा",
+        "option2": "गुलाबी दिल",
+        "option3": "पीला तारा"
+      },
+      "BLACK": {
+        "question": "यह क्या रंग है?",
+        "option0": "ग्रे",
+        "option1": "भूरा",
+        "option2": "काला",
+        "option3": "पीला"
+      },
+      "CIRCLE": {
+        "question": "यह कौन सा आकार है?",
+        "option0": "वर्ग",
+        "option1": "त्रिभुज",
+        "option2": "आयत",
+        "option3": "वृत्त"
+      },
+      "LIMEGREEN": {
+        "question": "यह कौन सा रंग है?",
+        "option0": "हरा",
+        "option1": "नीला",
+        "option2": "संतरी",
+        "option3": "गुलाबी"
+      },
+      "TRIANGLE": {
+        "question": "यह कौन सा आकार है?",
+        "option0": "वर्ग",
+        "option1": "त्रिभुज",
+        "option2": "वृत्त",
+        "option3": "आयत"
+      }
+    },
+    "3" : {
+      "CIRCLE": "इसका आधा क्या होगा?",
+      "CIRCLE": "इसका चौथाई क्या होगा?",
+      "TRIANGLE": "यह उल्टा क्या होगा?",
+      "GRASS": "इस वस्तु का रंग क्या है?",
+      "APPLEDRAW": "इस वस्तु का रंग क्या है?"
+    }
+  },
+
+  "shapes_and_colors_intermediate" : {
+    "title" : "आकार और रंग",
+    "0" : {
+      "how many sides does a hexagon have?": {
+        "question": "हैक्सागन के कितने किनारे होते हैं?",
+        "option0": "तीन",
+        "option1": "नौ",
+        "option2": "पाँच",
+        "option3": "छह"
+      },
+      "what color is the moon?": {
+        "question": "चाँद का रंग क्या है?",
+        "option0": "सफेद",
+        "option1": "चाँदी/ग्रे",
+        "option2": "बेज",
+        "option3": "सोने जैसा"
+      },
+      "what color is blood?": {
+        "question": "रक्त का रंग क्या है?",
+        "option0": "गुलाबी",
+        "option1": "लाल",
+        "option2": "नीला",
+        "option3": "काला"
+      },
+      "what color is chocolate?": {
+        "question": "चॉकलेट का रंग क्या है?",
+        "option0": "काला",
+        "option1": "सफेद",
+        "option2": "भूरा",
+        "option3": "लाल"
+      },
+      "how many sides in a pentagon?": {
+        "question": "पेंटागन में कितने किनारे होते हैं?",
+        "option0": "दस",
+        "option1": "चार",
+        "option2": "पाँच",
+        "option3": "आठ"
+      }
+    },
+    "1" : {
+      "What Shape is an Octagon?": "ऑक्टागन क्या आकार है?",
+      "What shape is an oval?": "अंडाकार क्या आकार है?",
+      "What color is lavender?": "लैवेंडर का रंग क्या है?",
+      "What color is magenta?": "मैजेंटा का रंग क्या है?",
+      "what color is a parrot?": "तोते का रंग क्या है?"
+    },
+    "2" : {
+      "OCTAGON": {
+        "question": "यह कौन सा आकार है?",
+        "option0": "दस कोना",
+        "option1": "पाँच कोना बहुभुज",
+        "option2": "सात कोना बहुभुज",
+        "option3": "आठकोण"
+      },
+      "GOLD": {
+        "question": "यह क्या रंग है?",
+        "option0": "चाँदी",
+        "option1": "क्रीम",
+        "option2": "सोने जैसा",
+        "option3": "ग्रे"
+      },
+      "DECAGON": {
+        "question": "यह कौन सा आकार है?",
+        "option0": "दस कोना बहुभुज",
+        "option1": "पेंटागन",
+        "option2": "बारह कोना बहुभुज",
+        "option3": "हैक्सागन"
+      },
+      "LAVENDER": {
+        "question": "यह क्या रंग है?",
+        "option0": "हेजल",
+        "option1": "लैवेंडर",
+        "option2": "ओपल",
+        "option3": "सप्फायर"
+      },
+      "OVAL": {
+        "question": "यह कौन सा आकार है?",
+        "option0": "वृत्त",
+        "option1": "अंडाकार",
+        "option2": "चतुर्थांश",
+        "option3": "आधिकारिक वृत्त"
+      }
+    },
+    "3" : {
+      "PENTAGON": "यह आकार आधे किनारे के साथ क्या होगा?",
+      "OCTAGON": "यह आकार दो और किनारे के साथ क्या होगा?",
+      "PUMPKINDRAW": "इस फल का रंग क्या है?",
+      "BANANADRAW": "इस फल का रंग क्या है?",
+      "WAVE": "यह क्या रंग है?"
+    }
+  },
+
+  "shapes_and_colors_hard" :
+  {
+    "title" : "आकृतियाँ और रंग",
+    "0" : {
+      "what color is chlorophyll?": {
+        "question": "क्लोरोफिल का रंग क्या है?",
+        "option0": "नीला",
+        "option1": "नारंगी",
+        "option2": "हरा",
+        "option3": "बैंगनी"
+      },
+      "what is a semicircle?": {
+        "question": "आधा वृत्त क्या है?",
+        "option0": "आधा वृत्त",
+        "option1": "1/4वाँ वृत्त",
+        "option2": "3/4वाँ वृत्त",
+        "option3": "दो वृत्त"
+      },
+      "how many sides in a decagon?": {
+        "question": "दशकोण में कितनी ओरियाँ होती हैं?",
+        "option0": "बीस",
+        "option1": "दस",
+        "option2": "सात",
+        "option3": "पाँच"
+      },
+      "what color is a ruby?": {
+        "question": "रूबी का रंग क्या है?",
+        "option0": "सफेद",
+        "option1": "चांदी/ग्रे",
+        "option2": "बैंगनी",
+        "option3": "लाल"
+      },
+      "what color is turmeric?": {
+        "question": "हल्दी का रंग क्या है?",
+        "option0": "पीला",
+        "option1": "नारंगी",
+        "option2": "ग्रे",
+        "option3": "लाल"
+      }
+    },
+    "1" : {
+      "which of these is a blue pentagon?": "इनमें से कौन सा नीला पंचकोण है?",
+      "which of these is a green hexagon?": "इनमें से कौन सा हरा षट्कोण है?",
+      "which of these is a silver star?": "इनमें से कौन सा चांदी का तारा है?",
+      "which of these is a red heart?": "इनमें से कौन सा लाल दिल है?",
+      "which of these is a crescent?": "इनमें से कौन सा अर्धचंद्र है?"
+    },
+    "2" : {
+      "BLUEPENTAGON": {
+        "question": "इस चित्र का वर्णन करें ",
+        "option0": "नारंगी षट्कोण",
+        "option1": "नीला पंचकोण",
+        "option2": "नीला षट्कोण",
+        "option3": "नीला अष्टकोण"
+      },
+      "REDSTAR": {
+        "question": "इस चित्र का वर्णन करें ",
+        "option0": "गुलाबी दिल",
+        "option1": "गुलाबी हीरा",
+        "option2": "लाल तारा",
+        "option3": "लाल हीरा"
+      },
+      "SILVERDIAMOND": {
+        "question": "इस चित्र का वर्णन करें ",
+        "option0": "चांदी हीरा",
+        "option1": "ग्रे तारा",
+        "option2": "सोने हीरा",
+        "option3": "चांदी तारा"
+      },
+      "YELLOWSTAR": {
+        "question": "इस चित्र का वर्णन करें ",
+        "option0": "नारंगी त्रैसदलीय",
+        "option1": "चांदी त्रैसदलीय",
+        "option2": "चांदी तारा",
+        "option3": "पीला तारा"
+      },
+      "REDHEART": {
+        "question": "इस चित्र का वर्णन करें ",
+        "option0": "लाल दिल",
+        "option1": "गुलाबी हीरा",
+        "option2": "लाल तारा",
+        "option3": "गुलाबी दिल"
+      }
+    },
+    "3" : {
+      "OCTAGON": "यह वह आकार है जिसके आधे किनारे हैं?",
+      "RED": "यह रंग किस फल का है?",
+      "OVAL": "यह आकार का लम्बा रूप कौन सा है?",
+      "SQUARE": "यह आकार वही है जिसकी समान संख्या में ओरियाँ हैं?",
+      "CIRCLE": "इनमें से कौन सा आकार 3D में है?"
+    }
+  },
+
+  "signs_and_symbols_easy" :
+  {
+    "title" : "प्रतीक",
+    "1" : {
+      "what is the symbol for female?": "महिला का प्रतीक क्या है?",
+      "what is the symbol for male?": "पुरुष का प्रतीक क्या है?",
+      "what is the symbol for stop?": "रोकने का प्रतीक क्या है?",
+      "what is the symbol for gp?": "जीपी का प्रतीक क्या है?",
+      "what is the symbol for wifi?": "विफाई का प्रतीक क्या है?"
+    },
+    "2" : {
+      "FEMALE": {
+        "question": "यह प्रतीक क्या दर्शाता है?",
+        "option0": "महिला",
+        "option1": "पुरुष",
+        "option2": "सुविधा",
+        "option3": "बच्चा"
+      },
+      "MALE": {
+        "question": "यह प्रतीक क्या दर्शाता है?",
+        "option0": "महिला",
+        "option1": "पुरुष",
+        "option2": "सुविधा",
+        "option3": "बच्चा"
+      },
+      "FIRSTAID": {
+        "question": "यह प्रतीक क्या दर्शाता है?",
+        "option0": "पहली सहायता",
+        "option1": "गणित",
+        "option2": "महिला",
+        "option3": "पुरुष"
+      },
+      "STOP": {
+        "question": "यह प्रतीक क्या दर्शाता है?",
+        "option0": "धीरे चलें",
+        "option1": "रोकें",
+        "option2": "जाएं",
+        "option3": "दौड़ें"
+      },
+      "TELEPHONE": {
+        "question": "यह प्रतीक क्या दर्शाता है?",
+        "option0": "लैपटॉप",
+        "option1": "टेलीफोन",
+        "option2": "पुरुष",
+        "option3": "गणित"
+      }
+    }
+  },
+
+  "signs_and_symbols_intermediate" :
+  {
+    "title" : "प्रतीक",
+    "1" : {
+      "what is the symbol for bluetooth?": "ब्लूटूथ का प्रतीक क्या है?",
+      "what is the symbol for telephone?": "टेलीफोन का प्रतीक क्या है?",
+      "what is the symbol for no smoking?": "धूम्रपान निषेध का प्रतीक क्या है?",
+      "what is the symbol for wheelchair accessibility?": "व्हीलचेयर पहुंच का प्रतीक क्या है?",
+      "what is the symbol for whatsapp": "व्हाट्सएप का प्रतीक क्या है?"
+    },
+    "2" : {
+      "NOSMOKING": {
+        "question": "यह प्रतीक क्या दर्शाता है?",
+        "option0": "धूम्रपान की अनुमति",
+        "option1": "नशेड़ी नहीं",
+        "option2": "कोई दवाइयां नहीं",
+        "option3": "धूम्रपान निषेध"
+      },
+      "WIFI": {
+        "question": "यह प्रतीक क्या दर्शाता है?",
+        "option0": "ब्लूटूथ",
+        "option1": "हॉटस्पॉट",
+        "option2": "विफाई",
+        "option3": "धुआं"
+      },
+      "PHONEAPP": {
+        "question": "यह प्रतीक क्या दर्शाता है?",
+        "option0": "व्हाट्सएप",
+        "option1": "कॉल",
+        "option2": "कैलकुलेटर",
+        "option3": "गूगल"
+      },
+      "REDLIGHT": {
+        "question": "यह प्रतीक क्या दर्शाता है?",
+        "option0": "जाएं",
+        "option1": "रोकें",
+        "option2": "धीरे चलें",
+        "option3": "यू टर्न"
+      },
+      "GREENLIGHT": {
+        "question": "यह प्रतीक क्या दर्शाता है?",
+        "option0": "जाएं",
+        "option1": "रोकें",
+        "option2": "धीरे चलें",
+        "option3": "यू टर्न"
+      }
+    }
+  },
+
+  "signs_and_symbols_hard" :
+  {
+    "title" : "प्रतीक",
+    "1" : {
+      "what is the symbol for information/help?": "सूचना/सहायता का प्रतीक क्या है?",
+      "What is the symbol for slow down?": "धीरे चलने का प्रतीक क्या है?",
+      "what is the symbol for safari?": "सफारी का प्रतीक क्या है?",
+      "what is the symbol for chrome?": "क्रोम का प्रतीक क्या है?",
+      "what is the symbol for first aid?": "पहली सहायता का प्रतीक क्या है?"
+    },
+    "2" : {
+      "BLUETOOTH": {
+        "question": "यह प्रतीक क्या दर्शाता है?",
+        "option0": "ब्लूटूथ",
+        "option1": "हॉटस्पॉट",
+        "option2": "विफाई",
+        "option3": "लैपटॉप"
+      },
+      "WHEELCHAIR": {
+        "question": "यह प्रतीक क्या दर्शाता है?",
+        "option0": "व्हीलचेयर पहुंच योग्य",
+        "option1": "कार पहुंच योग्य",
+        "option2": "कोई व्हीलचेयर नहीं",
+        "option3": "फिसलन"
+      },
+      "FIREEXIT": {
+        "question": "यह प्रतीक क्या दर्शाता है?",
+        "option0": "आग निकासी",
+        "option1": "पानी निकासी",
+        "option2": "साधारण निकासी",
+        "option3": "व्हीलचेयर"
+      },
+      "NOENTRY": {
+        "question": "यह प्रतीक क्या दर्शाता है?",
+        "option0": "कृपया प्रवेश करें",
+        "option1": "प्रवेश निषेध",
+        "option2": "सावधान रहें",
+        "option3": "धीरे चलें"
+      },
+      "INFORMATIONHELP": {
+        "question": "यह प्रतीक क्या दर्शाता है?",
+        "option0": "आंखों की जांच",
+        "option1": "सूचना",
+        "option2": "सहायता / जानकारी डेस्क",
+        "option3": "रुचि डेस्क"
+      }
+    }
+  },
+
+  "location_360_easy": {
+    "title": "स्थान 360",
+    "livingroom": {
+      "question": "यह क्या है?",
+      "option0": "लिविंग रूम",
+      "option1": "बेडरूम",
+      "option2": "बाथरूम",
+      "option3": "रसोईघर"
+    },
+    "bedroom": {
+      "question": "यह क्या है?",
+      "option0": "लिविंग रूम",
+      "option1": "बेडरूम",
+      "option2": "बाथरूम",
+      "option3": "रसोईघर"
+    },
+    "kitchen": {
+      "question": "यह क्या है?",
+      "option0": "लिविंग रूम",
+      "option1": "बेडरूम",
+      "option2": "बाथरूम",
+      "option3": "रसोईघर"
+    },
+    "effiel_tower": {
+      "question": "इस फोटो में कौन सा स्मारक है?",
+      "option0": "एफिल टॉवर",
+      "option1": "बिग बेन",
+      "option2": "स्टैचू ऑफ लिबर्टी",
+      "option3": "लीनिंग टॉवर"
+    },
+    "artgallery": {
+      "question": "यह कहाँ है?",
+      "option0": "संग्रहालय",
+      "option1": "कला गैलरी",
+      "option2": "पुस्तकालय",
+      "option3": "पुस्तक स्टोर"
+    }
+  },
+  "location_360_hard": {
+    "title": "स्थान 360",
+    "kitchen": {
+      "question": "हम यहाँ क्या करते हैं?",
+      "option0": "सोना",
+      "option1": "मेहमानों की मेजबानी",
+      "option2": "आराम करना",
+      "option3": "खाना बनाना"
+    },
+    "bedroom": {
+      "question": "हम यहाँ क्या करते हैं?",
+      "option0": "सोना",
+      "option1": "मेहमानों की मेजबानी",
+      "option2": "आराम करना",
+      "option3": "खाना बनाना"
+    },
+    "livingroom": {
+      "question": "हम यहाँ क्या करते हैं?",
+      "option0": "सोना",
+      "option1": "मेहमानों की मेजबानी",
+      "option2": "आराम करना",
+      "option3": "खाना बनाना"
+    },
+    "stadium": {
+      "question": "हम यहाँ क्या करते हैं?",
+      "option0": "व्यायाम करना",
+      "option1": "खेल खेलना",
+      "option2": "खेल देखना",
+      "option3": "नृत्य और दौड़"
+    },
+    "office": {
+      "question": "लोग यहाँ क्या करते हैं?",
+      "option0": "नौकरी करना",
+      "option1": "इलेक्ट्रॉनिक्स खरीदना",
+      "option2": "स्कूल का काम पढ़ाई करना",
+      "option3": "पुस्तकें आदान-प्रदान करना"
+    }
+  },
+
+  "location_360_intermediate": {
+    "title": "स्थान 360",
+    "beach": {
+      "question": "यह क्या है?",
+      "option0": "समुद्र तट",
+      "option1": "उद्यान",
+      "option2": "पहाड़",
+      "option3": "पिरामिड"
+    },
+    "library": {
+      "question": "यह क्या है?",
+      "option0": "घर",
+      "option1": "पुस्तक स्टोर",
+      "option2": "कार्यालय",
+      "option3": "पुस्तकालय"
+    },
+    "bathroom": {
+      "question": "यह क्या है?",
+      "option0": "लिविंग रूम",
+      "option1": "बेडरूम",
+      "option2": "बाथरूम",
+      "option3": "रसोईघर"
+    },
+    "mountains": {
+      "question": "यह कहाँ है?",
+      "option0": "पहाड़",
+      "option1": "समुद्र तट",
+      "option2": "जंगल",
+      "option3": "रेगिस्तान"
+    },
+    "forest": {
+      "question": "यह कहाँ है?",
+      "option0": "पहाड़",
+      "option1": "समुद्र तट",
+      "option2": "जंगल",
+      "option3": "रेगिस्तान"
+    }
+  },
+
+  "360": {
+    "btn": "जमा करें",
+    "back_btn": "वापस जाने के लिए क्लिक करें"
+  },
+
+  "languages_easy" :
+  {
+    "title" : "भाषाएँ",
+    "instruction" : "इन वाक्यों को बोलें:",
+    "How are you?" : {
+      "display" : "कैसे हो?",
+      "check" : "kaise ho"
+    },
+    "The cat is on the mat" : {
+      "display" : "बिल्ली चटाई पर है।",
+      "check" : "Billi chatai par hai"
+    },
+    "Where is the ball?" : {
+      "display" : "गेंद कहां है?",
+      "check" : "Gend kahan hai"
+    },
+    "Please open the door" : {
+      "display" : "कृपया दरवाजा खोलें।",
+      "check" : "kripya darvaja khole"
+    },
+    "Thank you for all your help" : {
+      "display" : "आपकी मदद के लिए धन्यवाद।",
+      "check" : "aapki madad ke liye dhanyvad"
+    },
+    "I am hungry" : {
+      "display" : "मुझे भूख लगी है।",
+      "check" : "Mujhe Bhookh Lagi Hai"
+    },
+    "The cat is sitting on the chair" : {
+      "display" : "बिल्ली कुर्सी पर बैठी है।",
+      "check" : "Billi Kursi per Baithi hai"
+    },
+    "It is raining outside" : {
+      "display" : "बाहर बारिश हो रही है।",
+      "check" : "Bahar barish ho rahi hai"
+    },
+    "I see a red car" : {
+      "display" : "मैं एक लाल कार देख रहा हूँ।",
+      "check" : "Main Ek lal kar dekh raha hun"
+    },
+    "Please remember to bring your umbrella" : {
+      "display" : "कृपया छाता लाना मत भूलना।",
+      "check" : "kripya chhata Lana Mat Bhulna"
+    }
+  },
+
+  "languages_intermediate" :
+  {
+    "title" : "भाषाएँ",
+    "instruction" : "यह वाक्य बोलिए:",
+    "The children are playing outside" : {
+      "display": "बच्चे बाहर खेल रहे हैं।",
+      "check": "bacche Bahar Khel rahe hain"
+    },
+    "I am going to the grocery store to buy milk and bread" : {
+      "display": "मैं दूध और ब्रेड खरीदने के लिए दुकान जा रहा हूँ।",
+      "check": "main dudh aur bread kharidne ke liye dukaan ja raha hun"
+    },
+    "The weather forecast says it will rain tomorrow" : {
+      "display": "मौसम का कहना है कि कल बारिश होगी।",
+      "check": "Mausam Ka Kahana hai ki cal Barish Hogi"
+    },
+    "The weather forecast says it will rain tomorrow" : {
+      "display": "मौसम का कहना है कि कल बारिश होगी।",
+      "check": "Mausam Ka Kahana hai ki cal Barish Hogi"
+    },
+    "She is a talented pianist who plays classical music" : {
+      "display": "वह एक अच्छी पियानोवादक है जो क्लासिकल म्यूजिक बजाती है।",
+      "check": "vah Ek acchi piano vadak hai jo classical music banati hai"
+    },
+    "The restaurant serves tasty burgers and fries" : {
+      "display": "रेस्टोरेंट में स्वादिष्ट बर्गर और फ्राइज़ मिलते हैं।",
+      "check": "restaurant Mein swadish burger or fries Milte Hain"
+    },
+    "I forgot to bring my wallet to the store" : {
+      "display": "मैं दुकान पर अपना बटुआ लाना भूल गया।",
+      "check": "main dukaan per Apna batua Lana bhul gaya"
+    },
+    "The weather forecast says it will be windy tomorrow" : {
+      "display": "मौसम का कहना है कि कल हवा चलेगी।",
+      "check": "Mausam Ka Kahana hai ki cal Hawa chalegi"
+    },
+    "I need to buy milk and bread at the store" : {
+      "display": "मुझे दुकान से दूध और ब्रेड खरीदनी है।",
+      "check": "Mujhe dukaan se dudh aur bread kharidni hai"
+    },
+    "She is a good cook and makes delicious pizza" : {
+      "display": "वह बहुत अच्छा खाना बनाती है और स्वादिष्ट पिज़्ज़ा बनाती है।",
+      "check": "vah bahut Achcha khana banati hai aur swadish Pizza banati hai"
+    }
+  },
+
+  "languages_hard" :
+  {
+    "title" : "भाषाएँ",
+    "instruction" : "यह वाक्य बोलिए:",
+    "I believe in the importance of education for everyone" : {
+      "display": "मुझे लगता है कि हर किसी के लिए शिक्षा बहुत ज़रूरी है।",
+      "check": "mujhe lagta hai ki Har Kisi Ke Liye Shiksha bahut jaruri hai"
+    },
+    "The beautiful sunset over the ocean was breathtaking" : {
+      "display": "समुद्र के ऊपर सूरज डूबते वक्त का दृश्य बहुत सुंदर था।",
+      "check": "Samudra ke upar Suraj dubte Waqt Ka Drishya bahut Sundar tha"
+    },
+    "I need to find my keys before I go out" : {
+      "display": "मुझे बाहर जाने से पहले अपनी चाबियाँ ढूंढनी हैं।",
+      "check": "Mujhe bahar jaane se pahle apni chhabiya dhundni hai"
+    },
+    "The unexpected news left everyone in shock" : {
+      "display": "अचानक आई खबर ने सबको चौंका दिया।",
+      "check": "Achanak I Khabar Ne Sabko chaunka Diya"
+    },
+    "I admire her determination to achieve her goals" : {
+      "display": "मैं उसकी मेहनत और अपने लक्ष्य को पाने की लगन को सराहता हूँ।",
+      "check": "main uski mehnat aur apne Lakshya ko pane Ki Lagan ko sarahta hun"
+    },
+    "The unexpected storm caused power outages in the city" : {
+      "display": "अचानक आए तूफ़ान से शहर में बिजली चली गई।",
+      "check": "Achanak I tufan se Shahar Mein bijali Chali gai"
+    },
+    "I believe in the importance of helping others in need" : {
+      "display": "मुझे लगता है कि दूसरों की मदद करना बहुत ज़रूरी है।",
+      "check": "mujhe lagta hai ki dusron ki madad karna bahut jaruri hai"
+    },
+    "The unexpected news about the job offer was exciting" : {
+      "display": "नौकरी के ऑफ़र की अचानक खबर सुनकर बहुत अच्छा लगा।",
+      "check": "Naukari ke offer ki Achanak Khabar sunkar bahut Achcha Laga"
+    },
+    "Exploring different cultures can broaden our worldview" : {
+      "display": "अलग-अलग संस्कृतियों को जानने से हमारी सोच में विस्तार होता है।",
+      "check": "अलग-अलग sanskritiyon ko janne se Hamari Soch Mein vistar Hota Hai"
+    },
+    "I'm going to the post office to mail a letter" : {
+      "display": "मैं एक पत्र भेजने के लिए पोस्ट ऑफिस जा रहा हूँ।",
+      "check": "Main Ek Patra bhejne ke liye Post Office ja raha hun"
+    }
+  },
+
+  "success":
+  {
+    "title": "शुभकामनाएँ!",
+    "msg": "सही जवाब!",
+    "continue_btn": "जारी रखने के लिए क्लिक करें",
+    "complete_btn": "जारी रखें",
+    "complete_msg": "वाह!!! आपने सभी सवाल पूरे कर लिए...\n\nस्कोर :",
+    "easy_points": "+ 5 नंबर",
+    "intermediate_points": "+ 7 नंबर",
+    "hard_points": "+ 10 नंबर"
+  },
+
+  "fail":
+  {
+    "title": "ग़लत जवाब, सही जवाब था:",
+    "msg": "एक और कोशिश करें!",
+    "continue_btn": "जारी रखने के लिए क्लिक करें",
+    "complete_btn": "जारी रखें",
+    "complete_msg": "वाह!!! आपने सभी सवाल पूरे कर लिए...\n\nस्कोर :"
+  },
+
+  "identification" :
+  {
+    "title" : "पहचान",
+    "1": "स्थान",
+    "2": "दैनिक वस्तुएँ",
+    "3": "आवाज़ें",
+    "4": "फल और सब्जियाँ",
+    "5": "त्योहार",
+    "6": "आकृतियाँ और रंग",
+    "7": "चिह्न",
+    "8": "स्थान 360",
+    "dialog": {
+      "title": "कठिनाई का स्तर",
+      "subtitle": "कृपया एक स्तर चुनें",
+      "easy": "आसान",
+      "hard": "कठिन",
+      "intermediate": "मध्यम"
+    }
+  },
+
+  "achievements" :
+  {
+    "title" : "सफलताएं",
+    "quiz" : {
+      "name" : "क्विज़ मास्टर",
+      "description" : "20 क्विज़ पूरे किए"
+    },
+    "puzzle" : {
+      "name" : "पहेली चैंप",
+      "description" : "15 पहेलियाँ पूरी कीं"
+    },
+    "360" : {
+      "name" : "स्थान दिग्गज",
+      "description" : "360 वातावरण में 5 अलग-अलग स्थान पहचाने"
+    },
+    "meditation" : {
+      "name" : "ज़ेन मास्टर",
+      "description" : "30 ध्यान सत्र पूरे किए"
+    },
+    "hard_puzzle" : {
+      "name" : "पहेली मास्टरमाइंड",
+      "description" : "10 कठिन पहेलियाँ पूरी कीं"
+    },
+    "language" : {
+      "name" : "भाषा मास्टर",
+      "description" : "10 भाषा क्विज़ पूरे किए"
+    },
+    "sounds" : {
+      "name" : "श्रव्य विशेषज्ञ",
+      "description" : "15 अलग-अलग सामान्य ध्वनियों को सही पहचाना"
+    },
+    "drawing" : {
+      "name" : "कला प्रेमी",
+      "description" : "सभी कठिनाई स्तरों के चित्र पूरे किए"
+    }
+  },
+
+  "about_us" :
+  {
+    "content" : "न्यूरोकेयर एक ऐप है जो अल्जाइमर के मरीजों की जिंदगी बेहतर बनाने के लिए बनाया गया है। यह याददाश्त और सोचने की क्षमता बढ़ाने के लिए अलग-अलग तरीकों से मदद करता है। \n\nइसमें पांच खास फीचर्स हैं: पहचान वाले खेल (सुनने और देखने की गतिविधियाँ), समस्या सुलझाने वाले खेल, रोजमर्रा की ज़िंदगी के लिए टिप्स, नई चीज़ें सीखने की जानकारी, और ध्यान। \n\nन्यूरोकेयर का मकसद मरीजों को मजबूत बनाना है ताकि वे अपनी जिंदगी बेहतर तरीके से जी सकें।",
+    "title" : "हमारे बारे में",
+    "subtitle" : "न्यूरोकेयर"
+  },
+
+  "contact_us" :
+  {
+    "msg" : "अगर आपके पास कोई सवाल है या आपको मदद चाहिए, तो हमसे संपर्क करें:",
+    "title" : "संपर्क करें"
+  },
+
+  "profile" :
+  {
+    "logout" : "लॉग आउट करें",
+    "about" : "हमारे बारे में",
+    "contact" : "संपर्क करें",
+    "edit" : "प्रोफाइल बदलें",
+    "title" : "प्रोफाइल",
+    "english" : "अंग्रेज़ी",
+    "hindi" : "हिंदी",
+    "family_members" : "परिवार के सदस्य",
+    "mmse_test_scores" : "MMSE परीक्षण स्कोर"
+  },
+
+  "memory_game" :
+  {
+    "title" : "स्मृति खेल",
+    "left" : "बाकी",
+    "1" : "कुत्ता",
+    "2" : "बिल्ली",
+    "3" : "पांडा",
+    "4" : "डॉल्फिन",
+    "5" : "व्हेल",
+    "6" : "केकड़ा",
+    "7" : "शेर",
+    "8" : "चूजा",
+    "9" : "कछुआ",
+    "10" : "पेंगुइन",
+    "11" : "कोआला",
+    "12" : "मधुमक्खी",
+    "13" : "आइसक्रीम",
+    "14" : "पिज्जा",
+    "15" : "आलू",
+    "16" : "खीरा",
+    "17" : "ताज महल",
+    "18" : "न्यूयॉर्क",
+    "19" : "पिरामिड",
+    "20" : "पेरिस"
+  },
+
+  "puzzles": {
+    "generate_btn": "शुरू करें",
+    "clear_btn": "साफ़ करें",
+    "title": "पहेली",
+    "db_title" : "पहेलियाँ",
+    "play_again_btn": "फिर से खेलें",
+    "home_btn": "आगे बढ़ें"
+  },
+
+  "drawing" :
+  {
+    "title": "ड्रॉइंग बुक",
+    "easy": "आसान",
+    "intermediate": "मध्यम",
+    "hard": "कठिन",
+    "pick_color": "रंग चुनें!",
+    "btn": "चुनें"
+  },
+
+  "meditate" :
+  {
+    "main_title" : "ध्यान",
+    "instructions" : "ध्यान के निर्देश",
+    "title" : "आराम के लिए तैयार हों",
+    "1" : "अपनी आँखें धीरे से बंद करें।",
+    "2" : "गहरी साँस लें... और धीरे-धीरे छोड़ें।",
+    "3" : "अपने मन और शरीर को शांत करें।",
+    "btn" : "चलो ध्यान करें",
+    "meditate_instruction" : "अपनी आँखें बंद करें और आराम करें।",
+    "meditate_breathe" : "साँस लें..."
+  },
+
+  "mmse_score": {
+    "title": "MMSE टेस्ट स्कोर",
+    "instruction": "स्कोर समझने के लिए नीचे दी गई सूची देखें",
+    "col_score": "स्कोर",
+    "col_interpret": "मतलब",
+    "row_1": "सामान्य स्तर",
+    "row_2": "हल्की दिमागी समस्या या शुरुआती/हल्का अल्जाइमर",
+    "row_3": "बीच का स्तर/मध्यम अल्जाइमर",
+    "row_4": "आखिरी चरण/गंभीर अल्जाइमर",
+    "error" : "गलत",
+    "error_label" : "कृपया स्कोर डालें",
+    "history" : {
+      "title" : "स्कोर",
+      "col1" : "तारीख",
+      "col2" : "स्कोर"
+    }
+  },
+
+  "maze" :
+  {
+    "instructions" : "व्यक्ति को घर तक पहुँचाएँ! \nउसे खींचकर भूलभुलैया में रास्ता दिखाएँ।",
+    "title" : "भूलभुलैया"
+  },
+
+  "family_member" : {
+    "title" : "परिवार का पेड़",
+    "add_btn" : "परिवार के सदस्य जोड़ें",
+    "name" : "नाम",
+    "relation" : "रिश्ता",
+    "phone_no" : "फोन नंबर",
+    "phone" : "फोन नंबर",
+    "fun_fact" : "रोचक बात",
+    "cancel_btn" : "रद्द करें",
+    "save_btn" : "सेव",
+    "continue_btn" : "जारी रखें",
+    "close_btn" : "बंद करें"
+  }
+}

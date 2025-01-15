@@ -1,0 +1,2440 @@
+{
+  "login":
+  {
+    "title": "LOGIN",
+    "email": {
+      "label": " Email ",
+      "empty_tf": "Please enter email",
+      "validator_msg": "Please enter valid email"
+    },
+    "password": {
+      "label": " Password ",
+      "empty_pw": "Password is Empty",
+      "pMinError": "Must be more than 6 characters",
+      "pMaxError": "Password too Long",
+      "pUCError": "At least one Uppercase(Capital) letter",
+      "pDCError": "At least one digit",
+      "pLCError": "At least one lowercase character",
+      "pSpecialCharacters": "At least one Special Characters",
+      "showPw": "Show Password"
+    },
+    "or" : "Or",
+    "error" : {
+      "msg" : "Either Username or Password is Incorrect!",
+      "label" : "Dismiss"
+    },
+    "google": "Continue with Google",
+    "create_ac": "Create an Account"
+  },
+  "register":
+  {
+    "title": "REGISTER",
+    "email": {
+      "label": " Email ",
+      "empty_tf": "Please enter email",
+      "validator_msg": "Please enter valid email"
+    },
+    "password": {
+      "label": " Password ",
+      "empty_pw": "Password is Empty",
+      "pMinError": "Must be more than 6 characters",
+      "pMaxError": "Password too Long",
+      "pUCError": "At least one Uppercase(Capital) letter",
+      "pDCError": "At least one digit",
+      "pLCError": "At least one lowercase character",
+      "pSpecialCharacters": "At least one Special Characters",
+      "showPw": "Show Password"
+    },
+    "confirm_pw": {
+      "label": " Confirm Password ",
+      "empty_tf": "Cannot be Empty",
+      "validator_msg": "Password do not Match"
+    },
+    "or" : "Or",
+    "error" : {
+      "msg" : "Either Username or Password is Incorrect!",
+      "label" : "Dismiss"
+    },
+    "google": "Continue with Google",
+    "login": "Already have an account..."
+  },
+
+  "onboarding":
+  {
+    "title" : "Personal Details",
+    "image" : "Add Image",
+    "name": "Enter your full name",
+    "age" : "Age?",
+    "gender" : "Gender?",
+    "nationality": "Nationality?",
+    "btn" : "Continue"
+  },
+
+  "bottom_nav":
+  {
+    "home" : "Home",
+    "achievements" : "Achievements",
+    "profile" : "Profile"
+  },
+
+  "home" :
+  {
+    "title" : "NEUROCARE",
+    "daily_tool_tip": {
+      "title": "Daily Tool Tip",
+      "paragraph": "Discover a simple activity to brighten your day.",
+      "btn": "Today's Tip"
+    },
+    "identification" : {
+      "title" : "Identification",
+      "1" : "LOCATIONS",
+      "2": "SOUNDS",
+      "3": "DAILY OBJECTS",
+      "play_btn" : "PLAY!",
+      "btn" : "Click to view all",
+      "dialog" : {
+        "title" : "Difficulty Level",
+        "subtitle" : "Please select a difficulty level",
+        "easy" : "Easy",
+        "hard" : "Hard",
+        "intermediate": "Intermediate"
+      }
+    },
+    "learn": {
+      "title" : "Learn Something",
+      "1" : "HOW TO...? DAILY ACTIVITIES",
+      "2": "YOUR FAMILY TREE",
+      "3" : "LANGUAGES",
+      "4" : "MMSE",
+      "dialog" : {
+        "title" : "Difficulty Level",
+        "subtitle" : "Please select a difficulty level",
+        "easy" : "Easy",
+        "hard" : "Hard",
+        "intermediate": "Intermediate"
+      }
+    },
+    "games" : {
+      "title" : "Games",
+      "1" : "PUZZLES",
+      "2" : "MAZE",
+      "3" : "MEMORY \nFLIP",
+      "4" : "DRAWING \nBOOK",
+      "view_all" : "view all"
+    },
+    "meditation": {
+      "paragraph": "Find your calm with a moment of mindfulness.",
+      "btn": "Let's Meditate"
+    }
+  },
+
+  "daily_tool_tip":
+  {
+    "title" : "DAILY TOOL TIP",
+    "btn": "SPIN TO GET ONE",
+    "result": {
+      "outcome": {
+        "11": "Say hello to a family member",
+        "2": "Smile at someone today",
+        "3": "Draw something and show it to a loved one",
+        "4": "Water plants",
+        "5": "Read a book",
+        "6": "Call a friend",
+        "7": "Solve a puzzle",
+        "8": "Listen to your favourite music",
+        "9": "Look at photo albums",
+        "10": "Go to the garden"
+      },
+      "msg": "Enjoy your activity! See you tomorrow!",
+      "dismiss" : "Continue"
+    }
+  },
+
+  "how_to": {
+    "title" : "HOW TO...? DAILY ACTIVITIES",
+    "call" : "HOW TO CALL SOMEONE",
+    "washroom" : "USE THE WASHROOM",
+    "medicine" : "TAKE MEDICINE",
+    "shopping" : "GO SHOPPING",
+    "meditate" : "MEDITATE",
+    "hands" : "WASH YOUR HANDS",
+    "shoes" : "HOW TO WEAR SHOES",
+    "step" : "Step",
+    "instruction" : "IN SIMPLE STEPS...",
+    "how to wear shoes": {
+      "title" : "HOW TO WEAR SHOES",
+      "step0": "LOCATE YOUR SHOE RACK",
+      "step1": "PICK A PAIR OF SHOES",
+      "step2": "PLACE SHOES IN FRONT OF YOU & SIT",
+      "step3": "ENSURE THE SHOES ARE POINTING AWAY FROM YOU",
+      "step4": "LOOSEN LACES AND PUT ON SHOES",
+      "step5": "TIE YOUR LACES"
+    },
+    "how to call someone": {
+      "title" : "HOW TO CALL SOMEONE",
+      "step0": "LOCATE YOUR PHONE",
+      "step1": "OPEN THE PHONE APP",
+      "step2": "IF YOU DO NOT HAVE CONTACT SAVED TYPE IN THE NUMBER",
+      "step3": "OTHERWISE USE CONTACTS AND CLICK THE NAME",
+      "step4": "TALK TO THE PERSON",
+      "step5": "PRESS THE RED BUTTON TO END THE CALL ONCE DONE"
+    },
+    "how to go shopping": {
+      "title" : "GO SHOPPING",
+      "step0": "MAKE A SHOPPING LIST",
+      "step1": "DO NOT FORGET TO TAKE YOUR WALLET & A BAG",
+      "step2": "ENTER THE STORE",
+      "step3": "USE YOUR LIST TO LOCATE THE ITEMS YOU NEED",
+      "step4": "RECHECK ITEMS WITH YOUR LIST ONCE DONE",
+      "step5": "GO TO THE CASHIER",
+      "step6": "MAKE YOUR PAYMENT",
+      "step7": "CHECK THE RECEIPT"
+    },
+    "how to take medicine": {
+      "title" : "TAKE MEDICINE",
+      "step0": "CHECK THE MEDICATION",
+      "step1": "PREPARE WATER AND MEDICINE",
+      "step2": "TAKE PILL WITH WATER",
+      "step3": "SHALLOW THE PILL BE CAREFUL TO NOT CHOKE",
+      "step4": "PUT MEDICINE BACK IN PLACE"
+    },
+    "how to use the washroom": {
+      "title" : "USE THE WASHROOM",
+      "step0": "ENTER BATHROOM, CLOSE DOOR FOR PRIVACY",
+      "step1": "TURN ON THE LIGHTS",
+      "step2": "LIFT THE SEAT IF DRAWN",
+      "step3": "LOWER YOUR PANTS DOWN",
+      "step4": "SIT ON THE TOILET AND USE IT",
+      "step5": "PULL PANTS BACK UP",
+      "step6": "FLUSH THE TOILET",
+      "step7": "WASH HANDS",
+      "step8": "DRY HANDS"
+    },
+    "how to wash your hands": {
+      "title" : "WASH YOUR HANDS",
+      "step0": "REMOVE ANY JEWELLERY",
+      "step1": "WET HANDS WITH RUNNING WATER",
+      "step2": "APPLY SOAP",
+      "step3": "WASH YOUR HANDS",
+      "step4": "WASH FOR 20 SECONDS MINIMUM",
+      "step5": "WIPE YOUR HANDS",
+      "step6": "YOUR HANDS ARE NOW CLEAN"
+    },
+    "how to meditate": {
+      "title" : "MEDITATE",
+      "step0": "FIND A QUIET SPACE",
+      "step1": "SIT COMFORTABLY & CLOSE YOUR EYES IF YOU WANT",
+      "step2": "BREATHE IN. BREATH OUT",
+      "step3": "NOTICE THOUGHTS THAT ARISE. LET THEM PASS AWAY",
+      "step4": "FOCUS ON YOUR BREATHING",
+      "step5": "WHEN THE TIME RELAX",
+      "step6": "TRY TO INCREASE YOUR TIME BY PRACTISING REGULARLY"
+    }
+  },
+
+  "mmse":
+  {
+    "instruction" : "Please pass the phone to a caregiver or medical professional to conduct the MMSE test. ",
+    "btn" : "Continue",
+    "next_btn" : "Next",
+    "score_instruction" : "Method for scoring:",
+    "question_instruction" : "Question to ask patient:",
+    "title" : "MMSE QUESTION",
+    "1": {
+      "question" : "What is the year?Season?Date?Month?Day?",
+      "score": "Each is for 1 mark, making this question for a total of 5 points."
+    },
+    "2": {
+      "question" : "Where are we now?Country?State?City/Town?Building/Hospital?Floor?",
+      "score": "Each is for 1 mark, making this question for a total of 5 points."
+    },
+    "3": {
+      "question" : "Name 3 unrelated objects slowly and carefully, ask patient to repeat. Make sure the patients learn these objects.",
+      "score": "One mark is allocated for each object they are able to repeat on first try"
+    },
+    "4": {
+      "question" : "Spell the word 'WORLD' backwards.",
+      "score": "5 points one for each letter correct."
+    },
+    "5": {
+      "question" : "Ask them to repeat the three things asked earlier in this quiz\"",
+      "score": "3 points: one for each object"
+    },
+    "6": {
+      "question" : "Point out two simple objects such as a pencil, wristwatch etc and ask patient to name them.",
+      "score": "2 points: One for each object"
+    },
+    "7": {
+      "question" : "Ask them to repeat the phrase \"No ifs, ands, or buts\"",
+      "score": "One point for complete correct phrase"
+    },
+    "8": {
+      "question" : "Instruct the patient: \"Take a paper in your write hand, fold it in in half & put it on the floor\"",
+      "score": "3 points: one for each part of the instructions"
+    },
+    "9": {
+      "question" : "Give the patient a paper that says \"Close your eyes\". Instruct them \"Please do what the paper says\"",
+      "score": "1 point for following the instruction"
+    },
+    "10": {
+      "question" : "Ask them to construct a sentence about anything",
+      "score": "1 point if the sentence has a noun and verb"
+    },
+    "11": {
+      "question" : "Draw any picture and ask them to copy",
+      "score": "1 point for a successful copy"
+    },
+    "score_title" : "MMSE TEST SCORE",
+    "score_subtitle" : "Total your score. \nRefer the table below to understand the results",
+    "score_label": "Enter your score",
+    "score_btn" : "SUBMIT"
+  },
+
+  "locations_easy":
+  {
+    "title" : "LOCATIONS",
+    "0" : {
+      "What is the capital of India?" : {
+        "question": "What is the capital of India?",
+        "option0" : "Mumbai",
+        "option1" : "Kolkata",
+        "option2" : "New Delhi",
+        "option3" : "Chennai"
+      },
+      "Where is Taj Mahal located?" : {
+        "question": "Where is Taj Mahal located?",
+        "option0" : "New Delhi",
+        "option1" : "Agra ",
+        "option2" : "Jaipur",
+        "option3" : "Lucknow"
+      },
+      "What is the function of a supermarket?" : {
+        "question": "What is the function of a supermarket?",
+        "option0" : "Watch movies ",
+        "option1" : "Deposit money",
+        "option2" : "Medical treatment",
+        "option3" : "Get groceries"
+      },
+      "Where would you go for a health check-up?" : {
+        "question": "Where would you go for a health check-up?",
+        "option0" : "school",
+        "option1" : "office",
+        "option2" : "hospital",
+        "option3" : "mall"
+      },
+      "What is the purpose of school?" : {
+        "question": "What is the purpose of school?",
+        "option0" : "Play sports",
+        "option1" : "Buy clothes",
+        "option2" : "Learn something",
+        "option3" : "Make friends"
+      }
+    },
+    "1" :
+    {
+      "which monument is known as the symbol of love?" : "which monument is known as the symbol of love?",
+      "Where do children go to receive education?" : "Where do children go to receive education?",
+      "Where is the India Gate located?" : "Where is the India Gate located?",
+      "Where can you buy fresh fruits and vegetables?" : "Where can you buy fresh fruits and vegetables?",
+      "Where is the Eiffel Tower located?" : "Where is the Eiffel Tower located?"
+    },
+    "2" :
+    {
+      "bookstore" : {
+        "question": "What is this?",
+        "option0" : "book store",
+        "option1" : "library ",
+        "option2" : "gallery",
+        "option3" : "museum "
+      },
+      "theatre" : {
+        "question": "What do we do here?",
+        "option0" : "watch a movie",
+        "option1" : "read a book",
+        "option2" : "eat dinner",
+        "option3" : "talk with friends"
+      },
+      "restaurant" : {
+        "question": "what do we do here?",
+        "option0" : "Study",
+        "option1" : "Sleep",
+        "option2" : "Eat Food",
+        "option3" : "Play Sports"
+      },
+      "classroom" : {
+        "question": "what is this?",
+        "option0" : "office",
+        "option1" : "classroom",
+        "option2" : "hospital",
+        "option3" : "conference room"
+      },
+      "library" : {
+        "question": "what do we do here?",
+        "option0" : "sell books",
+        "option1" : "buy books",
+        "option2" : "clean books",
+        "option3" : "borrow books"
+      }
+    }
+  },
+
+  "locations_hard":
+  {
+    "title" : "LOCATIONS",
+    "0" :
+    {
+      "Why would you go to a library?": {
+        "question": "Why would you go to a library?",
+        "option0": "To borrow a book",
+        "option1": "To read loudly",
+        "option2": "To watch a movie",
+        "option3": "To play boardgames"
+      },
+      "Which city is the 'pink city'?": {
+        "question": "Which city is the 'pink city'?",
+        "option0": "Mumbai",
+        "option1": "Jaipur",
+        "option2": "Udaipur",
+        "option3": "Shrinagar"
+      },
+      "Which indian city is famous for beaches?": {
+        "question": "Which indian city is famous for beaches?",
+        "option0": "Goa",
+        "option1": "Shrinagar",
+        "option2": "New Delhi",
+        "option3": "Jaipur"
+      },
+      "What is the purpose of a gym?": {
+        "question": "What is the purpose of a gym?",
+        "option0": "to play sports",
+        "option1": "to sleep",
+        "option2": "to read books",
+        "option3": "to exercise and stay fit"
+      },
+      "What is the purpose of a mall?": {
+        "question": "What is the purpose of a mall?",
+        "option0": "to play sports",
+        "option1": "to get medical help",
+        "option2": "to shop and dine",
+        "option3": "to meet new people"
+      }
+    },
+    "1" :
+    {
+      "Where would you go to purchase fresh produce directly from farmers?": "Where would you go to purchase fresh produce directly from farmers?",
+      "Where would you go to catch a movie?": "Where would you go to catch a movie?",
+      "Where would you go to admire renowned works of art?": "Where would you go to admire renowned works of art?",
+      "Where do you go to maintain your personal hygiene?": "Where do you go to maintain your personal hygiene?",
+      "Where do you go to send letters or packages?": "Where do you go to send letters or packages?"
+    },
+    "2" :
+    {
+      "farmersmarket": {
+        "question": "What is this?",
+        "option0": "supermarket",
+        "option1": "department store",
+        "option2": "bazar",
+        "option3": "mall"
+      },
+      "concerthall": {
+        "question": "What can we do here?",
+        "option0": "watch a movie",
+        "option1": "watch a play",
+        "option2": "watch tennis",
+        "option3": "eat food"
+      },
+      "artgallery": {
+        "question": "What is this?",
+        "option0": "museum",
+        "option1": "art gallery",
+        "option2": "library",
+        "option3": "bookstore"
+      },
+      "court": {
+        "question": "What do we do here?",
+        "option0": "file police complaints",
+        "option1": "solve legal disputes",
+        "option2": "watch a play",
+        "option3": "eat in a formal setting"
+      },
+      "stadium": {
+        "question": "What do we do here?",
+        "option0": "exercise",
+        "option1": "play sports",
+        "option2": "watch sports",
+        "option3": "run and dance"
+      }
+    }
+  },
+
+  "locations_intermediate":
+  {
+    "title" : "LOCATIONS",
+    "0" : {
+      "What is the capital of Rajisthan?": {
+        "question": "What is the capital of Rajasthan?",
+        "option0": "Agra",
+        "option1": "Jodhpur",
+        "option2": "Udaipur",
+        "option3": "Jaipur"
+      },
+      "What is the purpose of a post office?": {
+        "question": "What is the purpose of a post office?",
+        "option0": "get a haircut",
+        "option1": "buy clothes",
+        "option2": "get waxed",
+        "option3": "send and receive parcels"
+      },
+      "What is a place of worship?": {
+        "question": "What is a place of worship?",
+        "option0": "Principle's Office",
+        "option1": "temple",
+        "option2": "school",
+        "option3": "office"
+      },
+      "What is the purpose of a bank?": {
+        "question": "What is the purpose of a bank?",
+        "option0": "deposit and withdraw money",
+        "option1": "to make diamonds",
+        "option2": "to print money",
+        "option3": "to buy clothes"
+      },
+      "Which of the following is a wonder of the world?": {
+        "question": "Which of the following is a wonder of the world?",
+        "option0": "Lotus Temple",
+        "option1": "Agra Fort",
+        "option2": "Taj Mahal",
+        "option3": "Golden Temple"
+      }
+    },
+    "1" :
+    {
+      "Which of these is a library?": "Which of these is a library?",
+      "Where is the Red Fort located?": "Where is the Red Fort located?",
+      "Which place is commonly visited for medical treatment?": "Which place is commonly visited for medical treatment?",
+      "Which of the following is in the US?": "Which of the following is in the US?",
+      "Which of the following is in France?": "Which of the following is in France?"
+    },
+    "2" :
+    {
+      "hospital" : {
+        "question": "What is this?",
+        "option0" : "mall",
+        "option1" : "sports center",
+        "option2" : "hospital",
+        "option3" : "police station"
+      },
+      "gym" : {
+        "question": "What do we do here?",
+        "option0" : "exercise ",
+        "option1" : "sleep",
+        "option2" : "dance",
+        "option3" : "play sports"
+      },
+      "playground" : {
+        "question": "what do we do here?",
+        "option0" : "garden",
+        "option1" : "play area",
+        "option2" : "swimming pool",
+        "option3" : "amusement park"
+      },
+      "supermarket" : {
+        "question": "what is this?",
+        "option0" : "buy cds and movies",
+        "option1" : "rent books",
+        "option2" : "eat food",
+        "option3" : "buy food"
+      },
+      "trainstation" : {
+        "question": "what do we do here?",
+        "option0" : "airport",
+        "option1" : "metro",
+        "option2" : "train station",
+        "option3" : "movie set"
+      }
+    }
+  },
+
+  "daily_object_easy" :
+  {
+    "title" : "DAILY OBJECTS",
+    "0" : {
+      "What is the name of the appliance used to keep food cold?": {
+        "question": "What is the name of the appliance used to keep food cold?",
+        "option0": "oven",
+        "option1": "refrigerator",
+        "option2": "toaster",
+        "option3": "oven"
+      },
+      "What is the name of the item you use to brush your teeth?": {
+        "question": "What is the name of the item you use to brush your teeth?",
+        "option0": "hairbrush",
+        "option1": "toothbrush",
+        "option2": "comb",
+        "option3": "razor"
+      },
+      "What do you use to change the channel on the TV?": {
+        "question": "What do you use to change the channel on the TV?",
+        "option0": "remote controller",
+        "option1": "light switch",
+        "option2": "game controller",
+        "option3": "telephone"
+      },
+      "What piece of furniture do you sit on to relax?": {
+        "question": "What piece of furniture do you sit on to relax?",
+        "option0": "table",
+        "option1": "bed",
+        "option2": "sofa",
+        "option3": "chair"
+      },
+      "what do you use to cover yourself when you sleep?": {
+        "question": "What do you use to cover yourself when you sleep?",
+        "option0": "towel",
+        "option1": "pillow",
+        "option2": "blanket",
+        "option3": "rug"
+      }
+    },
+    "1" : {
+      "which of these do you write with?": "Which of these do you write with?",
+      "which of these do you eat with?": "Which of these do you eat with?",
+      "what do you wear on your feet?": "What do you wear on your feet?",
+      "what do you sit on?": "What do you sit on?",
+      "what do you use to tell time?": "What do you use to tell time?"
+    },
+    "2" : {
+      "PENS": {
+        "question": "What is this?",
+        "option0": "pencils",
+        "option1": "pens",
+        "option2": "eraser",
+        "option3": "ruler"
+      },
+      "SOAP": {
+        "question": "What is this?",
+        "option0": "shampoo",
+        "option1": "toothpaste",
+        "option2": "soap",
+        "option3": "cream"
+      },
+      "BOOKS": {
+        "question": "What is this?",
+        "option0": "flashcards",
+        "option1": "books",
+        "option2": "utensils",
+        "option3": "stamps"
+      },
+      "SHOE": {
+        "question": "What is this?",
+        "option0": "shoe",
+        "option1": "sock",
+        "option2": "soup",
+        "option3": "stocking"
+      },
+      "WALLET": {
+        "question": "What is this?",
+        "option0": "money",
+        "option1": "credit card",
+        "option2": "wallet",
+        "option3": "pouch"
+      }
+    },
+    "3" : {
+      "TOOTHBRUSH": "Where does this object go?",
+      "PILLOW": "Where does this object go?",
+      "SPOON": "Where does this object go?",
+      "BOOKS": "Where does this object go?",
+      "TOWELS": "Where does this object go?"
+    }
+  },
+
+  "daily_object_intermediate" :
+  {
+    "title" : "DAILY OBJECTS",
+    "0" : {
+      "What do you use to eat soup?": {
+      "question": "What do you use to eat soup?",
+      "option0": "fork",
+      "option1": "knife",
+      "option2": "straw",
+      "option3": "spoon"
+    },
+    "What do you use to heat water for tea or coffee?": {
+      "question": "What do you use to heat water for tea or coffee?",
+      "option0": "toaster",
+      "option1": "refrigerator",
+      "option2": "kettle",
+      "option3": "blender"
+    },
+    "What do you wear on your hands when you go outside?": {
+      "question": "What do you wear on your hands when you go outside?",
+      "option0": "gloves",
+      "option1": "hat",
+      "option2": "scarf",
+      "option3": "socks"
+    },
+    "What do you use to bake a cake?": {
+      "question": "What do you use to bake a cake?",
+      "option0": "stove",
+      "option1": "oven",
+      "option2": "microwave",
+      "option3": "fridge"
+    },
+    "What do you use to listen to music privately?": {
+      "question": "What do you use to listen to music privately?",
+      "option0": "speaker",
+      "option1": "microphone",
+      "option2": "radio",
+      "option3": "headphones"
+    }
+  },
+    "1" : {
+      "what do you use to cut food?": "what do you use to cut food?",
+      "what do you use to drink liquids out of?": "what do you use to drink liquids out of?",
+      "What do you use to clean your teeth?": "What do you use to clean your teeth?",
+      "What do you use to listen to music?": "What do you use to listen to music?",
+      "What do you use to cook food on?": "What do you use to cook food on?"
+    },
+    "2" : {
+      "PLATES": {
+        "question": "What is this?",
+        "option0": "bowls",
+        "option1": "pleats",
+        "option2": "plates",
+        "option3": "blades"
+      },
+      "KEYS": {
+        "question": "What is this?",
+        "option0": "knees",
+        "option1": "keys",
+        "option2": "cases",
+        "option3": "locks"
+      },
+      "BED": {
+        "question": "What is this?",
+        "option0": "bead",
+        "option1": "bed",
+        "option2": "bedsheet",
+        "option3": "sofa"
+      },
+      "TOWELS": {
+        "question": "What is this?",
+        "option0": "tools",
+        "option1": "wetwipes",
+        "option2": "clothes",
+        "option3": "towels"
+      },
+      "LAMP": {
+        "question": "Identify this object that lights up the room?",
+        "option0": "candlestick",
+        "option1": "lamp",
+        "option2": "flashlight",
+        "option3": "light bulb"
+      }
+    },
+    "3" : {
+      "KITCHEN": "which object belongs here?",
+      "SHAMPOO": "where does this go?",
+      "BATHROOM": "which object belongs here?",
+      "COFFEEMUG": "where does this go?",
+      "BEDROOM": "what belongs here?"
+    }
+  },
+
+  "daily_object_hard" :
+  {
+    "title" : "DAILY OBJECTS",
+    "0" : {
+      "What do you use to measure body temperature?": {
+        "question": "What do you use to measure body temperature?",
+        "option0": "barometer",
+        "option1": "thermometer",
+        "option2": "hydrometer",
+        "option3": "altimeter"
+      },
+      "What do you use to charge your phone?": {
+        "question": "What do you use to charge your phone?",
+        "option0": "adapter",
+        "option1": "charger",
+        "option2": "inverter",
+        "option3": "converter"
+      },
+      "What do you use to dry your hair?": {
+        "question": "What do you use to dry your hair?",
+        "option0": "heater",
+        "option1": "fan",
+        "option2": "hair-dryer",
+        "option3": "towel"
+      },
+      "what do you use to keep your keys organised?": {
+        "question": "What do you use to keep your keys organised?",
+        "option0": "keychain",
+        "option1": "hook",
+        "option2": "ring",
+        "option3": "diary"
+      },
+      "what do you use to tie your shoes?": {
+        "question": "What do you use to tie your shoes?",
+        "option0": "velcro",
+        "option1": "laces",
+        "option2": "buckles",
+        "option3": "buttons"
+      }
+    },
+    "1" : {
+      "What do you use to carry groceries home from the store?": "What do you use to carry groceries home from the store?",
+      "hat do you use to open a locked door?": "What do you use to open a locked door?",
+      "What bedding item keeps you warm while you sleep?": "What bedding item keeps you warm while you sleep?",
+      "What electronic device allows you to capture and store images only?": "What electronic device allows you to capture and store images only?",
+      "Which handheld tool is to remove wrinkles from your clothes?": "Which handheld tool is to remove wrinkles from your clothes?"
+    },
+    "2" : {
+      "THERMOMETER": {
+        "question": "What is the function of this object?",
+        "option0": "used for navigation",
+        "option1": "creates a flame",
+        "option2": "measures temperature",
+        "option3": "checks if something is flat"
+      },
+      "MICROWAVE": {
+        "question": "What is the function of this object?",
+        "option0": "heats up food quickly",
+        "option1": "toasts bread",
+        "option2": "brews coffee",
+        "option3": "bakes cake"
+      },
+      "STAPLER": {
+        "question": "What is the function of this object?",
+        "option0": "cuts paper",
+        "option1": "fastens paper together",
+        "option2": "writes on paper",
+        "option3": "sticks paper"
+      },
+      "ROLLINGPIN": {
+        "question": "What is the function of this object?",
+        "option0": "cut dough",
+        "option1": "measures flour",
+        "option2": "mixes batter",
+        "option3": "flattens dough"
+      },
+      "CALCULATOR": {
+        "question": "What is the function of this object?",
+        "option0": "writes notes",
+        "option1": "reads books",
+        "option2": "carries out math",
+        "option3": "makes phone calls"
+      }
+    },
+    "3" : {
+      "PLANT": "where does this belong?",
+      "DIYA": "Where does this go?",
+      "LIVINGROOM": "what goes here?",
+      "PRESSURECOOKER": "where does this go?",
+      "CLOTHES": "where does this go?"
+    }
+  },
+
+  "fruits_and_veggies_easy" :
+  {
+    "title" : "FRUITS & VEGGIES",
+    "0" : {
+      "What fruit is red, round, and sweet?": {
+        "question": "What fruit is red, round, and sweet?",
+        "option0": "apple",
+        "option1": "banana",
+        "option2": "orange",
+        "option3": "pineapple"
+      },
+      "What vegetable is orange and grows underground?": {
+        "question": "What vegetable is orange and grows underground?",
+        "option0": "carrot",
+        "option1": "potato",
+        "option2": "tomato",
+        "option3": "onion"
+      },
+      "What fruit has yellow skin and a white, fluffy center?": {
+        "question": "What fruit has yellow skin and a white, fluffy center?",
+        "option0": "mango",
+        "option1": "pear",
+        "option2": "peach",
+        "option3": "banana"
+      },
+      "What green vegetable has leaves you can eat?": {
+        "question": "What green vegetable has leaves you can eat?",
+        "option0": "broccoli",
+        "option1": "spinach",
+        "option2": "peas",
+        "option3": "lettuce"
+      },
+      "I'm a bright red fruit that grows on a vine; I'm juicy and sweet! What am I?": {
+        "question": "I'm a bright red fruit that grows on a vine. I'm juicy and sweet! What am I?",
+        "option0": "apple",
+        "option1": "strawberry",
+        "option2": "potato",
+        "option3": "broccoli"
+      }
+    },
+    "1" : {
+      "Which is a strawberry?": "Which is a strawberry?",
+      "which is a carrot?": "Which is a carrot?",
+      "which of these is not a tropical fruit ?": "Which of these is not a tropical fruit ?",
+      "which is a raspberry?": "Which is a raspberry?",
+      "which is a mango?": "Which is a mango?"
+    },
+    "2" : {
+      "BANANA": {
+        "question": "Which fruit is this?",
+        "option0": "apple",
+        "option1": "orange",
+        "option2": "grape",
+        "option3": "banana"
+      },
+      "CARROT": {
+        "question": "Which vegetable is this?",
+        "option0": "tomato",
+        "option1": "potato",
+        "option2": "onion",
+        "option3": "carrot"
+      },
+      "STRAWBERRY": {
+        "question": "Which fruit is this?",
+        "option0": "strawberry",
+        "option1": "raspberry",
+        "option2": "cherry",
+        "option3": "blackberry"
+      },
+      "KIWI": {
+        "question": "Which fruit is this?",
+        "option0": "dragonfruit",
+        "option1": "coconut",
+        "option2": "kiwi",
+        "option3": "pineapple"
+      },
+      "CAULIFLOWER": {
+        "question": "Which vegetable is this?",
+        "option0": "broccoli",
+        "option1": "cabbage",
+        "option2": "cauliflower",
+        "option3": "waterchestnut"
+      }
+    },
+    "3" : {
+      "PUMPKIN": "which season does this fruit come in?",
+      "GRAPE": "which season does this fruit come in?",
+      "COCONUT": "where will this grow?",
+      "BELLPEPPER": "What other color can this come in?",
+      "UNRIPEBANANA": "What color is this fruit when ripe?"
+    }
+  },
+
+  "fruits_and_veggies_intermediate" :
+  {
+    "title" : "FRUITS & VEGGIES",
+    "0" : {
+      "What long, green vegetable is good for salads?": {
+        "question": "What long, green vegetable is good for salads?",
+        "option0": "zucchini",
+        "option1": "asparagus",
+        "option2": "cucumber",
+        "option3": "broccoli"
+      },
+      "This orange vegetable grows underground; What am I?": {
+        "question": "This orange vegetable grows underground. What am I?",
+        "option0": "orange",
+        "option1": "kiwi",
+        "option2": "carrot",
+        "option3": "spinach"
+      },
+      "This orange citrus fruit is round and juicy;What am I?": {
+        "question": "This orange citrus fruit is round and juicy. What am I?",
+        "option0": "Mango",
+        "option1": "grapefruit",
+        "option2": "banana",
+        "option3": "orange"
+      },
+      "I'm a brown vegetable that grows underground; What am I?": {
+        "question": "I'm a brown vegetable that grows underground. What am I?",
+        "option0": "potato",
+        "option1": "onion",
+        "option2": "carrot",
+        "option3": "beetroot"
+      },
+      " I'm a yellow tropical fruit with a tough outer skin and a sweet, tangy flesh inside; What am I?": {
+        "question": "I'm a yellow tropical fruit with a tough outer skin and a sweet, tangy flesh inside. What am I?",
+        "option0": "banana",
+        "option1": "papaya",
+        "option2": "pineapple",
+        "option3": "spinach"
+      }
+    },
+    "1" : {
+      "I make people cry, Jains don't eat me; What am I? ": "I make people cry, Jains don't eat me. What am I?",
+      "I'm the national fruit of India; What am I?": "I'm the national fruit of India. What am I?",
+      "I can be mashed, baked, or fried; What am I?": "I can be mashed, baked, or fried. What am I?",
+      "This is often mistaken for a vegetable in culinary contexts; What is it?": "This is often mistaken for a vegetable in culinary contexts. What is it?",
+      " Which fruit is famously used to make wine?": "Which fruit is famously used to make wine?"
+    },
+    "2" : {
+      "ASPARAGUS": {
+        "question": "Which vegetable is this?",
+        "option0": "celery",
+        "option1": "spinach",
+        "option2": "snow pea",
+        "option3": "asparagus"
+      },
+      "ZUCHINI": {
+        "question": "Which vegetable is this?",
+        "option0": "celery",
+        "option1": "zucchini",
+        "option2": "asparagus",
+        "option3": "snow pea"
+      },
+      "FIG": {
+        "question": "Which fruit is this?",
+        "option0": "fig",
+        "option1": "date",
+        "option2": "prune",
+        "option3": "apricot"
+      },
+      "LADYFINGER": {
+        "question": "What is this?",
+        "option0": "lady finger",
+        "option1": "bottle-guard",
+        "option2": "bell pepper",
+        "option3": "asparagus"
+      },
+      "POMEGRANATE": {
+        "question": "Which fruit is this?",
+        "option0": "passion-fruit",
+        "option1": "pomegranate",
+        "option2": "pomona",
+        "option3": "pear"
+      }
+    },
+    "3" : {
+      "BANANA": "What color is this fruit when unripe?",
+      "GRAPE": "which other color does this fruit come in?",
+      "WATERMELON": "What color is this fruit from inside?",
+      "BELLPEPPER": "which group does this belong to?",
+      "SWEETPOTATO": "which group does this belong to?"
+    }
+  },
+
+  "fruits_and_veggies_hard" :
+  {
+    "title" : "FRUITS & VEGGIES",
+    "0" : {
+      "I'm a tropical fruit with a tough, brown outer shell; What am I?": {
+        "question": "I'm a tropical fruit with a tough, brown outer shell. What am I?",
+        "option0": "avocado",
+        "option1": "papaya",
+        "option2": "coconut",
+        "option3": "pineapple"
+      },
+      "I'm a bright red, heart-shaped fruit with a sweet, tangy flavor; Am I": {
+        "question": "I'm a bright red, heart-shaped fruit with a sweet, tangy flavor. Am I?",
+        "option0": "berry",
+        "option1": "citrus fruit",
+        "option2": "tropical fruit",
+        "option3": "stone fruit"
+      },
+      "I'm a small, red fruit that grows in clusters; You might find me on top of a cake! Am I:": {
+        "question": "I'm a small, red fruit that grows in clusters. You might find me on top of a cake! Am I?",
+        "option0": "strawberry",
+        "option1": "cranberry",
+        "option2": "raspberry",
+        "option3": "cherry"
+      },
+      "I'm a bright yellow citrus fruit with a bumpy skin and a sour, acidic juice;": {
+        "question": "I'm a bright yellow citrus fruit with a bumpy skin and a sour, acidic juice. What am I?",
+        "option0": "lime",
+        "option1": "lemon",
+        "option2": "raspberry",
+        "option3": "yuzu"
+      },
+      "I come in many colors, like purple, orange, and white with a starchy flavor; Am I:": {
+        "question": "I come in many colors, like purple, orange, and white with a starchy flavor. Am I?",
+        "option0": "beetroot",
+        "option1": "carrot",
+        "option2": "potato",
+        "option3": "turnip"
+      }
+    },
+    "1" : {
+      "which is not a berry?": "Which is not a berry?",
+      "which of these is not a veggie?": "Which of these is not a veggie?",
+      "This vegetable is known for its association with rabbits; What is it?": "This vegetable is known for its association with rabbits. What is it?",
+      "This fruit has a name that is also the name of a bird; What is it?": "This fruit has a name that is also the name of a bird. What is it?",
+      "which is not a root vegetable?": "Which is not a root vegetable?"
+    },
+    "2" : {
+      "AVACADO": {
+        "question": "Which fruit is this?",
+        "option0": "avocado",
+        "option1": "avacado",
+        "option2": "avokato",
+        "option3": "asparagus"
+      },
+      "PINEAPPLE": {
+        "question": "Which fruit is this?",
+        "option0": "pinapple",
+        "option1": "papaya",
+        "option2": "pineapple",
+        "option3": "papya"
+      },
+      "COCONUT": {
+        "question": "What type of fruit is this?",
+        "option0": "citrus",
+        "option1": "stone",
+        "option2": "vegetable",
+        "option3": "tropical"
+      },
+      "STRAWBERRY": {
+        "question": "Which season does this fruit come in?",
+        "option0": "summer",
+        "option1": "fall",
+        "option2": "monsoon",
+        "option3": "winter"
+      },
+      "MANGO": {
+        "question": "Which season does this fruit come in?",
+        "option0": "summer",
+        "option1": "fall",
+        "option2": "monsoon",
+        "option3": "winter"
+      }
+    },
+    "3" : {
+      "TOMATO": "which group does this belong to?",
+      "AVACADO": "which group does this belong to?",
+      "PUMPKIN": "which group does this belong to?",
+      "RAJMA": "which group does this belong to?",
+      "PEAS": "which group does this belong to?"
+    }
+  },
+
+  "common_sounds_easy" :
+  {
+    "title" : "Common Sounds",
+    "4" : {
+      "COW" : {
+        "question" : "What is this sound?",
+        "option0": "dog barking",
+        "option1": "chicken clucking",
+        "option2": "cow mooing",
+        "option3": "peacock sounds"
+      },
+      "KEYBOARD" : {
+        "question" : "What is this sound?",
+        "option0": "someone typing",
+        "option1": "microwave",
+        "option2": "water bottle",
+        "option3": "rain"
+      },
+      "LEAVES" : {
+        "question" : "What is this sound?",
+        "option0": "leaves rustling",
+        "option1": "wind blowing",
+        "option2": "paper turning",
+        "option3": "paper crumbling"
+      },
+      "SNORING" : {
+        "question" : "What is this sound?",
+        "option0": "someone sneezing",
+        "option1": "someone shouting",
+        "option2": "someone coughing",
+        "option3": "someone snoring"
+      },
+      "LAUGH" : {
+        "question" : "What is this sound?",
+        "option0": "crying",
+        "option1": "laughter",
+        "option2": "sneezing",
+        "option3": "coughing"
+      }
+    },
+    "5" : {
+      "What everyday sound do you hear when someone arrives at your door? ": "What everyday sound do you hear when someone arrives at your door? ",
+      "Identify the sound of a phone ringing" : "Identify the sound of a phone ringing",
+      "Which sound represents a car horn?": "Which sound represents a car horn?",
+      "Which sound is rain?" : "Which sound is rain?",
+      "Identify the sound of a dog barking" : "Identify the sound of a dog barking"
+    }
+  },
+
+  "common_sounds_intermediate" :
+  {
+    "title" : "Common Sounds",
+    "4" : {
+      "GIGGLING" : {
+        "question" : "What is this sound?",
+        "option0": "someone laughing",
+        "option1": "evil laughter",
+        "option2": "giggles",
+        "option3": "sneezes"
+      },
+      "PING_PONG" : {
+        "question" : "What is this sound?",
+        "option0": "badminton",
+        "option1": "ping pong",
+        "option2": "skating",
+        "option3": "cricket"
+      },
+      "HAMMER" : {
+        "question" : "What is this sound?",
+        "option0": "screw turning",
+        "option1": "paper turning",
+        "option2": "hammer hitting nail",
+        "option3": "barking"
+      },
+      "CAR_ENGINE" : {
+        "question" : "What is this sound?",
+        "option0": "car horn",
+        "option1": "siren",
+        "option2": "car engine starting",
+        "option3": "traffic"
+      },
+      "CHEWING" : {
+        "question" : "What is this sound?",
+        "option0": "chewing",
+        "option1": "spitting",
+        "option2": "vomiting",
+        "option3": "laughing"
+      }
+    },
+    "5" : {
+      "Which sound is clapping hands?": "Which sound is clapping hands?",
+      "Identify the sound of a door closing;" : "Identify the sound of a door closing.",
+      "Which sound represents a cat meowing?": "Which sound represents a cat meowing?",
+      "Identify thunder " : "Identify thunder ",
+      "Identify the sound of footsteps;" : "Identify the sound of footsteps."
+    }
+  },
+
+  "common_sounds_hard" :
+  {
+    "title" : "Common Sounds",
+    "4" : {
+      "CAMERA_SHUTTER" : {
+        "question" : "What does this sound indicate?",
+        "option0": "a phone stopped working",
+        "option1": "a shop is closed",
+        "option2": "it's night time",
+        "option3": "a picture has been taken"
+      },
+      "KNOCKING" : {
+        "question" : "What does this sound indicate?",
+        "option0": "someone is angry",
+        "option1": "a new place has opened",
+        "option2": "for good luck",
+        "option3": "someone is at the door"
+      },
+      "PHONE_OUTGOING" : {
+        "question" : "What does this sound indicate?",
+        "option0": "the phone is ringing",
+        "option1": "you are calling someone",
+        "option2": "phone is out of reach",
+        "option3": "you are on hold"
+      },
+      "TOILET_FLUSHING" : {
+        "question" : "What does this sound indicate?",
+        "option0": "ocean water is forming waves",
+        "option1": "rain is falling",
+        "option2": "the toilet is flushed",
+        "option3": "the sink is running"
+      },
+      "TWINKLE_TWINKLE" : {
+        "question" : "What does this sound indicate?",
+        "option0": "a popular nursery rhyme",
+        "option1": "a Bollywood tune",
+        "option2": "a random song",
+        "option3": "the 'ABCD' song"
+      }
+    },
+    "5" : {
+      "what does a baby crying sound like?": "what does a baby crying sound like?",
+      "Identify the sound of a door creeking?" : "Identify the sound of a door creeking?",
+      "Identify the song happy birthday ": "Identify the song happy birthday ",
+      "Which sond is the crumpling of paper?" : "Which sond is the crumpling of paper?",
+      "which is a sneeze?" : "which is a sneeze?"
+    }
+  },
+
+  "common_sounds" :
+  {
+    "sound_1" : "Click for audio 1",
+    "sound_2" : "Click for audio 2",
+    "sound_3" : "Click for audio 3",
+    "sound_4" : "Click for audio 4"
+  },
+
+  "festivals_easy" :
+  {
+    "title" : "Festivals",
+    "0" : {
+      "What is the festival of lights?": {
+        "question": "What is the festival of lights?",
+        "option0": "Diwali",
+        "option1": "Holi",
+        "option2": "Ganesh Chachurti",
+        "option3": "Thanksgiving"
+      },
+      "What is the festival of color?": {
+        "question": "What is the festival of color?",
+        "option0": "Diwali",
+        "option1": "Holi",
+        "option2": "Ganesh Chachurti",
+        "option3": "Thanksgiving"
+      },
+      "When do we light diays?": {
+        "question": "When do we light diyas?",
+        "option0": "Diwali",
+        "option1": "Holi",
+        "option2": "Ganesh Chachurti",
+        "option3": "Thanksgiving"
+      },
+      "When do we use maximum water?": {
+        "question": "When do we use maximum water?",
+        "option0": "Diwali",
+        "option1": "Holi",
+        "option2": "Ganesh Chachurti",
+        "option3": "Thanksgiving"
+      },
+      "When do we decorate a tree?": {
+        "question": "When do we decorate a tree?",
+        "option0": "Diwali",
+        "option1": "Holi",
+        "option2": "Ganesh Chachurti",
+        "option3": "Thanksgiving"
+      }
+    },
+    "1" : {
+      "Which of the following is used in diwali celebration?": "Which of the following is used in Diwali celebration?",
+      "Which of the following is used in navratri celebration?": "Which of the following is used in Navratri celebration?",
+      "Which of the following is used in rakshabandhan celebration?": "Which of the following is used in Rakshabandhan celebration?",
+      "Which of the following is used in makar sankranti celebration?": "Which of the following is used in Makar Sankranti celebration?",
+      "Which of these is Holi?": "Which of these is Holi?"
+    },
+    "2" : {
+      "HOLI": {
+        "question": "What is this festival?",
+        "option0": "holi",
+        "option1": "diwali",
+        "option2": "rakhi",
+        "option3": "christmas"
+      },
+      "EASTER": {
+        "question": "What is this festival?",
+        "option0": "christmas",
+        "option1": "good friday",
+        "option2": "easter",
+        "option3": "new year"
+      },
+      "EID": {
+        "question": "What is this festival?",
+        "option0": "diwali",
+        "option1": "christmas",
+        "option2": "new year",
+        "option3": "eid"
+      },
+      "RAKHI": {
+        "question": "what is this?",
+        "option0": "rakhi",
+        "option1": "dandiya",
+        "option2": "friendship band",
+        "option3": "hair band"
+      },
+      "FRIENDSHIPBAND": {
+        "question": "what is this?",
+        "option0": "braclet",
+        "option1": "rakhi",
+        "option2": "friendship band",
+        "option3": "hair band"
+      }
+    },
+    "3" : {
+      "EASTER": "What is used in this festival?",
+      "HOLI": "What is used in this festival?",
+      "NAVRATRI": "What is used in this festival?",
+      "RAKSHABANDAN": "What is used in this festival?",
+      "DIWALI": "What is used in this festival?"
+    }
+  },
+
+  "festivals_intermediate" :
+  {
+    "title" : "Festivals",
+    "0" : {
+      "When do we make rangolis?": {
+        "question": "When do we make rangolis?",
+        "option0": "Diwali",
+        "option1": "Christmas",
+        "option2": "Holi",
+        "option3": "Thanksgiving"
+      },
+      "When do we burst fire crackers?": {
+        "question": "When do we burst fire crackers?",
+        "option0": "Christmas",
+        "option1": "Holi",
+        "option2": "Diwali",
+        "option3": "Thanksgiving"
+      },
+      "During which festival do Christians celebrate the birth of Jesus Christ?": {
+        "question": "During which festival do Christians celebrate the birth of Jesus Christ?",
+        "option0": "Holi",
+        "option1": "Easter",
+        "option2": "Thanksgiving",
+        "option3": "Christmas"
+      },
+      "In which festival do Hindus worship the goddess Durga?": {
+        "question": "In which festival do Hindus worship the goddess Durga?",
+        "option0": "Dusshera",
+        "option1": "Navratri",
+        "option2": "Diwali",
+        "option3": "Holi"
+      },
+      "Which Hindu festival celebrates the birth anniversary of Lord Krishna?": {
+        "question": "Which Hindu festival celebrates the birth anniversary of Lord Krishna?",
+        "option0": "raksha bandhan",
+        "option1": "holi",
+        "option2": "janmashtami",
+        "option3": "Dusshera"
+      }
+    },
+    "1" : {
+      "Which of these is Diwali?": "Which of these is Diwali?",
+      "which of these is christmas?": "which of these is christmas?",
+      "Which of these is navratri?": "Which of these is navratri?",
+      "Which of these is rakshabandan?": "Which of these is rakshabandan?",
+      "Which of these is easter?": "Which of these is easter?"
+    },
+    "2" : {
+      "CHRISTMAS": {
+        "question": "What is this festival?",
+        "option0": "good friday",
+        "option1": "christmas",
+        "option2": "easter",
+        "option3": "rakhi"
+      },
+      "GANESHCHACHURTI": {
+        "question": "What is this festival?",
+        "option0": "Ganesh Chachurti ",
+        "option1": "christmas",
+        "option2": "diwali",
+        "option3": "holi"
+      },
+      "EASTEREGGS": {
+        "question": "what is this?",
+        "option0": "Christmas sweets ",
+        "option1": "Thanksgiving treats",
+        "option2": "Easter eggs ",
+        "option3": "Stone art "
+      },
+      "WREATH": {
+        "question": "what is this?",
+        "option0": "stockings ",
+        "option1": "mistletoe",
+        "option2": "wreath",
+        "option3": "diya"
+      },
+      "KITE": {
+        "question": "what is this?",
+        "option0": "rakhi",
+        "option1": "kite",
+        "option2": "keet",
+        "option3": "sheet"
+      }
+    },
+    "3" : {
+      "EASTEREGGS": "Which festival is this used in?",
+      "COLOR": "Which festival is this used in?",
+      "RAKHI": "Which festival is this used in?",
+      "RANGOLI": "Which festival is this used in?",
+      "CHRISTMASTREE": "Which festival is this used in?"
+    }
+  },
+
+  "festivals_hard" :
+  {
+    "title" : "Festivals",
+    "0" : {
+      "In which Christian festival do people find hidden eggs?": {
+        "question": "In which Christian festival do people find hidden eggs?",
+        "option0": "Easter",
+        "option1": "Thanksgiving",
+        "option2": "Christmas",
+        "option3": "Good Friday"
+      },
+      "During which Muslim festival do pilgrims perform the annual pilgrimage to Mecca?": {
+        "question": "During which Muslim festival do pilgrims perform the annual pilgrimage to Mecca?",
+        "option0": "Ramadan",
+        "option1": "Hajj",
+        "option2": "Mawlid al-Nabi",
+        "option3": "Eid al-Fitr"
+      },
+      "During which Hindu festival do sisters tie a protective thread around their brothers' wrists": {
+        "question": "During which Hindu festival do sisters tie a protective thread around their brothers' wrists",
+        "option0": "janmashtami",
+        "option1": "holi",
+        "option2": "Navratri",
+        "option3": "raksha bandhan"
+      },
+      "Which hindu festival is 9 consecutoive days?": {
+        "question": "Which hindu festival is 9 consecutive days?",
+        "option0": "Diwali",
+        "option1": "Dusshera",
+        "option2": "Navratri",
+        "option3": "raksha bandhan"
+      },
+      "What is a jain festival ?": {
+        "question": "What is a jain festival?",
+        "option0": "Easter",
+        "option1": "Good Friday",
+        "option2": "Mawlid al-Nabi",
+        "option3": "Pajushan"
+      }
+    },
+    "1" : {
+      "Which of these is lohri?": "Which of these is lohri?",
+      "Which of these is makar sanranti?": "Which of these is makar sanranti?",
+      "which of these is not used during christmas?": "which of these is not used during christmas?",
+      "which of these is not used during diwali?": "which of these is not used during diwali?",
+      "which of these depicts a muslim festival?": "which of these depicts a muslim festival?"
+    },
+    "2" : {
+      "DANDIYA": {
+        "question": "which festival uses this?",
+        "option0": "Navratri",
+        "option1": "Raksha Bandhan",
+        "option2": "Christmas",
+        "option3": "Eid"
+      },
+      "EASTEREGGS": {
+        "question": "which festival uses this?",
+        "option0": "Thanksgiving",
+        "option1": "Christmas",
+        "option2": "Easter",
+        "option3": "Holi"
+      },
+      "DIYA": {
+        "question": "Which god is celebrated in the festival this is used for?",
+        "option0": "Shree Ram",
+        "option1": "Krishna",
+        "option2": "Durga",
+        "option3": "Shiva"
+      },
+      "JANMASHTAMI.jpg": {
+        "question": "Which god is celebrated in the festival below?",
+        "option0": "Krishna",
+        "option1": "Ram",
+        "option2": "Shiva",
+        "option3": "Bramha"
+      },
+      "CHRISTMAS": {
+        "question": "Which day is the following festival?",
+        "option0": "26th december ",
+        "option1": "25th december ",
+        "option2": "24th January ",
+        "option3": "25th January "
+      }
+    },
+    "3" : {
+      "JANMASHTAMI": "which god is this festival in honor of?",
+      "DIWALI": "which god is this festival in honor of?",
+      "CHRISTIANITY": "which is a festival of this religion?",
+      "MUSLIM": "which is a festival of this religion?",
+      "JESUS": "Which festival commemorates his birthday?"
+    }
+  },
+
+  "shapes_and_colors_easy" :
+  {
+    "title" : "Shapes and Colors",
+    "0" : {
+      "what shape is a clock?": {
+        "question": "what shape is a clock?",
+        "option0": "circle",
+        "option1": "square",
+        "option2": "rectangle",
+        "option3": "octagon"
+      },
+      "what color is grass?": {
+        "question": "what color is grass?",
+        "option0": "blue",
+        "option1": "purple",
+        "option2": "orange",
+        "option3": "green"
+      },
+      "how many sides does a triangle have?": {
+        "question": "how many sides does a triangle have?",
+        "option0": "six",
+        "option1": "three",
+        "option2": "none",
+        "option3": "four"
+      },
+      "what color is a clean typical sea?": {
+        "question": "what color is a clean typical sea?",
+        "option0": "green",
+        "option1": "pink",
+        "option2": "blue",
+        "option3": "grey"
+      },
+      "what color is snow?": {
+        "question": "what color is snow?",
+        "option0": "black",
+        "option1": "grey",
+        "option2": "brown",
+        "option3": "white"
+      }
+    },
+    "1" : {
+      "which of these is a circle?": "which of these is a circle?",
+      "which of these is a square?": "which of these is a square?",
+      "what color is grass?": "what color is grass?",
+      "which of these is a triangle?": "which of these is a triangle?",
+      "what color is the sea?": "what color is the sea?"
+    },
+    "2" : {
+      "PINKHEART": {
+        "question": "Describe this image",
+        "option0": "purple heart",
+        "option1": "red diamond",
+        "option2": "pink heart",
+        "option3": "yellow star"
+      },
+      "BLACK": {
+        "question": "What color is this?",
+        "option0": "grey",
+        "option1": "brown",
+        "option2": "black",
+        "option3": "yellow"
+      },
+      "CIRCLE": {
+        "question": "What shape is this?",
+        "option0": "square",
+        "option1": "triangle",
+        "option2": "rectangle",
+        "option3": "circle"
+      },
+      "LIMEGREEN": {
+        "question": "What color is this?",
+        "option0": "green",
+        "option1": "blue",
+        "option2": "orange",
+        "option3": "pink"
+      },
+      "TRIANGLE": {
+        "question": "What shape is this?",
+        "option0": "square",
+        "option1": "triangle",
+        "option2": "circle",
+        "option3": "rectangle"
+      }
+    },
+    "3" : {
+      "CIRCLE": "What is half of this?",
+      "CIRCLE": "What is quarter of this?",
+      "TRIANGLE": "what is this upside down?",
+      "GRASS": "What is the color of this object?",
+      "APPLEDRAW": "What is the color of this object?"
+    }
+  },
+
+  "shapes_and_colors_intermediate" :
+  {
+    "title" : "Shapes and Colors",
+    "0" : {
+      "how many sides does a hexagon have?": {
+        "question": "how many sides does a hexagon have?",
+        "option0": "three",
+        "option1": "nine",
+        "option2": "five",
+        "option3": "six"
+      },
+      "what color is the moon?": {
+        "question": "what color is the moon?",
+        "option0": "white",
+        "option1": "silver/grey",
+        "option2": "beige",
+        "option3": "gold"
+      },
+      "what color is blood?": {
+        "question": "what color is blood?",
+        "option0": "pink",
+        "option1": "red",
+        "option2": "blue",
+        "option3": "black"
+      },
+      "what color is chocolate?": {
+        "question": "what color is chocolate?",
+        "option0": "black",
+        "option1": "white",
+        "option2": "brown",
+        "option3": "red"
+      },
+      "how many sides in a pentagon?": {
+        "question": "how many sides in a pentagon?",
+        "option0": "ten",
+        "option1": "four",
+        "option2": "five",
+        "option3": "eight"
+      }
+    },
+    "1" : {
+      "What Shape is an Octagon?": "What Shape is an Octagon?",
+      "What shape is an oval?": "What shape is an oval?",
+      "What color is lavender?": "What color is lavender?",
+      "What color is magenta?": "What color is magenta?",
+      "what color is a parrot?": "what color is a parrot?"
+    },
+    "2" : {
+      "OCTAGON": {
+        "question": "What shape is this?",
+        "option0": "decagon",
+        "option1": "5 sided polygon",
+        "option2": "7 sided polygon",
+        "option3": "octagon"
+      },
+      "GOLD": {
+        "question": "What color is this?",
+        "option0": "silver",
+        "option1": "cream",
+        "option2": "gold",
+        "option3": "grey"
+      },
+      "DECAGON": {
+        "question": "What shape is this?",
+        "option0": "10 sided polygon",
+        "option1": "pentagon",
+        "option2": "12 sided polygon",
+        "option3": "hexagon"
+      },
+      "LAVENDER": {
+        "question": "What color is this?",
+        "option0": "hazel",
+        "option1": "lavender",
+        "option2": "opal",
+        "option3": "saphire"
+      },
+      "OVAL": {
+        "question": "What shape is this?",
+        "option0": "circle",
+        "option1": "oval",
+        "option2": "quarter",
+        "option3": "semicircle"
+      }
+    },
+    "3" : {
+      "PENTAGON": "What is this shape with double the edge?",
+      "OCTAGON": "What is this shape with two more edge?",
+      "PUMPKINDRAW": "What is the color of this fruit?",
+      "BANANADRAW": "What is the color of this fruit?",
+      "WAVE": "What is the color of this?"
+    }
+  },
+
+  "shapes_and_colors_hard" :
+  {
+    "title" : "Shapes and Colors",
+    "0" : {
+      "what color is chlorophyll?": {
+        "question": "what color is chlorophyll?",
+        "option0": "blue",
+        "option1": "orange",
+        "option2": "green",
+        "option3": "purple"
+      },
+      "what is a semicircle?": {
+        "question": "what is a semicircle?",
+        "option0": "half a circle",
+        "option1": "1/4th circle",
+        "option2": "3/4th circle",
+        "option3": "two circles"
+      },
+      "how many sides in a decagon?": {
+        "question": "how many sides in a decagon?",
+        "option0": "twenty",
+        "option1": "ten",
+        "option2": "seven",
+        "option3": "five"
+      },
+      "what color is a ruby?": {
+        "question": "what color is a ruby?",
+        "option0": "white",
+        "option1": "silver/grey",
+        "option2": "purple",
+        "option3": "red"
+      },
+      "what color is turmeric?": {
+        "question": "what color is turmeric?",
+        "option0": "yellow",
+        "option1": "orange",
+        "option2": "grey",
+        "option3": "red"
+      }
+    },
+    "1" : {
+      "which of these is a blue pentagon?": "which of these is a blue pentagon?",
+      "which of these is a green hexagon?": "which of these is a green hexagon?",
+      "which of these is a silver star?": "which of these is a silver star?",
+      "which of these is a red heart?": "which of these is a red heart?",
+      "which of these is a crescent?": "which of these is a crescent?"
+    },
+    "2" : {
+      "BLUEPENTAGON": {
+        "question": "describe this image ",
+        "option0": "orange hexagon",
+        "option1": "blue pentagon",
+        "option2": "blue hexagon",
+        "option3": "blue octagon"
+      },
+      "REDSTAR": {
+        "question": "describe this image ",
+        "option0": "pink heart",
+        "option1": "pink diamond",
+        "option2": "red star ",
+        "option3": "red diamond"
+      },
+      "SILVERDIAMOND": {
+        "question": "describe this image ",
+        "option0": "silver diamond",
+        "option1": "grey star",
+        "option2": "gold diamond",
+        "option3": "silver star"
+      },
+      "YELLOWSTAR": {
+        "question": "describe this image ",
+        "option0": "orange trapazoid",
+        "option1": "silver trapazoid",
+        "option2": "silver star",
+        "option3": "yellow star"
+      },
+      "REDHEART": {
+        "question": "describe this image ",
+        "option0": "red heart",
+        "option1": "pink diamond",
+        "option2": "red star",
+        "option3": "pink heart"
+      }
+    },
+    "3" : {
+      "OCTAGON": "What is this shape with half the edges?",
+      "RED": "Which fruit is this color?",
+      "OVAL": "Which is an elongated version of this shape?",
+      "SQUARE": "Which shape has the same no of sides as this?",
+      "CIRCLE": "Which of these is this shape in 3d?"
+    }
+  },
+
+  "signs_and_symbols_easy" :
+  {
+    "title" : "Symbols",
+    "1" : {
+      "what is the symbol for female?": "what is the symbol for female?",
+      "what is the symbol for male?": "what is the symbol for male?",
+      "what is the symbol for stop?": "what is the symbol for stop?",
+      "what is the symbol for gp?": "what is the symbol for gp?",
+      "what is the symbol for wifi?": "what is the symbol for wifi?"
+    },
+    "2" : {
+      "FEMALE": {
+        "question": "What does this symbol represent?",
+        "option0": "female",
+        "option1": "male",
+        "option2": "accessibility",
+        "option3": "child"
+      },
+      "MALE": {
+        "question": "What does this symbol represent?",
+        "option0": "female",
+        "option1": "male",
+        "option2": "accessibility",
+        "option3": "child"
+      },
+      "FIRSTAID": {
+        "question": "What does this symbol represent?",
+        "option0": "first aid",
+        "option1": "math",
+        "option2": "female",
+        "option3": "male"
+      },
+      "STOP": {
+        "question": "What does this symbol represent?",
+        "option0": "slow down",
+        "option1": "stop",
+        "option2": "go",
+        "option3": "run"
+      },
+      "TELEPHONE": {
+        "question": "What does this symbol represent?",
+        "option0": "laptop",
+        "option1": "telephone",
+        "option2": "male",
+        "option3": "math"
+      }
+    }
+  },
+
+  "signs_and_symbols_intermediate" :
+  {
+    "title" : "Symbols",
+    "1" : {
+      "what is the symbol for bluetooth?": "what is the symbol for bluetooth?",
+      "what is the symbol for telephone?": "what is the symbol for telephone?",
+      "what is the symbol for no smoking?": "what is the symbol for no smoking?",
+      "what is the symbol for wheelchair accessibility?": "what is the symbol for wheelchair accessibility?",
+      "what is the symbol for whatsapp": "what is the symbol for whatsapp?"
+    },
+    "2" : {
+      "NOSMOKING": {
+        "question": "What does this symbol represent?",
+        "option0": "smoking allowed",
+        "option1": "no drinking",
+        "option2": "no drugs",
+        "option3": "no smoking"
+      },
+      "WIFI": {
+        "question": "What does this symbol represent?",
+        "option0": "bluetooth",
+        "option1": "hotspot",
+        "option2": "wifi",
+        "option3": "smoke"
+      },
+      "PHONEAPP": {
+        "question": "What does this symbol represent?",
+        "option0": "whatsapp",
+        "option1": "call",
+        "option2": "calculator",
+        "option3": "google"
+      },
+      "REDLIGHT": {
+        "question": "What does this symbol represent?",
+        "option0": "go",
+        "option1": "stop",
+        "option2": "slow",
+        "option3": "u turn"
+      },
+      "GREENLIGHT": {
+        "question": "What does this symbol represent?",
+        "option0": "go",
+        "option1": "stop",
+        "option2": "slow",
+        "option3": "u turn"
+      }
+    }
+  },
+
+  "signs_and_symbols_hard" :
+  {
+    "title" : "Symbols",
+    "1" : {
+      "what is the symbol for information/help?": "what is the symbol for information/help?",
+      "What is the symbol for slow down?": "What is the symbol for slow down?",
+      "what is the symbol for safari?": "what is the symbol for safari?",
+      "what is the symbol for chrome?": "what is the symbol for chrome?",
+      "what is the symbol for first aid?": "what is the symbol for first aid?"
+    },
+    "2" : {
+      "BLUETOOTH": {
+        "question": "What does this symbol represent?",
+        "option0": "bluetooth",
+        "option1": "hotspot",
+        "option2": "wifi",
+        "option3": "laptop"
+      },
+      "WHEELCHAIR": {
+        "question": "What does this symbol represent?",
+        "option0": "wheelchair accessible",
+        "option1": "car accessible",
+        "option2": "no wheelchairs ",
+        "option3": "slippery"
+      },
+      "FIREEXIT": {
+        "question": "What does this symbol represent?",
+        "option0": "fire exit",
+        "option1": "water exit",
+        "option2": "normal exit",
+        "option3": "wheel chair"
+      },
+      "NOENTRY": {
+        "question": "What does this symbol represent?",
+        "option0": "enter please",
+        "option1": "no entry",
+        "option2": "be careful",
+        "option3": "slow down"
+      },
+      "INFORMATIONHELP": {
+        "question": "What does this symbol represent?",
+        "option0": "eye check",
+        "option1": "informatics",
+        "option2": "help / info desk",
+        "option3": "interested desk"
+      }
+    }
+  },
+
+  "location_360_easy": {
+    "title": "LOCATIONS 360",
+    "livingroom": {
+      "question": "Which of the following is this?",
+      "option0": "living room",
+      "option1": "bedroom",
+      "option2": "bathroom",
+      "option3": "kitchen"
+    },
+    "bedroom": {
+      "question": "Which of the following is this?",
+      "option0": "living room",
+      "option1": "bedroom",
+      "option2": "bathroom",
+      "option3": "kitchen"
+    },
+    "kitchen": {
+      "question": "Which of the following is this?",
+      "option0": "living room",
+      "option1": "bedroom",
+      "option2": "bathroom",
+      "option3": "kitchen"
+    },
+    "effiel_tower": {
+      "question": "Which monument is in this photo?",
+      "option0": "Eiffel Tower",
+      "option1": "Big Ben",
+      "option2": "Statue of Liberty",
+      "option3": "Leaning Tower"
+    },
+    "artgallery": {
+      "question": "Where is this?",
+      "option0": "museum",
+      "option1": "art gallery",
+      "option2": "library",
+      "option3": "bookstore"
+    }
+  },
+
+  "location_360_hard": {
+    "title": "LOCATIONS 360",
+    "kitchen": {
+      "question": "What do we do here?",
+      "option0": "sleep",
+      "option1": "host guests",
+      "option2": "relax",
+      "option3": "make food"
+    },
+    "bedroom": {
+      "question": "What do we do here?",
+      "option0": "sleep",
+      "option1": "host guests",
+      "option2": "relax",
+      "option3": "make food"
+    },
+    "livingroom": {
+      "question": "What do we do here?",
+      "option0": "sleep",
+      "option1": "host guests",
+      "option2": "relax",
+      "option3": "make food"
+    },
+    "stadium": {
+      "question": "What do we do here?",
+      "option0": "exercise",
+      "option1": "play sports",
+      "option2": "watch sports",
+      "option3": "run and dance"
+    },
+    "office": {
+      "question": "What do people do here?",
+      "option0": "work jobs",
+      "option1": "buy electronics",
+      "option2": "study school work",
+      "option3": "exchange books"
+    }
+  },
+
+  "location_360_intermediate":
+  {
+    "title" : "LOCATIONS 360",
+    "beach": {
+      "question": "Which of the following is this?",
+      "option0": "beach",
+      "option1": "garden",
+      "option2": "mountains",
+      "option3": "pyramid"
+    },
+    "library": {
+      "question": "Which of the following is this?",
+      "option0": "home",
+      "option1": "bookstore",
+      "option2": "office",
+      "option3": "library"
+    },
+    "bathroom": {
+      "question": "Which of the following is this?",
+      "option0": "living room",
+      "option1": "bedroom",
+      "option2": "bathroom",
+      "option3": "kitchen"
+    },
+    "mountains": {
+      "question": "Where is this?",
+      "option0": "mountains",
+      "option1": "beach",
+      "option2": "forest",
+      "option3": "dessert"
+    },
+    "forest": {
+      "question": "Where is this?",
+      "option0": "mountains",
+      "option1": "beach",
+      "option2": "forest",
+      "option3": "dessert"
+    }
+  },
+
+  "360" :
+  {
+    "btn" : "SUBMIT",
+    "back_btn" : "Click arrow to go back"
+  },
+
+  "languages_easy" :
+  {
+    "title" : "LANGUAGES",
+    "instruction" : "Say the following words:",
+    "How are you?" : {
+      "display" : "How are you?",
+      "check" : "How are you?"
+    },
+    "The cat is on the mat" : {
+      "display" : "The cat is on the mat.",
+      "check" : "The cat is on the mat"
+    },
+    "Where is the ball?" : {
+      "display" : "Where is the ball?",
+      "check" : "Where is the ball?"
+    },
+    "Please open the door" : {
+      "display" : "Please open the door",
+      "check" : "Please open the door"
+    },
+    "Thank you for all your help" : {
+      "display" : "Thank you for all your help.",
+      "check" : "Thank you for all your help"
+    },
+    "I am hungry" : {
+      "display" : "I am hungry",
+      "check" : "I am hungry"
+    },
+    "The cat is sitting on the chair" : {
+      "display" : "The cat is sitting on the chair.",
+      "check" : "The cat is sitting on the chair"
+    },
+    "It is raining outside" : {
+      "display" : "It is raining outside.",
+      "check" : "It is raining outside"
+    },
+    "I see a red car" : {
+      "display" : "I see a red car.",
+      "check" : "I see a red car"
+    },
+    "Please remember to bring your umbrella" : {
+      "display" : "Please remember to bring your umbrella.",
+      "check" : "Please remember to bring your umbrella"
+    }
+  },
+
+  "languages_intermediate" :
+  {
+    "title" : "LANGUAGES",
+    "instruction" : "Say the following words:",
+    "The children are playing outside" : {
+      "display": "The children are playing outside.",
+      "check": "The children are playing outside"
+    },
+    "I am going to the grocery store to buy milk and bread" : {
+      "display": "I am going to the grocery store to buy milk and bread.",
+      "check": "I am going to the grocery store to buy milk and bread"
+    },
+    "The weather forecast says it will rain tomorrow" : {
+      "display": "The weather forecast says it will rain tomorrow.",
+      "check": "The weather forecast says it will rain tomorrow"
+    },
+    "The weather forecast says it will rain tomorrow" : {
+      "display": "The weather forecast says it will rain tomorrow.",
+      "check": "The weather forecast says it will rain tomorrow"
+    },
+    "She is a talented pianist who plays classical music" : {
+      "display": "She is a talented pianist who plays classical music.",
+      "check": "She is a talented pianist who plays classical music"
+    },
+    "The restaurant serves tasty burgers and fries" : {
+      "display": "The restaurant serves tasty burgers and fries.",
+      "check": "The restaurant serves tasty burgers and fries"
+    },
+    "I forgot to bring my wallet to the store" : {
+      "display": "I forgot to bring my wallet to the store.",
+      "check": "I forgot to bring my wallet to the store"
+    },
+    "The weather forecast says it will be windy tomorrow" : {
+      "display": "The weather forecast says it will be windy tomorrow.",
+      "check": "The weather forecast says it will be windy tomorrow"
+    },
+    "I need to buy milk and bread at the store" : {
+      "display": "I need to buy milk and bread at the store.",
+      "check": "I need to buy milk and bread at the store"
+    },
+    "She is a good cook and makes delicious pizza" : {
+      "display": "She is a good cook and makes delicious pizza.",
+      "check": "She is a good cook and makes delicious pizza"
+    }
+  },
+
+  "languages_hard" :
+  {
+    "title" : "LANGUAGES",
+    "instruction" : "Say the following words:",
+    "I believe in the importance of education for everyone" : {
+      "display": "I believe in the importance of education for everyone.",
+      "check": "I believe in the importance of education for everyone"
+    },
+    "The beautiful sunset over the ocean was breathtaking" : {
+      "display": "The beautiful sunset over the ocean was breathtaking.",
+      "check": "The beautiful sunset over the ocean was breathtaking"
+    },
+    "I need to find my keys before I go out" : {
+      "display": "I need to find my keys before I go out.",
+      "check": "I need to find my keys before I go out"
+    },
+    "The unexpected news left everyone in shock" : {
+      "display": "The unexpected news left everyone in shock.",
+      "check": "The unexpected news left everyone in shock"
+    },
+    "I admire her determination to achieve her goals" : {
+      "display": "I admire her determination to achieve her goals.",
+      "check": "I admire her determination to achieve her goals"
+    },
+    "The unexpected storm caused power outages in the city" : {
+      "display": "The unexpected storm caused power outages in the city.",
+      "check": "The unexpected storm caused power outages in the city"
+    },
+    "I believe in the importance of helping others in need" : {
+      "display": "I believe in the importance of helping others in need.",
+      "check": "I believe in the importance of helping others in need"
+    },
+    "The unexpected news about the job offer was exciting" : {
+      "display": "The unexpected news about the job offer was exciting.",
+      "check": "The unexpected news about the job offer was exciting"
+    },
+    "Exploring different cultures can broaden our worldview" : {
+      "display": "Exploring different cultures can broaden our worldview.",
+      "check": "Exploring different cultures can broaden our worldview"
+    },
+    "I'm going to the post office to mail a letter" : {
+      "display": "I am going to the post office to mail a letter.",
+      "check": "I am going to the post office to mail a letter"
+    }
+  },
+
+  "success":
+  {
+    "title" : "Congratulations!",
+    "msg" : "You solved it!",
+    "continue_btn" : "TAP TO CONTINUE",
+    "complete_btn" : "Continue",
+    "complete_msg" : "Hurray!!! You completed all the quizzes...\n\nScore :",
+    "easy_points" : "+ 5 POINTS",
+    "intermediate_points" : "+ 7 POINTS",
+    "hard_points" : "+ 10 POINTS"
+  },
+
+  "fail" :
+  {
+    "title" : "Sorry the answer was:",
+    "msg" : "Try another one!",
+    "continue_btn" : "TAP TO CONTINUE",
+    "complete_btn" : "Continue",
+    "complete_msg" : "Hurray!!! You completed all the quizzes...\n\nScore :"
+  },
+
+  "identification" :
+  {
+    "title" : "Identification",
+    "1" : "LOCATIONS",
+    "2": "DAILY OBJECTS",
+    "3": "SOUNDS",
+    "4": "FRUITS & VEGGIES",
+    "5": "FESTIVALS",
+    "6": "SHAPES & COLORS",
+    "7": "SYMBOLS",
+    "8": "LOCATIONS 360",
+    "dialog": {
+      "title" : "Difficulty Level",
+      "subtitle" : "Please select a difficulty level",
+      "easy" : "Easy",
+      "hard" : "Hard",
+      "intermediate": "Intermediate"
+    }
+  },
+
+  "achievements" :
+  {
+    "title" : "Achievements",
+    "quiz" : {
+      "name" : "Quiz Master",
+      "description" : "Completed 20 quizze"
+    },
+    "puzzle" : {
+      "name" : "Puzzle Champ",
+      "description" : "Completed 15 puzzles"
+    },
+    "360" : {
+      "name" : "Location Legend",
+      "description" : "Identified 5 different locations in the 360 environment"
+    },
+    "meditation" : {
+      "name" : "Zen Master",
+      "description" : "Completed 30 meditation sessions"
+    },
+    "hard_puzzle" : {
+      "name" : "Puzzle Mastermind",
+      "description" : "Completed 10 hard puzzles "
+    },
+    "language" : {
+      "name" : "Language Master",
+      "description" : "Completed 10 Language quizzes "
+    },
+    "sounds" : {
+      "name" : "Auditory Ace",
+      "description" : "Correctly identified 15 different common sounds"
+    },
+    "drawing" : {
+      "name" : "Art Aficionado",
+      "description" : "Completed drawings from all difficulty levels"
+    }
+  },
+
+  "about_us" :
+  {
+    "content" : "NeuroCare is an innovative app aiming to improve the quality of life of Alzheimer's patients using various forms of sensory stimulation to enhance memory and cognition. \n\nThe app incorporates a variety of features in five main categories: identification games (auditory and visual stimuli), problem-solving games, daily tips for real-world interaction, knowledge-based learning, and meditation. \n\nNeuroCare aims to empower patients, helping them maintain their independence and improve their well-being and quality of life amidst challenging times.",
+    "title" : "About Us",
+    "subtitle" : "NeuroCare"
+  },
+
+  "contact_us" :
+  {
+    "msg" : "Feel free to reach out if you have any questions or need assistance:",
+    "title" : "Contact Us"
+  },
+
+  "profile" :
+  {
+    "logout" : "Logout",
+    "about" : "About Us",
+    "contact" : "Contact Us",
+    "edit" : "Edit Profile",
+    "title" : "Profile",
+    "english" : "English",
+    "hindi" : "Hindi",
+    "family_members" : "Family Members",
+    "mmse_test_scores" : "MMSE Test Scores"
+  },
+
+  "memory_game" :
+  {
+    "title" : "MEMORY FLIP GAME",
+    "left" : "Left",
+    "1" : "Dog",
+    "2" : "Cat",
+    "3" : "Panda",
+    "4" : "Dolphin",
+    "5" : "Whale",
+    "6" : "Crab",
+    "7" : "Lion",
+    "8" : "Chick",
+    "9" : "Turtle",
+    "10" : "Penguin",
+    "11" : "Koala",
+    "12" : "Honey Bee",
+    "13" : "Icecream",
+    "14" : "Pizza",
+    "15" : "Potato",
+    "16" : "Cucumber",
+    "17" : "Taj Mahal",
+    "18" : "New York",
+    "19" : "Pyramid",
+    "20" : "Paris"
+  },
+
+  "puzzles" :
+  {
+    "generate_btn"  : "Start",
+    "clear_btn" : "Clear",
+    "title" : "PUZZLE",
+    "db_title" : "PUZZLES",
+    "play_again_btn": "Play Again",
+    "home_btn": "Back to Home"
+  },
+
+  "drawing" :
+  {
+    "title" : "DRAWING BOOK",
+    "easy" : "EASY",
+    "intermediate" : "INTERMEDIATE",
+    "hard" : "HARD",
+    "pick_color" : "Pick a color!",
+    "btn" : "Select"
+  },
+
+  "meditate" :
+  {
+    "main_title" : "Meditation",
+    "instructions" : "Meditation Instructions",
+    "title" : "Prepare to Relax",
+    "1" : "Close your eyes gently.",
+    "2" : "Take a deep breath in... and slowly breathe out.",
+    "3" : "Relax your shoulders and unclench your jaw.",
+    "btn"  : "Let's Meditate",
+    "meditate_instruction" : "Close your eyes, and relax",
+    "meditate_breathe" : "Breathe..."
+  },
+
+  "mmse_score"  :
+  {
+    "title" : "MMSE Test Scores",
+    "instruction" : "Refer the table below to understand the scores",
+    "col_score" : "Score",
+    "col_interpret" : "Interpretation",
+    "row_1" : "\"Normal\" range",
+    "row_2" : "Mild cognitive impairement or possible early-stage/mild Alzheimer's disease",
+    "row_3" : "Middle-stage/moderate Alzheimer's disease",
+    "row_4" : "Late-stage/severe Azheimer's disease",
+    "error" : "Error",
+    "error_label"  : "Please enter the score",
+    "history" : {
+      "title" : "Scores",
+      "col1" : "Date",
+      "col2" : "Score"
+    }
+  },
+
+  "maze" :
+  {
+    "instructions" : "Guide the person home! \nDrag them to navigate through the maze.",
+    "title" : "Maze"
+  },
+
+  "family_member" :
+  {
+    "title" : "Family Tree",
+    "add_btn" : "Add a Family Member",
+    "name" : "Name",
+    "relation" : "Relation",
+    "phone_no" : "Phone Number",
+    "phone" : "Phone",
+    "fun_fact"  : "Fun Fact",
+    "cancel_btn" : "Cancel",
+    "save_btn" : "Save",
+    "continue_btn" : "Continue",
+    "close_btn" : "Close"
+  }
+}
