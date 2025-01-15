@@ -1,4 +1,4 @@
-# neuro_care
+# dipra
 
 A new Flutter project.
 

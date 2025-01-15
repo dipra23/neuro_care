@@ -1,0 +1,37 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "neurocare-15723",
+          "appId": "1:618522361907:android:96d6d9ab1d3aa991196346",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "neurocare-15723",
+          "appId": "1:618522361907:ios:67814606ff6af95c196346",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "neurocare-15723",
+          "configurations": {
+            "android": "1:618522361907:android:96d6d9ab1d3aa991196346",
+            "ios": "1:618522361907:ios:1759e8ea07e4c6f4196346"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "storage": {
+    "rules": "storage.rules"
+  }
+}
